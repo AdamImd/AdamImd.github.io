@@ -25,7 +25,7 @@
       "url": "https://www.umn.edu/",
       "area": "Computer Science",
       "studyType": "Ph.D.",
-      "startDate": "2024-01-01",
+      "startDate": "2024-09-01",
       "endDate": "",
       "score": "",
       "courses": []
@@ -36,7 +36,7 @@
       "url": "https://www.umn.edu/",
       "area": "Robotics",
       "studyType": "M.S.",
-      "startDate": "2023-01-01",
+      "startDate": "2023-09-01",
       "endDate": "",
       "score": "",
       "courses": []
@@ -47,8 +47,8 @@
       "url": "https://www.umn.edu/",
       "area": "Computer Engineering",
       "studyType": "B.S.",
-      "startDate": "2019-01-01",
-      "endDate": "2023-01-01",
+      "startDate": "2019-09-01",
+      "endDate": "2023-05-15",
       "score": "",
       "courses": []
     }
