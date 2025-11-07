@@ -13,8 +13,8 @@ profile:
     <p>100 Union Street SE</p>
     <p>Minneapolis, MN 55455</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: False # includes a list of papers marked as "selected={true}"
+social: True # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
