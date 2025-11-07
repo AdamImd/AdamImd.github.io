@@ -59,22 +59,22 @@
     {
       "name": "Talk Through It: End User Directed Manipulation Learning",
       "publisher": "RAS 2024",
-      "releaseDate": "2024-01-01",
-      "url": "",
+      "releaseDate": "2024-07-24",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10608414",
       "summary": "Co-Author: Carl Winge, Adam Imdieke, Bahaa Aldeeb, Dongyeop Kang, Karthik Desingh"
     },
     {
       "name": "AugInsert: Learning Robust Visual-Force Policies via Data Augmentation for Object Assembly Tasks",
       "publisher": "IROS 2025",
-      "releaseDate": "2025-01-01",
-      "url": "",
+      "releaseDate": "1 Aug 2025",
+      "url": "https://arxiv.org/abs/2410.14968",
       "summary": "Co-Author: Ryan Diaz, Adam Imdieke, Vivek Veeriah, Karthik Desingh"
     },
     {
       "name": "SPARK-Remote: A Cost-Effective System for Remote Bimanual Robot Teleoperation",
       "publisher": "ArXiV",
-      "releaseDate": "2024-01-01",
-      "url": "",
+      "releaseDate": "2025-04-29",
+      "url": "https://arxiv.org/abs/2504.05488",
       "summary": "Lead Author: Adam Imdieke, Co-Author: Karthik Desingh"
     }
   ],
@@ -122,19 +122,6 @@
       "icon": ""
     }
   ],
-  "interests": [
-    {
-      "name": "Robotics and AI",
-      "icon": "fa-solid fa-robot",
-      "keywords": [
-        "Multisensory robot manipulation",
-        "Neural network architectures",
-        "Tactile sensing",
-        "Robot perception",
-        "Manipulation policies"
-      ]
-    }
-  ],
   "references": [],
   "projects": [
     {
@@ -144,6 +131,38 @@
       "startDate": "2024-01-01",
       "endDate": "",
       "url": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Deep Learning",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "Policy learning",
+        "Perception models",
+        "Generative models",
+        "Neural network architectures"
+      ]
+    },
+    {
+      "name": "Hardware Prototyping",
+      "icon": "fa-solid fa-microchip",
+      "keywords": [
+        "3D printing",
+        "Electronics design",
+        "PCB design",
+        "Tactile sensing hardware"
+      ]
+    },
+    {
+      "name": "Creative Problem Solving",
+      "icon": "fa-solid fa-lightbulb",
+      "keywords": [
+        "Multisensory robot manipulation",
+        "Novel hardware development",
+        "Cross-disciplinary innovation",
+        "Research methodology"
+      ]
     }
   ]
 }
