@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Published: Talk Through It (RAS 2024)"
+title: "Published: Co-Author Talk Through It (RAS 2024)"
 date: 2024-07-24 10:00:00-0500
 inline: false
 related_posts: false

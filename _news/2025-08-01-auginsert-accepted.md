@@ -3,7 +3,7 @@ layout: post
 date: 2025-08-01 09:00:00-0500
 inline: false
 related_posts: false
-title: "Accepted: AugInsert at IROS 2025"
+title: "Accepted: Co-AuthorAugInsert at IROS 2025"
 ---
 
 Our paper **AugInsert: Learning Robust Visual-Force Policies via Data Augmentation for Object Assembly Tasks** has been accepted to **IROS 2025**.

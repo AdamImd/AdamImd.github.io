@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: University of Minnesota Computer Science Ph.D. Student
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: True # crops the image to make it circular
+  image_circular: False # crops the image to make it circular
   more_info: >
     <p>RPM Lab - 348 Shepard Labs </p>
     <p>100 Union Street SE</p>
@@ -34,6 +34,6 @@ Put your address / P.O. box / other info right below your picture. You can also 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
 
-Hi, I’m Adam Imdieke, a Ph.D. student in Robotics at the University of Minnesota. My research focuses on developing wearable force sensors that enable robots to sense and interpret physical contact. I’m interested in bridging design and robotics to build intelligent, responsive systems.
+Hi, I’m Adam Imdieke, a Ph.D. student studying Robotics at the University of Minnesota. My research focuses on developing wearable force sensors that enable robots to sense and interpret physical contact. I’m interested in bridging design and robotics to build intelligent, responsive systems.
 
 When I’m not in the lab, I enjoy climbing, making, and bikepacking around Minneapolis.
