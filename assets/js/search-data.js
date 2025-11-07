@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "A list of my GitHub repositories and GitHub stats.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -440,18 +440,29 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-started-b-s-in-computer-engineering-at-the-university-of-minnesota-twin-cities",
+          title: 'Started B.S. in Computer Engineering at the University of Minnesota, Twin Cities.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-started-m-s-in-robotics-at-the-university-of-minnesota-twin-cities",
+          title: 'Started M.S. in Robotics at the University of Minnesota, Twin Cities.',
+          description: "",
+          section: "News",},{id: "news-published-talk-through-it-ras-2024",
+          title: 'Published: Talk Through It (RAS 2024)',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/TalkThroughIt/";
+            },},{id: "news-started-ph-d-in-computer-science-robotics-focus-at-the-university-of-minnesota-twin-cities",
+          title: 'Started Ph.D. in Computer Science (Robotics focus) at the University of Minnesota, Twin...',
           description: "",
-          section: "News",},{id: "projects-spark-remote",
+          section: "News",},{id: "news-preprint-posted-spark-remote-a-cost-effective-system-for-remote-bimanual-robot-teleoperation-lead-author-adam-imdieke-co-author-karthik-desingh-link-https-arxiv-org-abs-2504-05488-we-present-a-low-cost-remote-teleoperation-setup-enabling-accessible-bimanual-manipulation-research",
+          title: 'Preprint posted: SPARK-Remote: A Cost-Effective System for Remote Bimanual Robot Teleoperation. Lead Author:...',
+          description: "",
+          section: "News",},{id: "news-accepted-auginsert-at-iros-2025",
+          title: 'Accepted: AugInsert at IROS 2025',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-08-01-auginsert-accepted/";
+            },},{id: "projects-spark-remote",
           title: 'SPARK Remote',
           description: "with background image",
           section: "Projects",handler: () => {
