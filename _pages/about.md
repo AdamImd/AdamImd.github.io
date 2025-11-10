@@ -1,13 +1,13 @@
 ---
 layout: about
-title: about
+title: About Me
 permalink: /
 subtitle: University of Minnesota Computer Science Ph.D. Student
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: False # crops the image to make it circular
+  image_circular: True # crops the image to make it circular
   more_info: >
     <p>RPM Lab - 348 Shepard Labs </p>
     <p>100 Union Street SE</p>

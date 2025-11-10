@@ -178,6 +178,7 @@ exclude:
   - _pages/books.md
   - _pages/dropdown.md
   - _pages/people.md
+  - _pages/teaching.md
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
