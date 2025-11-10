@@ -84,23 +84,21 @@
       "level": "Advanced",
       "icon": "fa-solid fa-robot",
       "keywords": [
-        "Developing neural networks",
-        "Modifying neural networks", 
-        "Training neural networks",
-        "Evaluation of manipulation policies"
+        "Designing, training, and evaluating neural network–based manipulation policies",
+        "Adapting and extending existing architectures for policy optimization",
+        "Applying diffusion and reinforcement learning for robot control",
+        "Integrating perception and control for multisensory manipulation"
       ]
     },
     {
       "name": "Hardware Prototyping and Development",
-      "level": "Advanced", 
+      "level": "Advanced",
       "icon": "fa-solid fa-microchip",
       "keywords": [
-        "CAD and 3D printing (SLA, FDM)",
-        "Circuit board design",
-        "Circuit board fabrication", 
-        "SMD soldering",
-        "Embedded systems programming",
-        "Embedded systems design"
+        "CAD modeling and 3D printing (SLA, FDM)",
+        "PCB design, fabrication, and SMD soldering",
+        "Embedded systems programming and sensor integration",
+        "Rapid prototyping and iterative hardware development"
       ]
     },
     {
@@ -108,18 +106,11 @@
       "level": "Advanced",
       "icon": "fa-solid fa-cogs",
       "keywords": [
-        "ROS and ROS2",
-        "Wired communications networking",
-        "Wireless communications networking", 
-        "Cross-disciplinary collaboration"
+        "ROS and ROS2 for robotic system integration and control",
+        "Wired and wireless communications networking",
+        "Cross-disciplinary collaboration across mechanical, electrical, and software domains",
+        "System-level debugging and performance optimization"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker",
-      "icon": ""
     }
   ],
   "references": [],
