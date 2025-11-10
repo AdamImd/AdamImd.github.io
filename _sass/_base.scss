@@ -19,6 +19,16 @@ strong {
   color: var(--global-text-color);
 }
 
+// Bigger text
+body {
+  font-size: 20px;  // Change to your desired size (default is usually 16px)
+  padding-bottom: 70px;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+  // ...
+}
+// Bigger text end
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
