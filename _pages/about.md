@@ -34,6 +34,8 @@ Put your address / P.O. box / other info right below your picture. You can also 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
 
-Hi, I’m Adam Imdieke, a Ph.D. student studying Robotics at the University of Minnesota. My research focuses on developing wearable force sensors that enable robots to sense and interpret physical contact. I’m interested in bridging design and robotics to build intelligent, responsive systems.
+Hi, I’m Adam Imdieke, a Ph.D. student in Robotics at the University of Minnesota. My research focuses on developing wearable force sensors that allow robots to sense, interpret, and respond to physical contact with the world around them. By integrating principles from design, mechanics, and sensing technology, I aim to create intelligent, responsive systems that can interact with people and their environments more naturally and safely.
 
-When I’m not in the lab, I enjoy climbing, making, and bikepacking around Minneapolis.
+I’m especially interested in how wearable materials and soft interfaces can enhance robotic perception—helping robots not just move, but feel. My work bridges disciplines, combining design and prototyping with inverse kinematics and machine learning to build systems that better perceive and adapt to the world around them.
+
+When I’m not in the lab, you’ll likely find me climbing, building things, or bikepacking around Minneapolis.
