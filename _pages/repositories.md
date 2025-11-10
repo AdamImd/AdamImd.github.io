@@ -2,14 +2,14 @@
 layout: page
 permalink: /repositories/
 title: Repositories
-description: A list of my GitHub repositories and GitHub stats.
+description: Open source code for my Research and projects
 nav: true
 nav_order: 4
 ---
 
-<!-- {% if site.data.repositories.github_users %}
+{% if site.data.repositories.github_users %}
 
-## GitHub users
+## GitHub
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
@@ -17,7 +17,7 @@ nav_order: 4
   {% endfor %}
 </div>
 
---- -->
+---
 
 {% if site.repo_trophies.enabled %}
 {% for user in site.data.repositories.github_users %}

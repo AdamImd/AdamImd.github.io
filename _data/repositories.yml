@@ -1,5 +1,5 @@
-# github_users:
-  # - AdamImd
+github_users:
+  - AdamImd
   # - RPM-lab-UMN
 
 repo_description_lines_max: 2
