@@ -6,6 +6,7 @@ img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
+redirect: https://rpm-lab-umn.github.io/SPARK_Website/
 ---
 
 Every project has a beautiful feature showcase page.
