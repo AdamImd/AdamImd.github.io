@@ -427,9 +427,9 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-08-01-auginsert-accepted/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-zero-shot-robotic-manipulation",
+          title: 'Zero-Shot Robotic Manipulation',
+          description: "We predict video sequences of robot interactions using pre-trained video diffusion models and use these predictions to plan actions. This enable zero-shot manipulation policy learning approach that leverages large-scale video diffusion models without any additional training.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Gen_AI/";
             },},{id: "projects-spark-remote",
@@ -442,8 +442,8 @@ ninja.data = [{
           description: "A Natural Language Interface for Boston Dynamics Spot",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SpotNLP/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
+            },},{id: "projects-tactile-skin",
+          title: 'Tactile Skin',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Tactile_Skin/";
