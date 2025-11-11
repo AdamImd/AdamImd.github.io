@@ -12,8 +12,12 @@ This project involves developing a natural language interface for the Boston Dyn
 
 
 # SpotNLP: Overview. 
-<!-- https://drive.google.com/file/d/1gJQImMGEnGH4fOe8TpPvDU1NuAJ4rH7D/view?usp=sharing -->
-{% include figure.liquid loading="eager" path="assets/img/spotnlp/spotnlp1.gif" title="SpotNLP in action: Spot navigating through a crowd while following natural language commands." class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://drive.google.com/file/d/1gJQImMGEnGH4fOe8TpPvDU1NuAJ4rH7D/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
+
 <div class="caption">
     SpotNLP in action: Spot Following natural language commands for a Demo for DoD representatives. Spot is instructed to follow the controller, save semantic keypoints, and navigate given contextual information about the environment.
 </div>
@@ -22,6 +26,11 @@ This project involves developing a natural language interface for the Boston Dyn
 
 <!-- https://docs.google.com/presentation/d/1ZNhnRRa5fr2BqYxXX8ax2uWAo9YG3EmxY5pKJuxG-Ic/edit?usp=sharing -->
 # Human Following / Gesture Recognition
-{% include figure.liquid loading="eager" path="assets/img/spotnlp/spotnlp2.gif" title="SpotNLP Human Following and Gesture Recognition." class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://drive.google.com/file/d/1gJQImMGEnGH4fOe8TpPvDU1NuAJ4rH7D/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
 <div class="caption">
     Spot follows humans using segmentation models. XMem is used to propigate the original segmentation mask throughout time, leading Spot to be robust to distractions in crowded environments and occlusions. Spot also recognizes simple gestures to start and stop following.
+</div>
