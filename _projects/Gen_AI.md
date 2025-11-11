@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title:  Zero-Shot Robotic Manipulation
+description: We predict video sequences of robot interactions using pre-trained video diffusion models and use these predictions to plan actions. This enable zero-shot manipulation policy learning approach that leverages large-scale video diffusion models without any additional training.
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
