@@ -4,9 +4,9 @@
     "label": "Ph.D. Student in Computer Science",
     "image": "",
     "email": "imdie022@umn.edu",
-    "phone": "(507) 321 3309",
-    "url": "",
-    "summary": "Multisensory robot manipulation learning, focusing on novel hardware for robot perception and neural network architectures for manipulation policies. Current work includes developing a tactile skin for robotic arms to enhance whole-body environmental contact sensing.",
+    "phone": "507.321.3309",
+    "url": "https://adamimd.github.io/",
+    "summary": "Multisensory robot manipulation learning, focusing on novel hardware for robot perception and neural network architectures for manipulation policies. Current work includes developing a tactile skin for arms on high DoF robots (Boston Dynamics Spot arm) and Contact aware Inverse Kinematics to enhance whole-body environmental interaction.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -14,7 +14,13 @@
       "countryCode": "US",
       "region": "Minnesota"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "AdamImd",
+        "url": "https://github.com/AdamImd"
+      }
+    ]
   },
   "work": [],
   "volunteer": [],
@@ -57,102 +63,155 @@
   "certificates": [],
   "publications": [
     {
-      "name": "Talk Through It: End User Directed Manipulation Learning",
-      "publisher": "RAS 2024",
-      "releaseDate": "2024-07-24",
-      "url": "https://ieeexplore.ieee.org/abstract/document/10608414",
-      "summary": "Co-Author: Carl Winge, Adam Imdieke, Bahaa Aldeeb, Dongyeop Kang, Karthik Desingh"
+      "name": "SPARK-Remote: A Cost-Effective System for Remote Bimanual Robot Teleoperation",
+      "publisher": "ICRA Workshop: Human-Centric Multilateral Teleoperation",
+      "releaseDate": "2025-04-29",
+      "url": "https://arxiv.org/abs/2504.05488",
+      "summary": "Lead Author. Proposes haptic feedback and torque limiting controllers for our dual-arm UR5e robot arm to improve depth perception and bimanual manipulation loop closure."
     },
     {
       "name": "AugInsert: Learning Robust Visual-Force Policies via Data Augmentation for Object Assembly Tasks",
       "publisher": "IROS 2025",
-      "releaseDate": "1 Aug 2025",
+      "releaseDate": "2025-08-01",
       "url": "https://arxiv.org/abs/2410.14968",
-      "summary": "Co-Author: Ryan Diaz, Adam Imdieke, Vivek Veeriah, Karthik Desingh"
+      "summary": "Co-Author. Leverages Force/Torque data, proprioception, and vision to learn robust insertion policies."
     },
     {
-      "name": "SPARK-Remote: A Cost-Effective System for Remote Bimanual Robot Teleoperation",
-      "publisher": "ArXiV",
-      "releaseDate": "2025-04-29",
-      "url": "https://arxiv.org/abs/2504.05488",
-      "summary": "Lead Author: Adam Imdieke, Co-Author: Karthik Desingh"
+      "name": "Talk Through It: End User Directed Manipulation Learning using feedback to Guide Robot Skill Acquisition",
+      "publisher": "RAS 2024",
+      "releaseDate": "2024-07-01",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10608414",
+      "summary": "Co-Author. End User Directed Manipulation Learning using feedback to Guide Robot Skill Acquisition."
     }
   ],
   "skills": [
     {
-      "name": "Policy Learning for Robotic Manipulation",
+      "name": "Policy Learning",
+      "level": "Advanced",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "NN based manipulation policies",
+        "Diffusion learning",
+        "Reinforcement learning",
+        "Multisensory perception"
+      ]
+    },
+    {
+      "name": "Technical Skills",
+      "level": "Advanced",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "C++",
+        "PyTorch",
+        "Jax",
+        "ROS/ROS2",
+        "Git",
+        "Linux (~10 years)",
+        "Network programming"
+      ]
+    },
+    {
+      "name": "Robot Control",
       "level": "Advanced",
       "icon": "fa-solid fa-robot",
       "keywords": [
-        "Designing, training, and evaluating neural network–based manipulation policies",
-        "Adapting and extending existing architectures for policy optimization",
-        "Applying diffusion and reinforcement learning for robot control",
-        "Integrating perception and control for multisensory manipulation"
+        "Inverse Kinematics",
+        "Motion planning",
+        "Force/Torque response",
+        "Impedance control"
       ]
     },
     {
-      "name": "Hardware Prototyping and Development",
+      "name": "Hardware Development",
       "level": "Advanced",
       "icon": "fa-solid fa-microchip",
       "keywords": [
-        "CAD modeling and 3D printing (SLA, FDM)",
-        "PCB design, fabrication, and SMD soldering",
-        "Embedded systems programming and sensor integration",
-        "Rapid prototyping and iterative hardware development"
+        "CAD modeling",
+        "3D printing (SLA, FDM)",
+        "PCB design",
+        "SMD soldering",
+        "Embedded systems"
       ]
     },
     {
-      "name": "Systems Design and Implementation",
+      "name": "Simulation",
       "level": "Advanced",
-      "icon": "fa-solid fa-cogs",
+      "icon": "fa-solid fa-cube",
       "keywords": [
-        "ROS and ROS2 for robotic system integration and control",
-        "Wired and wireless communications networking",
-        "Cross-disciplinary collaboration across mechanical, electrical, and software domains",
-        "System-level debugging and performance optimization"
+        "Mujoco",
+        "PyBullet",
+        "ROS",
+        "Isaac Lab"
       ]
     }
   ],
   "references": [],
   "projects": [
     {
-      "name": "Tactile Skin for Robotic Arms",
-      "summary": "Developing a tactile skin for robotic arms to enhance whole-body environmental contact sensing for improved manipulation policies.",
-      "highlights": ["Novel hardware development", "Multisensory perception"],
-      "startDate": "2024-01-01",
+      "name": "Tactile Skin for Spot",
+      "summary": "A Novel, Low-cost 3D printed tactile skin for robotic arms to enhance whole-body environmental contact sensing.",
+      "highlights": [
+        "Leverages high Degree of Freedom robots to condition Inverse Kinematics null spaces to satisfy contact constraints",
+        "Hardware development for real-time Contact aware Inverse Kinematics (ContactIK) enabling contact avoidance contact embracing behaviors"
+      ],
+      "startDate": "2025-05-01",
       "endDate": "",
-      "url": ""
+      "url": "https://adamimd.github.io/projects/Tactile_Skin/"
+    },
+    {
+      "name": "Generative Models",
+      "summary": "Investigating Video Diffusion Models for Zero-Shot Robotic Manipulation Policy Learning",
+      "highlights": [
+        "Research project exploring generative AI for robotics"
+      ],
+      "startDate": "2025-09-01",
+      "endDate": "",
+      "url": "https://adamimd.github.io/projects/Gen_AI/"
+    },
+    {
+      "name": "Spot Natural Language Interface",
+      "summary": "Integrating LLM control of Boston Dynamics Spot, enabling natural language commands for long-horizon tasks.",
+      "highlights": [
+        "Novel human following capabilities, robust to dynamic environments and crowds"
+      ],
+      "startDate": "2023-11-01",
+      "endDate": "",
+      "url": "https://adamimd.github.io/projects/SpotNLP/"
     }
   ],
   "interests": [
     {
-      "name": "Deep Learning",
+      "name": "Machine Learning",
       "icon": "fa-solid fa-brain",
       "keywords": [
-        "Policy learning",
-        "Perception models",
         "Generative models",
-        "Neural network architectures"
+        "Perception Models",
+        "Manipulation Policy Learning",
+        "Transformers",
+        "Neural Architectures",
+        "Imitation Learning (IL)",
+        "Reinforcement Learning (RL)"
       ]
     },
     {
-      "name": "Hardware Prototyping",
-      "icon": "fa-solid fa-microchip",
+      "name": "Control",
+      "icon": "fa-solid fa-sliders",
       "keywords": [
-        "3D printing",
-        "Electronics design",
-        "PCB design",
-        "Tactile sensing hardware"
+        "Optimization-based control (IK, MPC)",
+        "Modern Control",
+        "System ID",
+        "Filtering"
       ]
     },
     {
-      "name": "Creative Problem Solving",
-      "icon": "fa-solid fa-lightbulb",
+      "name": "Teleoperation",
+      "icon": "fa-solid fa-hand",
       "keywords": [
-        "Multisensory robot manipulation",
-        "Novel hardware development",
-        "Cross-disciplinary innovation",
-        "Research methodology"
+        "Human-Robot Interaction",
+        "Haptic Feedback",
+        "VR Interfaces",
+        "Low-latency Systems"
       ]
     }
   ]

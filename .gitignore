@@ -12,7 +12,11 @@ node_modules/
 vendor
 .idea
 
-CV_LaTeX/
-resume/
-# Keep resume deedy_resume-reversed.tex under version control
-!resume/deedy_resume-reversed.tex
+# Latex build files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.synctex.gz
