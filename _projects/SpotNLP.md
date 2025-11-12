@@ -40,7 +40,7 @@ This project involves developing a natural language interface for the Boston Dyn
 
 <div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include video.liquid path="https://drive.google.com/file/d/1DzkEhDpsXLYuy0WCevADSRJa6uH253XG/preview" class="img-fluid rounded z-depth-1" height="400" controls=true autoplay=true %}
+        {% include video.liquid path="https://drive.google.com/file/d/1DzkEhDpsXLYuy0WCevADSRJa6uH253XG/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
     </div>
 </div>
 
@@ -50,12 +50,8 @@ This project involves developing a natural language interface for the Boston Dyn
 </div>
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include video.liquid path="https://drive.google.com/file/d/1av83pP9L-Fncdzo6P8c_H_YUpHi7n1Aj/preview" class="img-fluid rounded z-depth-1" height="400" controls=true autoplay=true %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include video.liquid path="https://drive.google.com/file/d/1N_Sea-M7rhEHcjo70N8pOEmj9biPUR0d/preview" class="img-fluid rounded z-depth-1" height="400" controls=true autoplay=true %}
-    </div>
+        {% include video.liquid path="https://drive.google.com/file/d/1av83pP9L-Fncdzo6P8c_H_YUpHi7n1Aj/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
+        {% include video.liquid path="https://drive.google.com/file/d/1N_Sea-M7rhEHcjo70N8pOEmj9biPUR0d/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
 </div>
 
 
@@ -74,7 +70,7 @@ This project involves developing a natural language interface for the Boston Dyn
 <!-- https://www.youtube.com/watch?v=90_ityN9vLs -->
 <div class="row justify-content-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/90_ityN9vLs" class="img-fluid rounded z-depth-1" height="400" controls=true %}
+        {% include video.liquid path="https://www.youtube.com/embed/90_ityN9vLs" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
 
