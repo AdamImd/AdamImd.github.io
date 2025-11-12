@@ -444,7 +444,7 @@ ninja.data = [{
               window.location.href = "/projects/SpotNLP/";
             },},{id: "projects-tactile-skin",
           title: 'Tactile Skin',
-          description: "a project with a background image and giscus comments",
+          description: "A low-cost, flexible, and easy-to-fabricate tactile skin for robots using piezoresistive materials.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Tactile_Skin/";
             },},{
