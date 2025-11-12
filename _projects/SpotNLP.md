@@ -25,7 +25,7 @@ This project involves developing a natural language interface for the Boston Dyn
 
 ## Human Following / Gesture Recognition
 <div class="row justify-content-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include video.liquid path="https://drive.google.com/file/d/1gJQImMGEnGH4fOe8TpPvDU1NuAJ4rH7D/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
@@ -39,7 +39,7 @@ This project involves developing a natural language interface for the Boston Dyn
 </div>
 
 <div class="row justify-content-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include video.liquid path="https://drive.google.com/file/d/1DzkEhDpsXLYuy0WCevADSRJa6uH253XG/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
@@ -47,13 +47,14 @@ This project involves developing a natural language interface for the Boston Dyn
 
 <div class="caption">
     MediaPipe creates a segmentation mask of the first human to make a T pose. XMem is used to propagate the original segmentation mask throughout time, leading Spot to be robust to distractions in crowded environments and occlusions. Even with multiple humans in the scene, Spot can follow the controller, even after they are completely occluded.
+</div>
 
-<div class="row justify-content-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
-        {% include video.liquid path="https://drive.google.com/file/d/1N_Sea-M7rhEHcjo70N8pOEmj9biPUR0d/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
-    </div>
-    <div class="col-sm-10 mt-3 mt-md-0">
+<div class="row">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include video.liquid path="https://drive.google.com/file/d/1av83pP9L-Fncdzo6P8c_H_YUpHi7n1Aj/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include video.liquid path="https://drive.google.com/file/d/1N_Sea-M7rhEHcjo70N8pOEmj9biPUR0d/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 
@@ -72,7 +73,7 @@ This project involves developing a natural language interface for the Boston Dyn
 
 <!-- https://www.youtube.com/watch?v=90_ityN9vLs -->
 <div class="row justify-content-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include video.liquid path="https://www.youtube.com/embed/90_ityN9vLs" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
