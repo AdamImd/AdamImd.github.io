@@ -429,7 +429,7 @@ ninja.data = [{
               window.location.href = "/news/2025-08-01-auginsert-accepted/";
             },},{id: "projects-zero-shot-robotic-manipulation",
           title: 'Zero-Shot Robotic Manipulation',
-          description: "We predict video sequences of robot interactions using pre-trained video diffusion models and use these predictions to plan actions. This enable zero-shot manipulation policy learning approach that leverages large-scale video diffusion models without any additional training.",
+          description: "We predict video sequences of robot interactions using pre-trained video diffusion models and use these predictions to plan actions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Gen_AI/";
             },},{id: "projects-spark-remote",
