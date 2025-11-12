@@ -432,9 +432,9 @@ ninja.data = [{
           description: "We predict video sequences of robot interactions using pre-trained video diffusion models and use these predictions to plan actions. This enable zero-shot manipulation policy learning approach that leverages large-scale video diffusion models without any additional training.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Gen_AI/";
-            },},{id: "projects-spark-remote",
-          title: 'SPARK Remote',
-          description: "with background image",
+            },},{id: "projects-",
+          title: '',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Spark_Remote/";
             },},{id: "projects-spotnlp",
