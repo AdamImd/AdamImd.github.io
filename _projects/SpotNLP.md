@@ -24,7 +24,7 @@ This project involves developing a natural language interface for the Boston Dyn
 
 
 ## Human Following / Gesture Recognition
-<div class="row justify-content-center">
+<div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include video.liquid path="https://drive.google.com/file/d/1gJQImMGEnGH4fOe8TpPvDU1NuAJ4rH7D/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
@@ -38,7 +38,7 @@ This project involves developing a natural language interface for the Boston Dyn
     Spot follows humans using segmentation models. XMem is used to propigate the original segmentation mask throughout time, leading Spot to be robust to distractions in crowded environments and occlusions. Spot also recognizes simple gestures to start and stop following.
 </div>
 
-<div class="row justify-content-center">
+<div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include video.liquid path="https://drive.google.com/file/d/1DzkEhDpsXLYuy0WCevADSRJa6uH253XG/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
@@ -72,7 +72,7 @@ This project involves developing a natural language interface for the Boston Dyn
 ## Natural Language Interface
 
 <!-- https://www.youtube.com/watch?v=90_ityN9vLs -->
-<div class="row justify-content-center">
+<div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include video.liquid path="https://www.youtube.com/embed/90_ityN9vLs" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
