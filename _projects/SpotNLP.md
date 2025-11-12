@@ -80,20 +80,20 @@ This project involves developing a natural language interface for the Boston Dyn
     Future work includes detection of pointing gestures to enable more precise referencing of keypoints, and integration of manipulation capabilities using Spot's arm. The more capabilites we can give Spot, the more useful the natrual language interface becomes.
 </div>
 
-<div class="row">
-    <div class="col-sm-10 mt-3 mt-md-0">
+<div class="row justify-content-center" style="width: 80%; margin: 0 auto;">
+    <div class="col mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/Spot/down.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-10 mt-3 mt-md-0">
+    <div class="col mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/Spot/no.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-10 mt-3 mt-md-0">
+    <div class="col mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/Spot/question.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-10 mt-3 mt-md-0">
+    <div class="col mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/Spot/rotate.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-10 mt-3 mt-md-0">
+    <div class="col mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/Spot/up.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

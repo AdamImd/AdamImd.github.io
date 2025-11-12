@@ -36,10 +36,5 @@ The Diffusion Policy takes as input the current observation, along with a featur
 
 
 # Proposal PDF
-<!-- assets/img/GenAI/VideoEmbodiment_EE8520_F25-1.pdf -->
-<div class="row justify-content-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/GenAI/VideoEmbodiment_EE8520_F25-1.pdf" title="Project Proposal PDF" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
+<!-- Link to: assets/img/GenAI/VideoEmbodiment_EE8520_F25-1.pdf -->
+For more details, please refer to our [project proposal](assets/img/GenAI/VideoEmbodiment_EE8520_F25-1.pdf).
