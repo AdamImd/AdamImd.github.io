@@ -2,7 +2,7 @@
 layout: page
 title:  Zero-Shot Robotic Manipulation
 description: We predict video sequences of robot interactions using pre-trained video diffusion models and use these predictions to plan actions.
-img: assets/img/GenAI/WAN.gif
+img: assets/img/GenAI/WAN.webp
 importance: 3
 category: work
 ---
@@ -14,7 +14,7 @@ We predict video sequences of robot interactions using pre-trained video diffusi
 <!-- Add the GIF -->
 <div class="row justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/GenAI/WAN.gif" title="Zero-Shot Robotic Manipulation using Video Diffusion Models" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/GenAI/WAN.webp" title="Zero-Shot Robotic Manipulation using Video Diffusion Models" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

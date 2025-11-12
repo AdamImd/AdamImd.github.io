@@ -2,7 +2,7 @@
 layout: page
 title: Tactile Skin
 description: a project with a background image and giscus comments
-img: assets/img/Tactile/tactile.gif
+img: assets/img/Tactile/tactile.webp
 importance: 2
 category: work
 giscus_comments: true
