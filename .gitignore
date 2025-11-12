@@ -20,3 +20,4 @@ vendor
 *.fls
 *.out
 *.synctex.gz
+resume/*.pdf
