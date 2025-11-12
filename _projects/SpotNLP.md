@@ -16,7 +16,7 @@ category: work
 This project involves developing a natural language interface for the Boston Dynamics Spot robot, enabling users to command the robot using everyday language. By integrating large language models (LLMs) and gesture detection with Spot's control systems, we aim to facilitate intuitive interactions and enhance the robot's usability in various environments.
 
 <!-- Insert figure assets/img/SpotNLP_Diagram.png -->
-<div class="row justify-content-center" style="width: 80%; margin: 0 auto;">
+<div class="row justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/SpotNLP_Diagram.png" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
     </div>

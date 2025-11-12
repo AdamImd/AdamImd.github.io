@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tactile Skin
-description: a project with a background image and giscus comments
+description: A low-cost, flexible, and easy-to-fabricate tactile skin for robots using piezoresistive materials.
 img: assets/img/Tactile/tactile.webp
 importance: 2
 category: work
