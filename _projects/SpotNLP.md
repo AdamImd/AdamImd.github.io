@@ -16,7 +16,7 @@ category: work
 This project involves developing a natural language interface for the Boston Dynamics Spot robot, enabling users to command the robot using everyday language. By integrating large language models (LLMs) and gesture detection with Spot's control systems, we aim to facilitate intuitive interactions and enhance the robot's usability in various environments.
 
 <!-- Insert figure assets/img/SpotNLP_Diagram.png -->
-<div class="row justify-content-center">
+<div class="row  justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/SpotNLP_Diagram.png" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -26,7 +26,7 @@ This project involves developing a natural language interface for the Boston Dyn
 ## Human Following / Gesture Recognition
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include video.liquid path="https://drive.google.com/file/d/1gJQImMGEnGH4fOe8TpPvDU1NuAJ4rH7D/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="https://drive.google.com/file/d/1gJQImMGEnGH4fOe8TpPvDU1NuAJ4rH7D/preview" class="img-fluid rounded z-depth-1" width="50%" controls=true autoplay=true %}
     </div>
 </div>
 
@@ -40,7 +40,7 @@ This project involves developing a natural language interface for the Boston Dyn
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include video.liquid path="https://drive.google.com/file/d/1DzkEhDpsXLYuy0WCevADSRJa6uH253XG/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="https://drive.google.com/file/d/1DzkEhDpsXLYuy0WCevADSRJa6uH253XG/preview" class="img-fluid rounded z-depth-1" width="50%" controls=true autoplay=true %}
     </div>
 </div>
 
@@ -51,10 +51,10 @@ This project involves developing a natural language interface for the Boston Dyn
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include video.liquid path="https://drive.google.com/file/d/1av83pP9L-Fncdzo6P8c_H_YUpHi7n1Aj/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="https://drive.google.com/file/d/1av83pP9L-Fncdzo6P8c_H_YUpHi7n1Aj/preview" class="img-fluid rounded z-depth-1" width="50%" controls=true autoplay=true %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include video.liquid path="https://drive.google.com/file/d/1N_Sea-M7rhEHcjo70N8pOEmj9biPUR0d/preview" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="https://drive.google.com/file/d/1N_Sea-M7rhEHcjo70N8pOEmj9biPUR0d/preview" class="img-fluid rounded z-depth-1" width="50%" controls=true autoplay=true %}
     </div>
 </div>
 
@@ -74,7 +74,7 @@ This project involves developing a natural language interface for the Boston Dyn
 <!-- https://www.youtube.com/watch?v=90_ityN9vLs -->
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/90_ityN9vLs" class="img-fluid rounded z-depth-1" controls=true %}
+        {% include video.liquid path="https://www.youtube.com/embed/90_ityN9vLs" class="img-fluid rounded z-depth-1" width="50%" controls=true %}
     </div>
 </div>
 
@@ -82,4 +82,22 @@ This project involves developing a natural language interface for the Boston Dyn
     SpotNLP enables natural language commands for long-horizon tasks. In this demo, the user conversatonally instructs Spot to follow them, save semantic keypoints with contextual information about the environment, and navigate to those keypoints later. The user can also ask Spot questions about the environment, and implicitly reference previous keypoints using context from the semantic map. 
 
     Future work includes detection of pointing gestures to enable more precise referencing of keypoints, and integration of manipulation capabilities using Spot's arm. The more capabilites we can give Spot, the more useful the natrual language interface becomes.
+</div>
+
+<div class="row">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Spot/down.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Spot/no.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Spot/question.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Spot/rotate.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Spot/up.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
