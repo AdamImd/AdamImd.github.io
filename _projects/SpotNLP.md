@@ -2,7 +2,7 @@
 layout: page
 title: SpotNLP
 description: A Natural Language Interface for Boston Dynamics Spot
-img: assets/img/Spot/demo.png
+img: assets/img/Spot/demo.webp
 importance: 3
 category: work
 ---
@@ -22,6 +22,9 @@ This project involves developing a natural language interface for the Boston Dyn
     </div>
 </div>
 
+<div>
+    {% include figure.liquid path="assets/img/Spot/demo.webp" title="SpotNLP in Action" class="img-fluid rounded z-depth-1" %}
+</div>
 
 ## Human Following / Gesture Recognition
 <div class="row justify-content-center">
