@@ -62,3 +62,16 @@ This project involves developing a natural language interface for the Boston Dyn
 <!-- https://docs.google.com/presentation/d/1ZNhnRRa5fr2BqYxXX8ax2uWAo9YG3EmxY5pKJuxG-Ic/edit?usp=sharing -->
 
 ## Natrual Language Interface
+
+<!-- https://www.youtube.com/watch?v=90_ityN9vLs -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/90_ityN9vLs" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+</div>
+
+<div class="caption">
+    SpotNLP enables natural language commands for long-horizon tasks. In this demo, the user conversatonally instructs Spot to follow them, save semantic keypoints with contextual information about the environment, and navigate to those keypoints later. The user can also ask Spot questions about the environment, and implicitly reference previous keypoints using context from the semantic map. 
+
+    Future work includes detection of pointing gestures to enable more precise referencing of keypoints, and integration of manipulation capabilities using Spot's arm. The more capabilites we can give Spot, the more useful the natrual language interface becomes.
+</div>
