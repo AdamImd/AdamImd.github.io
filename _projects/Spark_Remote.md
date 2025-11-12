@@ -1,8 +1,8 @@
 ---
 layout: page
 title: SPARK Remote
-description: with background image
-img: assets/img/12.jpg
+description: SPARK-Remote: A Cost-Effective System for Remote Bimanual Robot Teleoperation.
+img: assets/img/publication_preview/spark.png
 importance: 1
 category: work
 related_publications: true
