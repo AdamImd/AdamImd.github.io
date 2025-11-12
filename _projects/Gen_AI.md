@@ -37,4 +37,4 @@ The Diffusion Policy takes as input the current observation, along with a featur
 
 # Proposal PDF
 <!-- Link to: assets/img/GenAI/VideoEmbodiment_EE8520_F25-1.pdf -->
-For more details, please refer to our [project proposal](assets/pdf/VE.pdf).
+For more details, please refer to our [project proposal](../assets/pdf/VE.pdf).
