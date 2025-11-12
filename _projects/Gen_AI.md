@@ -7,6 +7,8 @@ importance: 3
 category: work
 ---
 
+# Overview
+
 We predict video sequences of robot interactions using pre-trained video diffusion models and use these predictions to plan actions. This enable zero-shot manipulation policy learning approach that leverages large-scale video diffusion models without any additional training.
 
 <!-- Add the GIF -->
@@ -14,6 +16,9 @@ We predict video sequences of robot interactions using pre-trained video diffusi
     <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/GenAI/WAN.gif" title="Zero-Shot Robotic Manipulation using Video Diffusion Models" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    Prompt: "Untie the knot". 
 </div>
 
 We utilize pre-trained video diffusion models (WAN) to generate future video frames conditioned on the current observation and a text prompt giving the desired action. We then use these predicted video sequences to plan robot actions with a Diffusion Policy. This approach allows us to perform various manipulation tasks without any task-specific training, demonstrating the potential of large-scale video diffusion models for zero-shot robotic manipulation.
@@ -30,84 +35,11 @@ The Diffusion Policy takes as input the current observation, along with a featur
 
 
 
-
-
-
-
-
-
-
-
-<!-- OLD PAGE
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+# Proposal PDF
+<!-- assets/img/GenAI/VideoEmbodiment_EE8520_F25-1.pdf -->
+<div class="row justify-content-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/GenAI/VideoEmbodiment_EE8520_F25-1.pdf" title="Project Proposal PDF" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %} -->
