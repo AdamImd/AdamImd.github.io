@@ -9,7 +9,7 @@ related_posts: false
 Our paper "Talk Through It: End User Directed Manipulation Learning" was published in RAS 2024.
 
 - Authors: Carl Winge, Adam Imdieke, Bahaa Aldeeb, Dongyeop Kang, Karthik Desingh
-- Venue: Robotics and Automation Systems (RAS) 2024
+- Venue: Robotics and Automation Letters (RA-L) 2024
 - Link: <https://ieeexplore.ieee.org/abstract/document/10608414>
 
 Summary: We explore end-user-directed strategies for training robot manipulation policies through natural guidance.
