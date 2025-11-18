@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Published: Co-Author Talk Through It (RAS 2024)"
+title: "Published: Co-Author Talk Through It (RA-L 2024)"
 date: 2024-07-24 10:00:00-0500
 inline: false
 related_posts: false
 ---
 
-Our paper "Talk Through It: End User Directed Manipulation Learning" was published in RAS 2024.
+Our paper "Talk Through It: End User Directed Manipulation Learning" was published in RA-L 2024.
 
 - Authors: Carl Winge, Adam Imdieke, Bahaa Aldeeb, Dongyeop Kang, Karthik Desingh
 - Venue: Robotics and Automation Letters (RA-L) 2024
