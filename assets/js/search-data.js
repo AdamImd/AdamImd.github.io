@@ -411,8 +411,8 @@ ninja.data = [{
           section: "News",},{id: "news-started-m-s-in-robotics-at-the-university-of-minnesota-twin-cities",
           title: 'Started M.S. in Robotics at the University of Minnesota, Twin Cities.',
           description: "",
-          section: "News",},{id: "news-published-co-author-talk-through-it-ras-2024",
-          title: 'Published: Co-Author Talk Through It (RAS 2024)',
+          section: "News",},{id: "news-published-co-author-talk-through-it-ra-l-2024",
+          title: 'Published: Co-Author Talk Through It (RA-L 2024)',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/TalkThroughIt/";
