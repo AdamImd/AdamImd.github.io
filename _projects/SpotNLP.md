@@ -85,15 +85,15 @@ This project involves developing a natural language interface for the Boston Dyn
 
 <div class="row justify-content-center" style="width: 80%; margin: 0 auto;">
     <div class="col mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Spot/no.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Spot/no.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" avoid_scaling=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Spot/question.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Spot/question.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" avoid_scaling=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Spot/rotate.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Spot/rotate.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" avoid_scaling=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Spot/up.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Spot/up.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" avoid_scaling=true %}
     </div>
 </div>

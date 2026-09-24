@@ -15,7 +15,9 @@ This is a public repository. Only add information and media approved for public 
 
 ## Build and deployment
 
-The deployment workflow is `.github/workflows/deploy.yml`. It builds on pushes to `main` and on pull requests targeting `main`; a push to `main` publishes the site. The workflow pins Ruby 3.3.5 and Python 3.13, installs ImageMagick and `nbconvert`, then runs `bundle exec jekyll build` with `JEKYLL_ENV=production`.
+The deployment workflow is `.github/workflows/deploy.yml`. It builds on pushes to `main` and on pull requests targeting `main`; a push to `main` publishes the site. The workflow pins Ruby 3.3.5, installs ImageMagick, then runs `bundle exec jekyll build` with `JEKYLL_ENV=production`. `.github/workflows/broken-links-site.yml` checks generated local links on pull requests and after deployment.
+
+ImageMagick generates responsive WebP files from still images. Animated GIFs remain in their original format; include them with `avoid_scaling=true` so the page does not refer to generated WebP files.
 
 For a local build with those prerequisites:
 
