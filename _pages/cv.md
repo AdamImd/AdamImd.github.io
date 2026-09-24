@@ -1,11 +1,10 @@
 ---
 layout: cv
 permalink: /cv/
-title: Adam's CV
+title: Curriculum Vitae
 nav: true
 nav_order: 5
-cv_pdf: AdamImdieke.pdf # you can also use external links here
-description: 
+description: Selected experience and publications, updated September 2026.
 toc:
   sidebar: left
 ---

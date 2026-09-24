@@ -2,13 +2,14 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A showcase of various projects including work and fun endeavors.
+description: Research in tactile sensing, robot manipulation, extended reality, and multi-agent systems.
 nav: true
 nav_order: 3
-# display_categories: [work, fun]
-display_categories: [work]
+display_categories: [Research, Systems]
 horizontal: false
 ---
+
+I build sensors and tools that help robots understand contact and use it during manipulation. These projects range from published systems to exploratory simulation and engineering prototypes. Each page identifies what has been tested and what remains open.
 
 <!-- pages/projects.md -->
 <div class="projects">

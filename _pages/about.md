@@ -2,15 +2,15 @@
 layout: about
 title: About Me
 permalink: /
-subtitle: University of Minnesota Computer Science Ph.D. Student
+subtitle: Computer Science Ph.D. student · University of Minnesota
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: True # crops the image to make it circular
   more_info: >
-    <p>RPM Lab - 348 Shepard Labs </p>
-    <p>100 Union Street SE</p>
+    <p>Robotics: Perception and Manipulation Lab</p>
+    <p>University of Minnesota</p>
     <p>Minneapolis, MN 55455</p>
 
 selected_papers: False # includes a list of papers marked as "selected={true}"
@@ -27,15 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I’m Adam Imdieke, a computer science Ph.D. student at the University of Minnesota working in the Robotics: Perception and Manipulation (RPM) Lab. I study how robots can sense and use contact across their bodies, from tactile-skin hardware to contact-aware control and policy learning. I also collaborate with the Wearable Technology Lab on sensor materials and fabrication.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
-
-
-Hi, I’m Adam Imdieke, a Ph.D. student in Robotics at the University of Minnesota. My research focuses on developing wearable force sensors that allow robots to sense, interpret, and respond to physical contact with the world around them. By integrating principles from design, mechanics, and sensing technology, I aim to create intelligent, responsive systems that can interact with people and their environments more naturally and safely.
-
-I’m especially interested in how wearable materials and soft interfaces can enhance robotic perception—helping robots not just move, but feel. My work bridges disciplines, combining design and prototyping with inverse kinematics and machine learning to build systems that better perceive and adapt to the world around them.
+My projects span distributed force sensing, inverse kinematics, robot learning, and spatial interfaces for inspecting robot behavior. I am especially interested in the first step toward whole-body tactile intelligence: helping a robot **learn to use body contact**. [See my projects](/projects/) for published work and exploratory prototypes, with their current evidence and limitations.
 
 When I’m not in the lab, you’ll likely find me climbing, building things, or bikepacking around Minneapolis.

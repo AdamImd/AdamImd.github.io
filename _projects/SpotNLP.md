@@ -1,10 +1,10 @@
 ---
 layout: page
 title: SpotNLP
-description: A Natural Language Interface for Boston Dynamics Spot
+description: A natural-language and gesture interface for Boston Dynamics Spot, with human following and semantic navigation demos.
 img: assets/img/Spot/demo.webp
-importance: 3
-category: work
+importance: 4
+category: Systems
 ---
 
 ## GitHub Repository
@@ -34,11 +34,11 @@ This project involves developing a natural language interface for the Boston Dyn
 </div>
 
 <div class="caption">
-    SpotNLP in action: Spot Following natural language commands for a Demo for DoD representatives. Spot is instructed to follow the controller, save semantic keypoints, and navigate given contextual information about the environment.
+    Recorded SpotNLP demonstration: Spot follows the controller, saves semantic keypoints, and navigates using contextual information about the environment.
 </div>
 
 <div class="caption">
-    Spot follows humans using segmentation models. XMem is used to propigate the original segmentation mask throughout time, leading Spot to be robust to distractions in crowded environments and occlusions. Spot also recognizes simple gestures to start and stop following.
+    Spot follows a selected person using segmentation models. XMem propagates the initial mask across frames to help maintain the track through distractions and occlusions in the recorded demonstrations. Spot also recognizes gestures to start and stop following.
 </div>
 
 <div class="row justify-content-center" style="width: 80%; margin: 0 auto;">
@@ -49,7 +49,7 @@ This project involves developing a natural language interface for the Boston Dyn
 
 
 <div class="caption">
-    MediaPipe creates a segmentation mask of the first human to make a T pose. XMem is used to propagate the original segmentation mask throughout time, leading Spot to be robust to distractions in crowded environments and occlusions. Even with multiple humans in the scene, Spot can follow the controller, even after they are completely occluded.
+    MediaPipe initializes a segmentation mask when a person makes a T pose. XMem propagates the mask over time to help maintain the track when other people enter the scene or the controller is temporarily occluded.
 </div>
 
 <div class="row justify-content-center" style="width: 80%; margin: 0 auto;">
@@ -59,7 +59,7 @@ This project involves developing a natural language interface for the Boston Dyn
 
 
 <div class="caption">
-    SpotNLP can also recognize simple gestures to start and stop following. The controller can make a T pose to start following, and use a "stop" gesture to start or stop following. The robot also allows the user to change the following distance by using one of three gestures: "close", "medium", and "far". SpotNLP uses MediaPipe to detect the poses, that are combined into a history vecotr, passed to a MLP model trained to detect actions. By using MediaPipe, no additional training is required to pair with new users, so the robot can be used by anyone without additional setup.
+    SpotNLP can recognize gestures to start and stop following. The controller can make a T pose to start following or use a stop gesture to pause. Three further gestures adjust the following distance: close, medium, and far. MediaPipe pose estimates are combined into a history vector and passed to an MLP gesture classifier.
 </div>
 
 
@@ -78,22 +78,22 @@ This project involves developing a natural language interface for the Boston Dyn
 </div>
 
 <div class="caption">
-    SpotNLP enables natural language commands for long-horizon tasks. In this demo, the user conversatonally instructs Spot to follow them, save semantic keypoints with contextual information about the environment, and navigate to those keypoints later. The user can also ask Spot questions about the environment, and implicitly reference previous keypoints using context from the semantic map. 
+    SpotNLP enables natural-language commands for longer task sequences. In this demo, the user asks Spot to follow them, save semantic keypoints with contextual information, and navigate back to those keypoints. The user can also ask about the environment and refer to previous locations using the semantic map.
 
-    Future work includes detection of pointing gestures to enable more precise referencing of keypoints, and integration of manipulation capabilities using Spot's arm. The more capabilites we can give Spot, the more useful the natrual language interface becomes.
+    Future work includes pointing gestures for more precise references to keypoints and manipulation with Spot's arm.
 </div>
 
 <div class="row justify-content-center" style="width: 80%; margin: 0 auto;">
     <div class="col mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Spot/no.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Spot/no.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" avoid_scaling=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Spot/question.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Spot/question.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" avoid_scaling=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Spot/rotate.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Spot/rotate.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" avoid_scaling=true %}
     </div>
     <div class="col mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Spot/up.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Spot/up.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" avoid_scaling=true %}
     </div>
 </div>

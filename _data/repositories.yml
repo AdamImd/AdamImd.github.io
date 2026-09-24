@@ -5,6 +5,8 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - RPM-lab-UMN/TactileSkin
+  - AdamImd/AlemDICE
   - RPM-lab-UMN/SPARK-Remote
   - RPM-lab-UMN/SpotNLP
   - RPM-lab-UMN/dual-arm-peg-in-hole-mujoco-sim
