@@ -18,394 +18,26 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "A showcase of various projects including work and fun endeavors.",
+          description: "Research in tactile sensing, robot manipulation, extended reality, and multi-agent systems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
           title: "Repositories",
-          description: "Open source code for my Research and projects",
+          description: "Public code and project repositories related to my research.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-adam-39-s-cv",
-          title: "Adam&#39;s CV",
-          description: "",
+        },{id: "nav-curriculum-vitae",
+          title: "Curriculum Vitae",
+          description: "Selected experience and publications, updated September 2026.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-plotly-js",
-        
-          title: "a post with plotly.js",
-        
-        description: "this is what included plotly.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/plotly/";
-          
-        },
-      },{id: "post-a-post-with-image-galleries",
-        
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-a-post-with-tabs",
-        
-          title: "a post with tabs",
-        
-        description: "this is what included tabs in a post could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/tabs/";
-          
-        },
-      },{id: "post-a-post-with-typograms",
-        
-          title: "a post with typograms",
-        
-        description: "this is what included typograms code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/typograms/";
-          
-        },
-      },{id: "post-a-post-that-can-be-cited",
-        
-          title: "a post that can be cited",
-        
-        description: "this is what a post that can be cited looks like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/post-citation/";
-          
-        },
-      },{id: "post-a-post-with-pseudo-code",
-        
-          title: "a post with pseudo code",
-        
-        description: "this is what included pseudo code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/pseudocode/";
-          
-        },
-      },{id: "post-a-post-with-code-diff",
-        
-          title: "a post with code diff",
-        
-        description: "this is how you can display code diffs",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-a-post-with-vega-lite",
-        
-          title: "a post with vega lite",
-        
-        description: "this is what included vega lite code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/vega-lite/";
-          
-        },
-      },{id: "post-a-post-with-geojson",
-        
-          title: "a post with geojson",
-        
-        description: "this is what included geojson code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/geojson-map/";
-          
-        },
-      },{id: "post-a-post-with-echarts",
-        
-          title: "a post with echarts",
-        
-        description: "this is what included echarts code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/echarts/";
-          
-        },
-      },{id: "post-a-post-with-chart-js",
-        
-          title: "a post with chart.js",
-        
-        description: "this is what included chart.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/chartjs/";
-          
-        },
-      },{id: "post-a-post-with-tikzjax",
-        
-          title: "a post with TikZJax",
-        
-        description: "this is what included TikZ code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tikzjax/";
-          
-        },
-      },{id: "post-a-post-with-bibliography",
-        
-          title: "a post with bibliography",
-        
-        description: "an example of a blog post with bibliography",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/post-bibliography/";
-          
-        },
-      },{id: "post-a-post-with-jupyter-notebook",
-        
-          title: "a post with jupyter notebook",
-        
-        description: "an example of a blog post with jupyter notebook",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/jupyter-notebook/";
-          
-        },
-      },{id: "post-a-post-with-custom-blockquotes",
-        
-          title: "a post with custom blockquotes",
-        
-        description: "an example of a blog post with custom blockquotes",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/custom-blockquotes/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-        
-          title: "a post with table of contents on a sidebar",
-        
-        description: "an example of a blog post with table of contents on a sidebar",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/sidebar-table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-audios",
-        
-          title: "a post with audios",
-        
-        description: "this is what included audios could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/audios/";
-          
-        },
-      },{id: "post-a-post-with-videos",
-        
-          title: "a post with videos",
-        
-        description: "this is what included videos could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/videos/";
-          
-        },
-      },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
-        
-          title: "displaying beautiful tables with Bootstrap Tables",
-        
-        description: "an example of how to use Bootstrap Tables",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tables/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents",
-        
-          title: "a post with table of contents",
-        
-        description: "an example of a blog post with table of contents",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-giscus-comments",
-        
-          title: "a post with giscus comments",
-        
-        description: "an example of a blog post with giscus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2022/giscus-comments/";
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "post-a-post-with-redirect",
-        
-          title: "a post with redirect",
-        
-        description: "you can also redirect to assets like pdf",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/assets/pdf/example_pdf.pdf";
-          
-        },
-      },{id: "post-a-post-with-diagrams",
-        
-          title: "a post with diagrams",
-        
-        description: "an example of a blog post with diagrams",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/diagrams/";
-          
-        },
-      },{id: "post-a-distill-style-blog-post",
-        
-          title: "a distill-style blog post",
-        
-        description: "an example of a distill-style blog post and main elements",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/distill/";
-          
-        },
-      },{id: "post-a-post-with-twitter",
-        
-          title: "a post with twitter",
-        
-        description: "an example of a blog post with twitter",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2020/twitter/";
-          
-        },
-      },{id: "post-a-post-with-disqus-comments",
-        
-          title: "a post with disqus comments",
-        
-        description: "an example of a blog post with disqus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/disqus-comments/";
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "an example of a blog post with some math",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/math/";
-          
-        },
-      },{id: "post-a-post-with-code",
-        
-          title: "a post with code",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/code/";
-          
-        },
-      },{id: "post-a-post-with-images",
-        
-          title: "a post with images",
-        
-        description: "this is what included images could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/formatting-and-links/";
-          
-        },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-b-s-in-computer-engineering-at-the-university-of-minnesota-twin-cities",
+        },{id: "news-started-b-s-in-computer-engineering-at-the-university-of-minnesota-twin-cities",
           title: 'Started B.S. in Computer Engineering at the University of Minnesota, Twin Cities.',
           description: "",
           section: "News",},{id: "news-started-m-s-in-robotics-at-the-university-of-minnesota-twin-cities",
@@ -422,31 +54,88 @@ ninja.data = [{
           section: "News",},{id: "news-preprint-posted-spark-remote-a-cost-effective-system-for-remote-bimanual-robot-teleoperation-lead-author-adam-imdieke-co-author-karthik-desingh-link-https-arxiv-org-abs-2504-05488-we-present-a-low-cost-remote-teleoperation-setup-enabling-accessible-bimanual-manipulation-research",
           title: 'Preprint posted: SPARK-Remote: A Cost-Effective System for Remote Bimanual Robot Teleoperation. Lead Author:...',
           description: "",
-          section: "News",},{id: "news-accepted-co-authorauginsert-at-iros-2025",
-          title: 'Accepted: Co-AuthorAugInsert at IROS 2025',
+          section: "News",},{id: "news-auginsert-accepted-at-iros-2025",
+          title: 'AugInsert accepted at IROS 2025',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-08-01-auginsert-accepted/";
-            },},{id: "projects-zero-shot-robotic-manipulation",
-          title: 'Zero-Shot Robotic Manipulation',
-          description: "We predict video sequences of robot interactions using pre-trained video diffusion models and use these predictions to plan actions.",
+            },},{id: "news-the-university-of-minnesota-featured-my-robotics-and-tactile-sensing-research",
+          title: 'The University of Minnesota featured my robotics and tactile-sensing research.',
+          description: "",
+          section: "News",},{id: "news-our-paper-tailorable-force-sensing-skins-for-manipulators-using-textile-and-additive-manufacturing-was-accepted-to-iros-2026-this-work-is-with-heidi-woelfle-brad-holschuh-and-karthik-desingh-project-page",
+          title: 'Our paper Tailorable Force-Sensing Skins for Manipulators Using Textile and Additive Manufacturing was...',
+          description: "",
+          section: "News",},{id: "news-our-tailorable-force-sensing-skins-work-was-accepted-as-a-poster-at-the-iros-2026-scalable-tactile-sensing-for-dexterous-manipulation-workshop",
+          title: 'Our tailorable force-sensing skins work was accepted as a poster at the IROS...',
+          description: "",
+          section: "News",},{id: "news-magpie-a-magnetic-piezoresistive-tactile-skin-was-accepted-for-an-oral-presentation-at-the-iros-2026-scalable-tactile-sensing-for-dexterous-manipulation-workshop-i-developed-this-work-with-breck-school-students-jackson-goodrich-and-eytan-krebs-and-with-karthik-desingh-project-overview",
+          title: 'MagPie: A Magnetic-Piezoresistive Tactile Skin was accepted for an oral presentation at the...',
+          description: "",
+          section: "News",},{id: "projects-alem-multi-agent-coordination",
+          title: 'Alem Multi-Agent Coordination',
+          description: "Experiments on communication, specialization, and leadership in a shared multi-agent world.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Alem/";
+            },},{id: "projects-auginsert",
+          title: 'AugInsert',
+          description: "Data augmentation for robust visual-force policies in contact-rich assembly (IROS 2025).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/AugInsert/";
+            },},{id: "projects-contact-aware-manipulation",
+          title: 'Contact-Aware Manipulation',
+          description: "Exploring inverse kinematics and whole-body strategies that respond to contact along a robot&#39;s body.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Contact_Manipulation/";
+            },},{id: "projects-g1-locomotion-and-whole-body-learning",
+          title: 'G1 Locomotion and Whole-Body Learning',
+          description: "Simulation studies of humanoid walking, supported pickup, and large-object enclosure.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/G1_Learning/";
+            },},{id: "projects-visual-futures-for-manipulation",
+          title: 'Visual Futures for Manipulation',
+          description: "Exploring whether generated future video can guide robot actions, and where visual plans fall short.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Gen_AI/";
+            },},{id: "projects-magpie-tactile-skin",
+          title: 'MagPie Tactile Skin',
+          description: "A modular magnetic and piezoresistive skin, developed with Breck School students and accepted for an IROS 2026 workshop oral presentation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MagPie/";
+            },},{id: "projects-robot-sensing-in-extended-reality",
+          title: 'Robot Sensing in Extended Reality',
+          description: "Quest and desktop tools for viewing robot sensors, replaying demonstrations, and studying tactile interfaces.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/RPM_XR/";
+            },},{id: "projects-robot-wide-tactile-skin-design",
+          title: 'Robot-Wide Tactile Skin Design',
+          description: "Procedural CAD for layered sensing shells over UR5e, Spot, and G1 link geometry.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Robot_Skins/";
             },},{id: "projects-spark-remote",
-          title: 'SPARK Remote',
-          description: "SPARK-Remote - A Cost-Effective System for Remote Bimanual Robot Teleoperation.",
+          title: 'SPARK-Remote',
+          description: "An accessible remote bimanual teleoperation system for the RPM Lab&#39;s dual-arm platform (ICRA 2025 workshop).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Spark_Remote/";
             },},{id: "projects-spotnlp",
           title: 'SpotNLP',
-          description: "A Natural Language Interface for Boston Dynamics Spot",
+          description: "A natural-language and gesture interface for Boston Dynamics Spot, with human following and semantic navigation demos.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SpotNLP/";
-            },},{id: "projects-tactile-skin",
-          title: 'Tactile Skin',
-          description: "A low-cost, flexible, and easy-to-fabricate tactile skin for robots using piezoresistive materials.",
+            },},{id: "projects-tactile-materials-and-conformal-interfaces",
+          title: 'Tactile Materials and Conformal Interfaces',
+          description: "Experimental sensor coupons and connected laminate patterns for surfaces that must bend around a robot.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Tactile_Materials/";
+            },},{id: "projects-tailorable-force-sensing-skins",
+          title: 'Tailorable Force-Sensing Skins',
+          description: "Textile and additive-manufactured sensing layers for whole-arm contact; accepted at IROS 2026.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Tactile_Skin/";
+            },},{id: "projects-talk-through-it",
+          title: 'Talk Through It',
+          description: "End-user-directed robot manipulation learning through interactive feedback (RA-L 2024).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Talk_Through_It/";
             },},{
         id: 'social-email',
         title: 'email',
