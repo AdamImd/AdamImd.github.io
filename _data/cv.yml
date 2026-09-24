@@ -1,97 +1,92 @@
-- title: General Information
+- title: About
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Name
+      value: Adam Imdieke
+    - name: Affiliation
+      value: "University of Minnesota, Robotics: Perception and Manipulation Lab"
+    - name: Research
+      value: Tactile sensing, contact-aware manipulation, and robot learning
+    - name: Email
+      value: imdie022@umn.edu
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Computer Science
+      institution: University of Minnesota
+      year: 2024–present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Robotics research in the RPM Lab.
+    - title: Graduate study in Robotics
+      institution: Minnesota Robotics Institute, University of Minnesota
+      year: 2023–2024
       description:
-        - Description 1.
-        - Description 2.
+        - Studied in the Master's in Robotics program before transferring to the Computer Science Ph.D. program.
+    - title: B.S. in Computer Engineering
+      institution: University of Minnesota
+      year: 2019–2023
 
-- title: Experience
+- title: Research
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate researcher
+      institution: "Robotics: Perception and Manipulation Lab, University of Minnesota"
+      year: 2024–present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Tactile sensing, contact-aware inverse kinematics, and manipulation learning.
+        - Sensor fabrication collaboration with the Wearable Technology Lab.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Selected Publications and Presentations
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Tailorable Force-Sensing Skins for Manipulators Using Textile and Additive Manufacturing
+      year: 2026
+      description:
+        - Accepted, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).
+      linkitems:
+        - linkname: Project page
+          link: https://rpm-lab-umn.github.io/TactileSkin/
+    - title: "MagPie: A Magnetic-Piezoresistive Tactile Skin"
+      year: 2026
+      description:
+        - Accepted oral presentation, IROS Scalable Tactile Sensing for Dexterous Manipulation workshop.
+      linkitems:
+        - linkname: Workshop submission
+          link: https://openreview.net/forum?id=dnU9RnbNk0
+    - title: "AugInsert: Learning Robust Visual-Force Policies via Data Augmentation for Object Assembly Tasks"
+      year: 2025
+      description:
+        - Co-author, IROS 2025.
+      linkitems:
+        - linkname: Preprint
+          link: https://arxiv.org/abs/2410.14968
+    - title: "SPARK-Remote: A Cost-Effective System for Remote Bimanual Robot Teleoperation"
+      year: 2025
+      description:
+        - Lead author, ICRA Human-Centric Multilateral Teleoperation workshop.
+      linkitems:
+        - linkname: Preprint
+          link: https://arxiv.org/abs/2504.05488
+    - title: "Talk Through It: End User Directed Manipulation Learning"
+      year: 2024
+      description:
+        - Co-author, IEEE Robotics and Automation Letters.
+      linkitems:
+        - linkname: Preprint
+          link: https://arxiv.org/abs/2402.12509
 
-- title: Honors and Awards
+- title: Teaching
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: CSCI 4131 · Internet Programming
+      institution: University of Minnesota
+      year: 2026
+      description:
+        - Teaching assistant, Fall 2026.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Undergraduate Honors
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Robert F. Hartmann Scholarship.
+    - Roger Nordby Electrical Engineering Scholarship.

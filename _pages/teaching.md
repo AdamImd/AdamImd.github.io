@@ -1,12 +1,12 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: My teaching at the University of Minnesota.
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## Fall 2026
 
-Organize your courses by years, topics, or universities, however you like!
+**CSCI 4131 · Internet Programming** — Teaching assistant, University of Minnesota. I support course instruction and assignment development in web programming.

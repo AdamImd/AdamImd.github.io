@@ -686,6 +686,17 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
+  .project-placeholder {
+    align-items: center;
+    background: linear-gradient(135deg, var(--global-card-bg-color), var(--global-bg-color));
+    border-bottom: 1px solid var(--global-divider-color);
+    color: var(--global-theme-color);
+    display: flex;
+    font-size: 3rem;
+    height: 160px;
+    justify-content: center;
+  }
+
   a {
     text-decoration: none;
 
