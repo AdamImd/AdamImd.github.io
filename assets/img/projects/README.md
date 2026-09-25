@@ -7,16 +7,18 @@ These assets support the project's public portfolio pages. Captions on each page
 | `alem64.png` | Research Atlas 64-agent replay still; illustrative simulation. |
 | `g1-scene.png`, `g1-hug.png` | Research Atlas Isaac Lab replay/diagnostic stills; simulation only. |
 | `magpie-robot.jpg`, `magpie-taxel.jpg` | Research Atlas MagPie workshop manuscript CAD figures. |
+| `magpie-taxel-prototype.jpg`, `magpie-force-response.png`, `magpie-bus-latency.png` | Original embedded photo and plots extracted from Adam's `IROS_MagPie_Poster_v1.pdf`; assembled prototype, one-taxel raw ADC force response, and eight-taxel bus-latency measurements. |
+| `stroke-guidewire-actuator.png`, `stroke-benchtop-navigation.png`, `stroke-network-latency.png` | Original embedded Figures 2, 4, and 7 assets extracted from Adam's `v001t07a005-dmd2026-1079.pdf`; benchtop hardware and network measurements, not clinical deployment. |
 | `spot_assembled.png`, `g1_assembled.png` | Research Atlas skin CAD assembly previews; checked design poses only. |
 | `planar-scene.png` | Research Atlas planar contact simulation diagnostic. |
 | `contactik-avoidance.svg` | Original fixed-weight ContactIK numerical plot from `research-contactik-mpc`; separate from learned MPC. |
 | `ur5e-skin-assembled.png` | UR5e CAD assembly render from `research-tactile-fusion-transfer`. |
-| `xr-contact-scope.png`, `xr-demo-forge.png` | Offline UX audit screenshots from `research-rpm-xr-lab`. |
 | `auxetic-pattern-comparison.png` | Connected laminate design comparison from local design output. |
 | `cast-sensor-assembly.svg` | Digital sensor coupon assembly schematic from `research-cast-tactile-sensors`. |
 | `ur5-thunder-marker.png` | Thunder UR5e wrist-camera frame from `research-dual-arm-toolkit/records/blue-marker-20260906/lift-06/out.png` on RPM; one physical run. |
 | `quest-sentmap-objects.png` | Three-object offline preview from `research-quest-world-mapper/artifacts/demo-20260920/objects-preview.png` on RPM; recorded headset session. |
-| `wireless-tactile-matrix.svg` | New explanatory matrix topology diagram based on the Revision F design record; not a board photograph, PCB layout, or sensor result. |
+
+The supplied MagPie poster PDF has SHA-256 `375ced4d7a472b28d0d88584cf1cd060a70a85c93027a3818ca9a5f9358f0f4c`. The supplied DMD 2026 guidewire paper PDF has SHA-256 `8b1d017f47c3f53dece05111248a4183833139f7aa36feed6cc14d8e71a37878`. The website images are the embedded source images extracted from those PDFs without generated or retouched content.
 
 The five short MP4s in `assets/video/projects/` are recorded Alem and Isaac Lab G1 simulation replays sourced from the corresponding research repositories on RPM. The G1 pickup replay includes assistance; the G1 enclosure replay is a near miss. See each page's caption for the evidence limits.
 
