@@ -133,11 +133,6 @@ ninja.data = [{
           description: "A mixed-reality room mapper with measured geometry and progressive object reconstruction from Quest observations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Quest_SentMap/";
-            },},{id: "projects-robot-sensing-in-extended-reality",
-          title: 'Robot Sensing in Extended Reality',
-          description: "Quest and desktop tools for viewing robot sensors, replaying demonstrations, and studying tactile interfaces.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/RPM_XR/";
             },},{id: "projects-robot-wide-tactile-skin-design",
           title: 'Robot-Wide Tactile Skin Design',
           description: "Procedural CAD for layered sensing shells over UR5e, Spot, and G1 link geometry.",
@@ -178,11 +173,6 @@ ninja.data = [{
           description: "An exploratory blue-marker pickup on the physical Thunder UR5e using wrist-camera observations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/UR5_Zero_Shot/";
-            },},{id: "projects-wireless-tactile-matrix-electronics",
-          title: 'Wireless Tactile Matrix Electronics',
-          description: "A compact ESP32-S3 sensing board and raw-count readout for modular robot skins.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Wireless_Tactile_PCB/";
             },},{
         id: 'social-email',
         title: 'email',
