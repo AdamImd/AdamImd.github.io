@@ -97,3 +97,5 @@ This project involves developing a natural language interface for the Boston Dyn
         {% include figure.liquid path="assets/img/Spot/up.gif" title="SpotNLP System Diagram" class="img-fluid rounded z-depth-1" avoid_scaling=true %}
     </div>
 </div>
+
+The videos above are recorded demonstrations of the SpotNLP system. They show specific behaviors in their recorded settings, not a general reliability or safety evaluation.
