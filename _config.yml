@@ -225,6 +225,12 @@ defaults:
 
 sass:
   style: compressed
+  # The bundled al-folio, Font Awesome, and Tabler styles still use the legacy
+  # Sass import API. Limit warning suppression to these two known deprecations
+  # until the theme styles can be migrated together.
+  silence_deprecations:
+    - import
+    - global-builtin
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
