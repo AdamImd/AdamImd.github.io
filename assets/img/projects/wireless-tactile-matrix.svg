@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Revision F tactile matrix readout concept</title>
+  <desc id="desc">Five horizontal electrodes cross six vertical electrodes, connected to a compact ESP32-S3 readout and wireless data path. This is an explanatory schematic, not a PCB layout.</desc>
+  <rect width="960" height="540" rx="28" fill="#111827"/>
+  <text x="52" y="62" fill="#f9fafb" font-family="Arial,sans-serif" font-size="30" font-weight="700">Tactile matrix readout</text>
+  <text x="52" y="94" fill="#9ca3af" font-family="Arial,sans-serif" font-size="17">Revision F design concept · 5 rows × 6 columns</text>
+  <rect x="55" y="130" width="495" height="335" rx="22" fill="#1f2937" stroke="#475569" stroke-width="2"/>
+  <g stroke="#38bdf8" stroke-width="10" stroke-linecap="round">
+    <path d="M100 180H505 M100 235H505 M100 290H505 M100 345H505 M100 400H505"/>
+  </g>
+  <g stroke="#fbbf24" stroke-width="8" stroke-linecap="round" opacity=".9">
+    <path d="M145 155V425 M212 155V425 M279 155V425 M346 155V425 M413 155V425 M480 155V425"/>
+  </g>
+  <g fill="#e5e7eb">
+    <circle cx="145" cy="180" r="7"/><circle cx="212" cy="180" r="7"/><circle cx="279" cy="180" r="7"/><circle cx="346" cy="180" r="7"/><circle cx="413" cy="180" r="7"/><circle cx="480" cy="180" r="7"/>
+    <circle cx="145" cy="235" r="7"/><circle cx="212" cy="235" r="7"/><circle cx="279" cy="235" r="7"/><circle cx="346" cy="235" r="7"/><circle cx="413" cy="235" r="7"/><circle cx="480" cy="235" r="7"/>
+    <circle cx="145" cy="290" r="7"/><circle cx="212" cy="290" r="7"/><circle cx="279" cy="290" r="7"/><circle cx="346" cy="290" r="7"/><circle cx="413" cy="290" r="7"/><circle cx="480" cy="290" r="7"/>
+    <circle cx="145" cy="345" r="7"/><circle cx="212" cy="345" r="7"/><circle cx="279" cy="345" r="7"/><circle cx="346" cy="345" r="7"/><circle cx="413" cy="345" r="7"/><circle cx="480" cy="345" r="7"/>
+    <circle cx="145" cy="400" r="7"/><circle cx="212" cy="400" r="7"/><circle cx="279" cy="400" r="7"/><circle cx="346" cy="400" r="7"/><circle cx="413" cy="400" r="7"/><circle cx="480" cy="400" r="7"/>
+  </g>
+  <path d="M550 290H615" stroke="#94a3b8" stroke-width="5" marker-end="url(#arrow)"/>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0L10 4L0 8Z" fill="#94a3b8"/></marker></defs>
+  <rect x="620" y="205" width="280" height="170" rx="20" fill="#0f766e" stroke="#5eead4" stroke-width="3"/>
+  <text x="760" y="264" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-size="25" font-weight="700">XIAO ESP32-S3</text>
+  <text x="760" y="305" text-anchor="middle" fill="#ccfbf1" font-family="Arial,sans-serif" font-size="19">ADC scan · BLE output</text>
+  <text x="760" y="336" text-anchor="middle" fill="#ccfbf1" font-family="Arial,sans-serif" font-size="18">USB power</text>
+  <text x="55" y="510" fill="#9ca3af" font-family="Arial,sans-serif" font-size="17">Explanatory electrical topology · raw counts require calibration</text>
+</svg>

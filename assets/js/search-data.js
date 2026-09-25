@@ -43,6 +43,9 @@ ninja.data = [{
           section: "News",},{id: "news-started-m-s-in-robotics-at-the-university-of-minnesota-twin-cities",
           title: 'Started M.S. in Robotics at the University of Minnesota, Twin Cities.',
           description: "",
+          section: "News",},{id: "news-completed-the-university-of-minnesota-m-s-in-robotics-program-minnesota-robotics-institute-graduation-update",
+          title: 'Completed the University of Minnesota M.S. in Robotics program. Minnesota Robotics Institute graduation...',
+          description: "",
           section: "News",},{id: "news-published-co-author-talk-through-it-ra-l-2024",
           title: 'Published: Co-Author Talk Through It (RA-L 2024)',
           description: "",
@@ -54,22 +57,46 @@ ninja.data = [{
           section: "News",},{id: "news-preprint-posted-spark-remote-a-cost-effective-system-for-remote-bimanual-robot-teleoperation-lead-author-adam-imdieke-co-author-karthik-desingh-link-https-arxiv-org-abs-2504-05488-we-present-a-low-cost-remote-teleoperation-setup-enabling-accessible-bimanual-manipulation-research",
           title: 'Preprint posted: SPARK-Remote: A Cost-Effective System for Remote Bimanual Robot Teleoperation. Lead Author:...',
           description: "",
+          section: "News",},{id: "news-presented-spark-remote-at-the-icra-2025-workshop-on-human-centric-multilateral-teleoperation-workshop-contributions",
+          title: 'Presented SPARK-Remote at the ICRA 2025 Workshop on Human-Centric Multilateral Teleoperation. Workshop contributions....',
+          description: "",
+          section: "News",},{id: "news-shared-spark-remote-at-the-2025-midwest-robotics-workshop",
+          title: 'Shared SPARK-Remote at the 2025 Midwest Robotics Workshop.',
+          description: "",
           section: "News",},{id: "news-auginsert-accepted-at-iros-2025",
           title: 'AugInsert accepted at IROS 2025',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-08-01-auginsert-accepted/";
-            },},{id: "news-the-university-of-minnesota-featured-my-robotics-and-tactile-sensing-research",
+            },},{id: "news-three-papers-i-co-authored-on-remote-thrombectomy-and-cerebrovascular-navigation-were-accepted-to-the-2026-design-of-medical-devices-conference",
+          title: 'Three papers I co-authored on remote thrombectomy and cerebrovascular navigation were accepted to...',
+          description: "",
+          section: "News",},{id: "news-the-university-of-minnesota-featured-my-robotics-and-tactile-sensing-research",
           title: 'The University of Minnesota featured my robotics and tactile-sensing research.',
+          description: "",
+          section: "News",},{id: "news-our-three-design-of-medical-devices-2026-papers-are-published-by-asme-covering-a-telerobotic-guidewire-platform-vascular-route-planning-and-the-strokenav2d-dataset",
+          title: 'Our three Design of Medical Devices 2026 papers are published by ASME, covering...',
+          description: "",
+          section: "News",},{id: "news-joined-northrop-grumman-space-systems-ai-foundations-team-as-a-graduate-research-fellow-studying-supervised-emergence-in-multi-agent-ai-systems-experience-and-cv",
+          title: 'Joined Northrop Grumman Space Systems’ AI Foundations team as a graduate research fellow,...',
           description: "",
           section: "News",},{id: "news-our-paper-tailorable-force-sensing-skins-for-manipulators-using-textile-and-additive-manufacturing-was-accepted-to-iros-2026-this-work-is-with-heidi-woelfle-brad-holschuh-and-karthik-desingh-project-page",
           title: 'Our paper Tailorable Force-Sensing Skins for Manipulators Using Textile and Additive Manufacturing was...',
+          description: "",
+          section: "News",},{id: "news-recorded-an-exploratory-zero-shot-blue-marker-pickup-on-the-thunder-ur5e-using-wrist-camera-observations-and-a-language-model-controller-this-is-one-demonstration-with-video",
+          title: 'Recorded an exploratory zero-shot blue-marker pickup on the Thunder UR5e using wrist-camera observations...',
           description: "",
           section: "News",},{id: "news-our-tailorable-force-sensing-skins-work-was-accepted-as-a-poster-at-the-iros-2026-scalable-tactile-sensing-for-dexterous-manipulation-workshop",
           title: 'Our tailorable force-sensing skins work was accepted as a poster at the IROS...',
           description: "",
           section: "News",},{id: "news-magpie-a-magnetic-piezoresistive-tactile-skin-was-accepted-for-an-oral-presentation-at-the-iros-2026-scalable-tactile-sensing-for-dexterous-manipulation-workshop-i-developed-this-work-with-breck-school-students-jackson-goodrich-and-eytan-krebs-and-with-karthik-desingh-project-overview",
           title: 'MagPie: A Magnetic-Piezoresistive Tactile Skin was accepted for an oral presentation at the...',
+          description: "",
+          section: "News",},{id: "news-the-quest-3-sentmap-world-mapper-recorded-data-demo-reconstructed-three-objects-from-headset-observations-live-walkthrough-validation-remains-open",
+          title: 'The Quest 3 SentMap / World Mapper recorded-data demo reconstructed three objects from...',
+          description: "",
+          section: "News",},{id: "news-packaged-the-lite6-a2-full-surface-tactile-skin-design-including-revision-f-wireless-matrix-electronics-interfaces-and-audited-printable-geometry-physical-fit-and-sensing-tests-remain-open",
+          title: 'Packaged the Lite6 A2 full-surface tactile-skin design, including Revision F wireless matrix electronics...',
           description: "",
           section: "News",},{id: "projects-alem-multi-agent-coordination",
           title: 'Alem Multi-Agent Coordination',
@@ -101,6 +128,11 @@ ninja.data = [{
           description: "A modular magnetic and piezoresistive skin, developed with Breck School students and accepted for an IROS 2026 workshop oral presentation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/MagPie/";
+            },},{id: "projects-quest-3-sentmap-world-mapper",
+          title: 'Quest 3 SentMap / World Mapper',
+          description: "A mixed-reality room mapper with measured geometry and progressive object reconstruction from Quest observations.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Quest_SentMap/";
             },},{id: "projects-robot-sensing-in-extended-reality",
           title: 'Robot Sensing in Extended Reality',
           description: "Quest and desktop tools for viewing robot sensors, replaying demonstrations, and studying tactile interfaces.",
@@ -121,6 +153,11 @@ ninja.data = [{
           description: "A natural-language and gesture interface for Boston Dynamics Spot, with human following and semantic navigation demos.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SpotNLP/";
+            },},{id: "projects-remote-stroke-intervention-robotics",
+          title: 'Remote Stroke Intervention Robotics',
+          description: "Telerobotic guidewires, vascular path planning, and learning data from a University of Minnesota–Medtronic collaboration.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Stroke_Robotics/";
             },},{id: "projects-tactile-materials-and-conformal-interfaces",
           title: 'Tactile Materials and Conformal Interfaces',
           description: "Experimental sensor coupons and connected laminate patterns for surfaces that must bend around a robot.",
@@ -136,6 +173,16 @@ ninja.data = [{
           description: "End-user-directed robot manipulation learning through interactive feedback (RA-L 2024).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Talk_Through_It/";
+            },},{id: "projects-astra-gpt-6-zero-shot-ur5-manipulation",
+          title: 'Astra / GPT-6 Zero-Shot UR5 Manipulation',
+          description: "An exploratory blue-marker pickup on the physical Thunder UR5e using wrist-camera observations.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/UR5_Zero_Shot/";
+            },},{id: "projects-wireless-tactile-matrix-electronics",
+          title: 'Wireless Tactile Matrix Electronics',
+          description: "A compact ESP32-S3 sensing board and raw-count readout for modular robot skins.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Wireless_Tactile_PCB/";
             },},{
         id: 'social-email',
         title: 'email',

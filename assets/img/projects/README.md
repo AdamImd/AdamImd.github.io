@@ -14,7 +14,12 @@ These assets support the project's public portfolio pages. Captions on each page
 | `xr-contact-scope.png`, `xr-demo-forge.png` | Offline UX audit screenshots from `research-rpm-xr-lab`. |
 | `auxetic-pattern-comparison.png` | Connected laminate design comparison from local design output. |
 | `cast-sensor-assembly.svg` | Digital sensor coupon assembly schematic from `research-cast-tactile-sensors`. |
+| `ur5-thunder-marker.png` | Thunder UR5e wrist-camera frame from `research-dual-arm-toolkit/records/blue-marker-20260906/lift-06/out.png` on RPM; one physical run. |
+| `quest-sentmap-objects.png` | Three-object offline preview from `research-quest-world-mapper/artifacts/demo-20260920/objects-preview.png` on RPM; recorded headset session. |
+| `wireless-tactile-matrix.svg` | New explanatory matrix topology diagram based on the Revision F design record; not a board photograph, PCB layout, or sensor result. |
 
 The five short MP4s in `assets/video/projects/` are recorded Alem and Isaac Lab G1 simulation replays sourced from the corresponding research repositories on RPM. The G1 pickup replay includes assistance; the G1 enclosure replay is a near miss. See each page's caption for the evidence limits.
+
+`assets/video/projects/ur5-thunder-zero-shot-marker.mp4` is the 4,164,377-byte annotated export from `research-dual-arm-toolkit/records/blue-marker-20260906/marker-annotated-2x.mp4` on RPM. Its SHA-256 is `c39f44039899a996e4c519429579f263b8ab3b725fed29cee74d4e3bfee76f8e`, matching the source media manifest. It is an accelerated record of one physical Thunder run.
 
 Published projects link to their public project pages or embed public media from those sites. Do not replace those stable URLs with expiring Research Atlas attachment URLs.
