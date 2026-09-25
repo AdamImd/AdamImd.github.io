@@ -13,6 +13,6 @@ category: Systems
 
 ## Project video
 
-{% include video.liquid path="https://www.youtube.com/embed/j_FHSDrw6dM" class="w-100 rounded z-depth-1" width="100%" height="420" title="Talk Through It project video" caption="The authors' public video introduces the end-user feedback workflow and robot manipulation study." %}
+<figure><video class="img-fluid rounded z-depth-1" width="100%" controls preload="metadata" aria-label="Talk Through It project introduction"><source src="https://talk-through-it.github.io/media/videos/intro.mp4" type="video/mp4">Your browser does not support this video.</video><figcaption class="caption">The authors' public introduction to the end-user feedback workflow and robot manipulation study.</figcaption></figure>
 
 [Explore the full project page and demonstrations](https://talk-through-it.github.io/).
