@@ -18,11 +18,11 @@
       year: 2024–present
       description:
         - Robotics research in the RPM Lab.
-    - title: Graduate study in Robotics
+    - title: M.S. in Robotics
       institution: Minnesota Robotics Institute, University of Minnesota
       year: 2023–2024
       description:
-        - Studied in the Master's in Robotics program before transferring to the Computer Science Ph.D. program.
+        - Graduated in 2024 before beginning the Computer Science Ph.D. program.
     - title: B.S. in Computer Engineering
       institution: University of Minnesota
       year: 2019–2023
@@ -37,9 +37,42 @@
         - Tactile sensing, contact-aware inverse kinematics, and manipulation learning.
         - Sensor fabrication collaboration with the Wearable Technology Lab.
 
+- title: Industry Experience
+  type: time_table
+  contents:
+    - title: Graduate research fellow
+      institution: Northrop Grumman Space Systems · AI Foundations
+      year: Summer 2026
+      description:
+        - Research internship focused on supervised emergence in multi-agent AI systems.
+      linkitems:
+        - linkname: LinkedIn profile
+          link: https://www.linkedin.com/in/adam-imdieke-453225257
+
 - title: Selected Publications and Presentations
   type: time_table
   contents:
+    - title: Towards Remote Thrombectomy with Telerobotically-Driven Guidewires
+      year: 2026
+      description:
+        - Co-author, Design of Medical Devices Conference; University of Minnesota and Medtronic collaboration.
+      linkitems:
+        - linkname: ASME paper
+          link: https://doi.org/10.1115/DMD2026-1079
+    - title: Vasculature Discretization and Search Space Simplification for Automating Catheter Navigation
+      year: 2026
+      description:
+        - Co-author, Design of Medical Devices Conference.
+      linkitems:
+        - linkname: ASME paper
+          link: https://doi.org/10.1115/DMD2026-1054
+    - title: "StrokeNav2D: A Skeleton Based Dataset for Cerebrovascular Imitation Learning"
+      year: 2026
+      description:
+        - Co-author, Design of Medical Devices Conference.
+      linkitems:
+        - linkname: ASME paper
+          link: https://doi.org/10.1115/DMD2026-1063
     - title: Tailorable Force-Sensing Skins for Manipulators Using Textile and Additive Manufacturing
       year: 2026
       description:
@@ -59,8 +92,8 @@
       description:
         - Co-author, IROS 2025.
       linkitems:
-        - linkname: Preprint
-          link: https://arxiv.org/abs/2410.14968
+        - linkname: IROS paper
+          link: https://doi.org/10.1109/IROS60139.2025.11247210
     - title: "SPARK-Remote: A Cost-Effective System for Remote Bimanual Robot Teleoperation"
       year: 2025
       description:
@@ -73,8 +106,8 @@
       description:
         - Co-author, IEEE Robotics and Automation Letters.
       linkitems:
-        - linkname: Preprint
-          link: https://arxiv.org/abs/2402.12509
+        - linkname: RA-L paper
+          link: https://doi.org/10.1109/LRA.2024.3433309
 
 - title: Teaching
   type: time_table
