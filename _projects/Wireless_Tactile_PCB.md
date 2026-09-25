@@ -14,7 +14,7 @@ The Revision F electronics combine a XIAO ESP32-S3 Plus carrier with a 5 × 6 ta
 
 I also studied how shared row resistance can distort a scanned matrix. An additional row-impedance measurement gives an inverse correction under a **static, calibrated circuit model**; the current evidence is analytic and synthetic. Raw ADC values should not be read as calibrated force, pressure, or capacitance maps.
 
-An assembly guide and electrical checks are prepared for the Revision F boards. The related [Lite6 full-surface A2 skin design](https://app.notion.com/p/3e4c5a4440b781268afff78bf283701e) places one 5 × 6 matrix on each of two robot links. Its CAD, coverage, and printable-part checks are complete, while physical fit, motion clearance, and sensor response still require testing.
+An assembly guide and electrical checks are prepared for the Revision F boards. The related [Lite6 full-surface A2 skin design]({% link _projects/Robot_Skins.md %}) places one 5 × 6 matrix on each of two robot links. Its CAD, coverage, and printable-part checks are complete, while physical fit, motion clearance, and sensor response still require testing.
 
 This board is a step toward distributed tactile readout, with hardware characterization and calibration still to be done.
 

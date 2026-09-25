@@ -16,6 +16,12 @@ The current geometry studies cover a UR5e arm, Boston Dynamics Spot with arm, an
 
 This work connects sensor design with the longer-term goal of letting robots perceive and deliberately use contact across their bodies.
 
+## Lite6 full-surface A2 prototype
+
+A separate Lite6 design adapts the same approach to two curved arm links. It lays out one 5 × 6 [wireless tactile matrix]({% link _projects/Wireless_Tactile_PCB.md %}) per link, with printed inner and outer shells, continuous electrode bands, and removable electronics mounts. The selected CAD package includes checked printable parts and aligned assembly exports. Layout coverage of the usable surfaces was 94.31% on link 2 and 93.83% on link 4.
+
+The motion screen still found poses with potential interference. Physical fit, laminate installation, electrical calibration, and safe movement with the skins attached remain open; the percentages describe a CAD layout, not sensed coverage on an operating robot.
+
 ## Geometry previews
 
 {% include figure.liquid path="assets/img/projects/ur5e-skin-assembled.png" alt="CAD render of tactile shell layers assembled on a UR5e arm" class="img-fluid rounded z-depth-1" caption="UR5e shell assembly rendered from generated geometry. This shows a checked design pose, not fabrication or sensor operation." %}
