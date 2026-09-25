@@ -23,3 +23,9 @@ Contact can happen anywhere along a robot's body. A distributed skin could help 
 - [Workshop submission](https://openreview.net/forum?id=TyIYPuqcfc)
 
 The published project page reports sensor experiments. Extensions toward full-body coverage and contact-aware control are ongoing research, not claims of completed robot-wide validation.
+
+## See the sensors in use
+
+{% include figure.liquid path="https://rpm-lab-umn.github.io/TactileSkin/static/images/figures/sensor_overall_both_v4.png" url="https://rpm-lab-umn.github.io/TactileSkin/static/images/figures/sensor_overall_both_v4.png" alt="Tailorable textile and printed tactile sensing layers" class="img-fluid rounded z-depth-1" avoid_scaling=true caption="Sensor constructions from the public TactileSkin project page." %}
+
+<figure><video class="img-fluid rounded z-depth-1" width="100%" controls preload="metadata" aria-label="Fabric sensing skin contact avoidance demonstration"><source src="https://rpm-lab-umn.github.io/TactileSkin/static/videos/Fabric_Avoid_compressed.webm" type="video/webm">Your browser does not support this video.</video><figcaption class="caption">Public project demonstration of the fabric skin in a contact-avoidance task. See the paper for the evaluation setup and limits.</figcaption></figure>

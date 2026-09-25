@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-label="The fixed-point avoidance objective activates consistently">
+<rect x="0" y="0" width="1200" height="680" fill="#ffffff"/>
+<text x="65.0" y="58.0" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#172033" font-weight="700">The fixed-point avoidance objective activates consistently</text>
+<text x="65.0" y="90.0" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#64748b">All 12 contact-positive cases reduce the 8 cm squared-hinge violation; 11 retain a nonzero residual.</text>
+<line x1="115" y1="535.0" x2="1135" y2="535.0" stroke="#dbe3ee" stroke-width="1"/>
+<text x="100.0" y="541.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#64748b" text-anchor="end">0.00</text>
+<line x1="115" y1="457.0" x2="1135" y2="457.0" stroke="#dbe3ee" stroke-width="1"/>
+<text x="100.0" y="463.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#64748b" text-anchor="end">0.03</text>
+<line x1="115" y1="379.0" x2="1135" y2="379.0" stroke="#dbe3ee" stroke-width="1"/>
+<text x="100.0" y="385.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#64748b" text-anchor="end">0.06</text>
+<line x1="115" y1="301.0" x2="1135" y2="301.0" stroke="#dbe3ee" stroke-width="1"/>
+<text x="100.0" y="307.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#64748b" text-anchor="end">0.09</text>
+<line x1="115" y1="223.0" x2="1135" y2="223.0" stroke="#dbe3ee" stroke-width="1"/>
+<text x="100.0" y="229.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#64748b" text-anchor="end">0.12</text>
+<line x1="157.5" y1="186.3080239295959" x2="157.5" y2="311.25542283058167" stroke="#64748b" stroke-width="3"/>
+<circle cx="157.5" cy="186.3080239295959" r="7" fill="#e67e22"/>
+<circle cx="157.5" cy="311.25542283058167" r="7" fill="#0f9d75"/>
+<text x="157.5" y="560.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#64748b" text-anchor="middle">1</text>
+<line x1="242.5" y1="208.25203120708466" x2="242.5" y2="374.86040875315666" stroke="#64748b" stroke-width="3"/>
+<circle cx="242.5" cy="208.25203120708466" r="7" fill="#e67e22"/>
+<circle cx="242.5" cy="374.86040875315666" r="7" fill="#0f9d75"/>
+<text x="242.5" y="560.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#64748b" text-anchor="middle">2</text>
+<line x1="327.5" y1="259.94612485170364" x2="327.5" y2="518.8387757539749" stroke="#64748b" stroke-width="3"/>
+<circle cx="327.5" cy="259.94612485170364" r="7" fill="#e67e22"/>
+<circle cx="327.5" cy="518.8387757539749" r="7" fill="#0f9d75"/>
+<text x="327.5" y="560.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#64748b" text-anchor="middle">3</text>
+<line x1="412.5" y1="285.7958546280861" x2="412.5" y2="447.19128146767616" stroke="#64748b" stroke-width="3"/>
+<circle cx="412.5" cy="285.7958546280861" r="7" fill="#e67e22"/>
+<circle cx="412.5" cy="447.19128146767616" r="7" fill="#0f9d75"/>
+<text x="412.5" y="560.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#64748b" text-anchor="middle">4</text>
+<line x1="497.5" y1="290.0071820616722" x2="497.5" y2="366.3168466091156" stroke="#64748b" stroke-width="3"/>
+<circle cx="497.5" cy="290.0071820616722" r="7" fill="#e67e22"/>
+<circle cx="497.5" cy="366.3168466091156" r="7" fill="#0f9d75"/>
+<text x="497.5" y="560.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#64748b" text-anchor="middle">5</text>
+<line x1="582.5" y1="290.9678539633751" x2="582.5" y2="393.52146819233894" stroke="#64748b" stroke-width="3"/>
+<circle cx="582.5" cy="290.9678539633751" r="7" fill="#e67e22"/>
+<circle cx="582.5" cy="393.52146819233894" r="7" fill="#0f9d75"/>
+<text x="582.5" y="560.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#64748b" text-anchor="middle">6</text>
+<line x1="667.5" y1="291.3586354255676" x2="667.5" y2="354.3692550063133" stroke="#64748b" stroke-width="3"/>
+<circle cx="667.5" cy="291.3586354255676" r="7" fill="#e67e22"/>
+<circle cx="667.5" cy="354.3692550063133" r="7" fill="#0f9d75"/>
+<text x="667.5" y="560.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#64748b" text-anchor="middle">7</text>
+<line x1="752.5" y1="291.3586935400963" x2="752.5" y2="535.0" stroke="#64748b" stroke-width="3"/>
+<circle cx="752.5" cy="291.3586935400963" r="7" fill="#e67e22"/>
+<circle cx="752.5" cy="535.0" r="7" fill="#0f9d75"/>
+<text x="752.5" y="560.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#64748b" text-anchor="middle">8</text>
+<line x1="837.5" y1="291.3587322831154" x2="837.5" y2="344.9305063486099" stroke="#64748b" stroke-width="3"/>
+<circle cx="837.5" cy="291.3587322831154" r="7" fill="#e67e22"/>
+<circle cx="837.5" cy="344.9305063486099" r="7" fill="#0f9d75"/>
+<text x="837.5" y="560.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#64748b" text-anchor="middle">9</text>
+<line x1="922.5" y1="320.98949015140533" x2="922.5" y2="361.09271854162216" stroke="#64748b" stroke-width="3"/>
+<circle cx="922.5" cy="320.98949015140533" r="7" fill="#e67e22"/>
+<circle cx="922.5" cy="361.09271854162216" r="7" fill="#0f9d75"/>
+<text x="922.5" y="560.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#64748b" text-anchor="middle">10</text>
+<line x1="1007.5" y1="324.603129029274" x2="1007.5" y2="456.54455333948135" stroke="#64748b" stroke-width="3"/>
+<circle cx="1007.5" cy="324.603129029274" r="7" fill="#e67e22"/>
+<circle cx="1007.5" cy="456.54455333948135" r="7" fill="#0f9d75"/>
+<text x="1007.5" y="560.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#64748b" text-anchor="middle">11</text>
+<line x1="1092.5" y1="324.6032840013504" x2="1092.5" y2="451.24856665730476" stroke="#64748b" stroke-width="3"/>
+<circle cx="1092.5" cy="324.6032840013504" r="7" fill="#e67e22"/>
+<circle cx="1092.5" cy="451.24856665730476" r="7" fill="#0f9d75"/>
+<text x="1092.5" y="560.0" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#64748b" text-anchor="middle">12</text>
+<line x1="115" y1="327.0" x2="1135" y2="327.0" stroke="#d9485f" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="1130.0" y="318.0" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#d9485f" text-anchor="end">8 cm contact radius</text>
+<circle cx="180" cy="612" r="7" fill="#e67e22"/>
+<text x="197.0" y="618.0" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#172033">Initial mean 0.0979 m</text>
+<circle cx="445" cy="612" r="7" fill="#0f9d75"/>
+<text x="462.0" y="618.0" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#172033">Final mean 0.0482 m</text>
+<text x="820.0" y="618.0" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#0f9d75" font-weight="700" text-anchor="middle">12/12 improved · mean reduction 50.7%</text>
+<text x="25.0" y="350.0" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#64748b" transform="rotate(-90 25 350)" text-anchor="middle">Avoidance residual norm (m)</text>
+<text x="625.0" y="585.0" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#64748b" text-anchor="middle">Contact-positive case (sorted by initial residual)</text>
+</svg>

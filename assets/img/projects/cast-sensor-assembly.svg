@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="640" viewBox="0 0 1100 640" role="img" aria-labelledby="title desc">
+<title id="title">Casting stack and unconfined loading</title>
+<desc id="desc">Engineering schematic of two copper-faced backings enclosing silicone during casting, then removal of perimeter frames before force measurement. Not to scale.</desc>
+<defs>
+<style>text{font-family:Arial,sans-serif;fill:#18304a} .title{font-size:25px;font-weight:700}.h{font-size:19px;font-weight:700}.body{font-size:16px}.small{font-size:14px}.lead{fill:none;stroke:#18304a;stroke-width:1.5}</style>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#18304a"/></marker>
+</defs>
+<rect width="1100" height="640" fill="#f6f8fb"/>
+<text x="35" y="45" class="title">Cast tactile coupons · assembly logic</text>
+<text x="35" y="73" class="small">Schematic, not to scale. Digital design only; printing, cure and electrical response remain untested.</text>
+<rect x="25" y="100" width="510" height="415" rx="10" fill="white" stroke="#ccd5df"/>
+<rect x="555" y="100" width="520" height="415" rx="10" fill="white" stroke="#ccd5df"/>
+<text x="45" y="134" class="h">1 · Cast with removable perimeter</text>
+<rect x="70" y="205" width="240" height="33" fill="#8196aa"/>
+<rect x="130" y="238" width="120" height="9" fill="#cf8439"/>
+<rect x="130" y="247" width="120" height="86" fill="#658dad"/>
+<rect x="70" y="238" width="60" height="104" fill="#b9d6c0"/>
+<rect x="250" y="238" width="60" height="104" fill="#b9d6c0"/>
+<rect x="130" y="333" width="120" height="9" fill="#cf8439"/>
+<rect x="70" y="342" width="240" height="33" fill="#8196aa"/>
+<path d="M190 220H335" class="lead"/><text x="340" y="225" class="small">Rigid smooth backing</text>
+<path d="M225 241H320V257H335" class="lead"/><text x="340" y="262" class="small">Copper, exposed face</text>
+<path d="M225 290H335" class="lead"/><text x="340" y="295" class="small">Silicone sensing layer</text>
+<path d="M282 316H335" class="lead"/><text x="340" y="321" class="small">Removable frame</text>
+<text x="50" y="421" class="body">Silicone gap = frame seating-datum separation</text>
+<text x="50" y="446" class="body">− layer protrusions above those seating surfaces.</text>
+<text x="50" y="482" class="small">Do not count full-face films beneath the frame twice.</text>
+<text x="575" y="134" class="h">2 · Load after removing the frame</text>
+<rect x="696" y="167" width="150" height="34" rx="4" fill="#dce6f0" stroke="#8196aa"/>
+<text x="716" y="189" class="body">Force meter</text>
+<path d="M771 202V239" stroke="#18304a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="723" y="248" width="96" height="30" fill="#b9d6c0"/>
+<rect x="653" y="278" width="236" height="27" fill="#8196aa"/>
+<rect x="711" y="305" width="120" height="8" fill="#cf8439"/>
+<path d="M711 313Q699 343 711 370H831Q843 343 831 313Z" fill="#658dad"/>
+<rect x="711" y="370" width="120" height="8" fill="#cf8439"/>
+<rect x="653" y="378" width="236" height="27" fill="#8196aa"/>
+<rect x="613" y="405" width="316" height="15" fill="#18304a"/>
+<path d="M707 341H662M835 341H880" stroke="#18304a" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M819 263H913" class="lead"/><text x="919" y="261" class="small">Insulating</text><text x="919" y="280" class="small">platen</text>
+<text x="581" y="455" class="body">Allow lateral expansion; strain-relieve electrode tails.</text>
+<text x="581" y="481" class="small">No frame, shim or clamp may bypass the specimen.</text>
+<text x="35" y="554" class="h">Baseline sizes</text>
+<text x="35" y="582" class="body">R: 10 × 10 × 1 mm · carbon-filled silicone · opposed copper electrodes</text>
+<text x="35" y="608" class="body">C: 20 × 20 × 1 mm · plain silicone · broad copper overlap (~10.6 pF at assumed εr = 3)</text>
+</svg>
