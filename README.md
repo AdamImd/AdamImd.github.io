@@ -8,7 +8,7 @@ Source for [adamimd.github.io](https://adamimd.github.io/), a public academic po
 - `_projects/` contains the project summaries and evidence boundaries. `importance` sets order within each category.
 - `_news/` contains dated home-page updates.
 - `_bibliography/papers.bib` drives the publications page.
-- `_data/cv.yml` drives the web CV; `_pages/teaching.md` and `_data/repositories.yml` contain other public information.
+- `_data/cv.yml` drives the web CV, which takes precedence over any JSON resume data; `_pages/teaching.md` and `_data/repositories.yml` contain other public information.
 - `assets/img/projects/` and `assets/video/projects/` hold sourced project media; see the media README and each page caption for evidence limits.
 - `assets/` contains local images and documents. The old November 2025 CV PDF was removed because it omitted 2026 work; add a newly reviewed PDF before restoring a download link.
 
