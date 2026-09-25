@@ -22,4 +22,6 @@ The five short MP4s in `assets/video/projects/` are recorded Alem and Isaac Lab 
 
 `assets/video/projects/ur5-thunder-zero-shot-marker.mp4` is the 4,164,377-byte annotated export from `research-dual-arm-toolkit/records/blue-marker-20260906/marker-annotated-2x.mp4` on RPM. Its SHA-256 is `c39f44039899a996e4c519429579f263b8ab3b725fed29cee74d4e3bfee76f8e`, matching the source media manifest. It is an accelerated record of one physical Thunder run.
 
+`assets/video/projects/ur5e-tactile-skins-cad.mp4` is a byte-for-byte copy of the user-supplied `UR5e_Tactile_Skins_Notion.mp4`, also described in the Research Atlas's robot tactile skins section. Its SHA-256 is `6e41d6e1bda21bde247c23fee56a45275667936c3bbbdf3fa5174ed1f3fc200c`. The 34-second H.264 film is 1280 × 720 at 30 fps. It shows UR5e CAD geometry, not fabricated skins or physical sensing results.
+
 Published projects link to their public project pages or embed public media from those sites. Do not replace those stable URLs with expiring Research Atlas attachment URLs.
