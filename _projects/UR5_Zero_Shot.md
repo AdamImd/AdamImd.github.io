@@ -16,4 +16,4 @@ This is **one exploratory physical-robot demonstration**, not a benchmark of zer
 
 {% include figure.liquid path="assets/img/projects/ur5-thunder-marker.png" alt="Thunder UR5e wrist-camera frame during the blue-marker pickup" class="img-fluid rounded z-depth-1" caption="Wrist-camera observation from the recorded blue-marker run. The gripper is holding the marker; this frame alone is not the complete outcome evidence." %}
 
-{% include video.liquid path="assets/video/projects/ur5-thunder-zero-shot-marker.mp4" poster="assets/img/projects/ur5-thunder-marker.png" class="img-fluid rounded z-depth-1" controls=true caption="Annotated, accelerated video of the September 6 Thunder run. The source recording and hash-verified export are archived with the RPM dual-arm toolkit." %}
+{% include video.liquid path="assets/video/projects/ur5-thunder-zero-shot-marker.mp4" poster="/assets/img/projects/ur5-thunder-marker.png" class="img-fluid rounded z-depth-1" controls=true caption="Annotated, accelerated video of the September 6 Thunder run. The source recording and hash-verified export are archived with the RPM dual-arm toolkit." %}

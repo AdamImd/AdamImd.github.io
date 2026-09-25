@@ -22,6 +22,12 @@ A separate Lite6 design adapts the same approach to two curved arm links. It lay
 
 The motion screen still found poses with potential interference. Physical fit, laminate installation, electrical calibration, and safe movement with the skins attached remain open; the percentages describe a CAD layout, not sensed coverage on an operating robot.
 
+## Three-robot CAD walkthrough
+
+This film shows the proposed layered shells on a UR5e, Spot with arm, and G1. It is a visualization of the design geometry, not footage of fabricated or operating sensors.
+
+{% include video.liquid path="assets/video/projects/robot-wide-tactile-skin-cad.mp4" poster="/assets/img/projects/spot_assembled.png" class="img-fluid rounded z-depth-1" controls=true caption="CAD walkthrough of proposed tactile skins for the UR5e, Spot, and G1. Fit through motion, fabrication, and sensing performance remain to be tested." %}
+
 ## Geometry previews
 
 {% include figure.liquid path="assets/img/projects/ur5e-skin-assembled.png" alt="CAD render of tactile shell layers assembled on a UR5e arm" class="img-fluid rounded z-depth-1" caption="UR5e shell assembly rendered from generated geometry. This shows a checked design pose, not fabrication or sensor operation." %}
