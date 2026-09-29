@@ -5,7 +5,7 @@ Source for [adamimd.github.io](https://adamimd.github.io/), a public academic po
 ## Content map
 
 - `_pages/about.md` is the home page; `_pages/projects.md` renders cards from `_projects/`.
-- `_pages/videos.md` is the video showcase at `/videos/`. Add recordings to `_data/video_showcase.yml` with a project link, poster, and evidence caption; `_includes/showcase-video.liquid` renders each player. Native videos load on demand. Keep external media on its original project host and local recordings in `assets/video/projects/`.
+- `_pages/videos.md` is the video showcase at `/videos/`. Add recordings to `_data/video_showcase.yml` with a project link, poster, and evidence caption; `_includes/showcase-video.liquid` renders each player. Native videos load on demand. Set `portrait: true` on a section and its videos for recordings that pair physical footage with sensor visualizations vertically; shared styling lives in `_sass/_video-showcase.scss`. Keep external media on its original project host and local recordings in `assets/video/projects/`.
 - `_projects/` contains the project summaries and evidence boundaries. `importance` sets order within each category.
 - `_news/` contains dated home-page updates.
 - `_bibliography/papers.bib` drives the publications page.
