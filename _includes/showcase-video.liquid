@@ -1,6 +1,6 @@
 {% assign video = include.video %}
 <article class="video-showcase-card" id="{{ video.id }}" aria-labelledby="{{ video.id }}-title">
-  <div class="video-showcase-player">
+  <div class="video-showcase-player{% if video.portrait %} video-showcase-player--portrait{% endif %}">
     {% if video.embed %}
       <iframe
         src="{{ video.embed }}"
@@ -28,7 +28,9 @@
     <h3 id="{{ video.id }}-title">{{ video.title }}</h3>
     <p id="{{ video.id }}-caption">{{ video.caption }}</p>
     <div class="video-showcase-links">
+      {% unless include.hide_project_link %}
       <a href="{{ video.project | relative_url }}" aria-label="Project details: {{ video.title | escape }}">Project details <span aria-hidden="true">↗</span></a>
+      {% endunless %}
       {% assign watch_url = video.watch | default: video.src %}
       <a href="{{ watch_url | relative_url }}" aria-label="Open video: {{ video.title | escape }}">{% if video.embed %}Watch on YouTube{% else %}Open video{% endif %}</a>
     </div>

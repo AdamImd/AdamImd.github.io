@@ -28,4 +28,15 @@ The published project page reports sensor experiments. Extensions toward full-bo
 
 {% include figure.liquid path="https://rpm-lab-umn.github.io/TactileSkin/static/images/figures/sensor_overall_both_v4.png" url="https://rpm-lab-umn.github.io/TactileSkin/static/images/figures/sensor_overall_both_v4.png" alt="Tailorable textile and printed tactile sensing layers" class="img-fluid rounded z-depth-1" avoid_scaling=true caption="Sensor constructions from the public TactileSkin project page." %}
 
-<figure><video class="img-fluid rounded z-depth-1" width="100%" controls preload="metadata" aria-label="Fabric sensing skin contact avoidance demonstration"><source src="https://rpm-lab-umn.github.io/TactileSkin/static/videos/Fabric_Avoid_compressed.webm" type="video/webm">Your browser does not support this video.</video><figcaption class="caption">Public project demonstration of the fabric skin in a contact-avoidance task. See the paper for the evaluation setup and limits.</figcaption></figure>
+### Physical interaction and sensor readouts
+
+These six recordings come from my IROS lightning talk. Each preserves the physical view above and the sensor visualization below, with the original timing. The colored taxels show the recorded sensor response; consult the paper for calibration and quantitative evaluation.
+
+{% assign skin_section = site.data.video_showcase | where: "id", "sensing-skins" | first %}
+<div class="video-showcase-grid video-showcase-grid--portrait">
+{% for video in skin_section.videos %}
+  {% include showcase-video.liquid video=video hide_project_link=true %}
+{% endfor %}
+</div>
+
+[Browse the full video showcase]({% link _pages/videos.md %}).

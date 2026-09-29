@@ -5,7 +5,7 @@ Source for [adamimd.github.io](https://adamimd.github.io/), a public academic po
 ## Content map
 
 - `_pages/about.md` is the home page; `_pages/projects.md` renders cards from `_projects/`.
-- `_pages/videos.md` is the video showcase at `/videos/`. Add recordings to `_data/video_showcase.yml` with a project link, poster, and evidence caption; `_includes/showcase-video.liquid` renders each player. Native videos load on demand. Keep external media on its original project host and local recordings in `assets/video/projects/`.
+- `_pages/videos.md` is the video showcase at `/videos/`. Add recordings to `_data/video_showcase.yml` with a project link, poster, and evidence caption; `_includes/showcase-video.liquid` renders each player. Native videos load on demand. Set `portrait: true` on a section and its videos for recordings that pair physical footage with sensor visualizations vertically; shared styling lives in `_sass/_video-showcase.scss`. Keep external media on its original project host and local recordings in `assets/video/projects/`.
 - `_projects/` contains the project summaries and evidence boundaries. `importance` sets order within each category.
 - `_news/` contains dated home-page updates.
 - `_bibliography/papers.bib` drives the publications page.
@@ -20,6 +20,8 @@ This is a public repository. Only add information and media approved for public 
 The deployment workflow is `.github/workflows/deploy.yml`. It builds on pushes to `main` and on pull requests targeting `main`; a push to `main` publishes the site. The workflow pins Ruby 3.3.5, installs ImageMagick, then runs `bundle exec jekyll build` with `JEKYLL_ENV=production`. `.github/workflows/broken-links-site.yml` checks generated local links on pull requests and after deployment.
 
 The build pins Ubuntu 24.04. Both workflows set Git's temporary initial branch to `main` before checkout. Sass warnings for the bundled theme's legacy imports and global functions are explicitly silenced in `_config.yml`; migrate those styles together before Dart Sass 3. ActiveSupport uses the upcoming timezone behavior through `_plugins/00-active-support-timezone.rb`.
+
+The main stylesheet URL includes the build timestamp so new shared styles reach returning visitors even when the Sass cache filter emits an unchanged digest.
 
 ImageMagick generates responsive WebP files from still images. Animated GIFs remain in their original format; include them with `avoid_scaling=true` so the page does not refer to generated WebP files.
 

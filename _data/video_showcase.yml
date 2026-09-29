@@ -1,15 +1,66 @@
+- id: sensing-skins
+  title: Sensing skins and sensor readouts
+  portrait: true
+  description: Six demonstrations from my IROS lightning talk. Each video preserves the physical footage above and the sensor visualization below, with their original timing.
+  videos:
+  - id: tactile-skin
+    title: 'Textile skin: contact avoidance'
+    kind: Physical demonstration + sensor visualization
+    project: /projects/Tactile_Skin/
+    src: /assets/video/projects/tactile-fabric-avoidance.mp4
+    type: video/mp4
+    poster: /assets/img/videos/tactile-fabric-avoidance.jpg
+    portrait: true
+    caption: The robot responds to contact on its textile-covered arm. The lower panel shows the recorded taxel visualization from the same presentation video.
+  - id: tactile-door-bracing
+    title: 'Printed skin: opening a door'
+    kind: Physical demonstration + sensor visualization
+    project: /projects/Tactile_Skin/
+    src: /assets/video/projects/tactile-printed-door.mp4
+    type: video/mp4
+    poster: /assets/img/videos/tactile-printed-door.jpg
+    portrait: true
+    caption: Spot uses its printed arm skin during a door-opening task while holding a tray. Physical footage and the recorded sensor visualization appear together.
+  - id: tactile-fabric-touch
+    title: 'Textile skin: human interaction'
+    kind: Physical demonstration + sensor visualization
+    project: /projects/Tactile_Skin/
+    src: /assets/video/projects/tactile-fabric-human.mp4
+    type: video/mp4
+    poster: /assets/img/videos/tactile-fabric-human.jpg
+    portrait: true
+    caption: Hand contact with the textile skin is shown above the corresponding color-coded taxel view.
+  - id: tactile-printed-gripper
+    title: 'Printed skin during grasping'
+    kind: Physical demonstration + sensor visualization
+    project: /projects/Tactile_Skin/
+    src: /assets/video/projects/tactile-printed-gripper.mp4
+    type: video/mp4
+    poster: /assets/img/videos/tactile-printed-gripper.jpg
+    portrait: true
+    caption: Spot grasps an object with the printed skin installed on its arm. The recorded taxel view remains visible throughout the clip.
+  - id: tactile-fabric-door
+    title: 'Textile skin: door contact'
+    kind: Physical demonstration + sensor visualization
+    project: /projects/Tactile_Skin/
+    src: /assets/video/projects/tactile-fabric-door.mp4
+    type: video/mp4
+    poster: /assets/img/videos/tactile-fabric-door.jpg
+    portrait: true
+    caption: The textile-covered arm interacts with a door, shown together with its recorded taxel visualization.
+  - id: tactile-printed-table
+    title: 'Printed skin: table contact'
+    kind: Physical demonstration + sensor visualization
+    project: /projects/Tactile_Skin/
+    src: /assets/video/projects/tactile-printed-table.mp4
+    type: video/mp4
+    poster: /assets/img/videos/tactile-printed-table.jpg
+    portrait: true
+    caption: The printed skin contacts a table. The lower panel makes the recorded taxel response visible alongside the physical interaction.
 - id: robots
   title: Robots in action
   description: Tactile sensing, bimanual teleoperation, assembly, and human–robot interaction on physical systems.
   videos:
-    - id: tactile-skin
-      title: Tailorable tactile skins
-      kind: Physical demonstration
-      project: /projects/Tactile_Skin/
-      src: https://rpm-lab-umn.github.io/TactileSkin/static/videos/Fabric_Avoid_compressed.webm
-      type: video/webm
-      poster: /assets/img/Tactile/tactile.webp
-      caption: Fabric sensing skin in a contact-avoidance task, from our public TactileSkin project. The project page describes the sensor construction and evaluation.
     - id: spark-remote
       title: SPARK-Remote bimanual manipulation
       kind: Teleoperation
