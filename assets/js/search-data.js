@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-videos",
+          title: "Videos",
+          description: "Tactile sensing, manipulation, and robot learning in motion.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/videos/";
+          },
         },{id: "nav-repositories",
           title: "Repositories",
           description: "Public code and project repositories related to my research.",
