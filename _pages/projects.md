@@ -11,6 +11,8 @@ horizontal: false
 
 I build sensors and tools that help robots understand contact and use it during manipulation. These projects range from published systems to exploratory simulation and engineering prototypes. Each page identifies what has been tested and what remains open.
 
+[Watch the video showcase]({% link _pages/videos.md %}) for selected physical demonstrations, simulation replays, and design walkthroughs.
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}

@@ -1,0 +1,36 @@
+{% assign video = include.video %}
+<article class="video-showcase-card" id="{{ video.id }}" aria-labelledby="{{ video.id }}-title">
+  <div class="video-showcase-player">
+    {% if video.embed %}
+      <iframe
+        src="{{ video.embed }}"
+        title="{{ video.title | escape }}"
+        loading="lazy"
+        allow="fullscreen; picture-in-picture; encrypted-media"
+        allowfullscreen
+      ></iframe>
+    {% else %}
+      <video
+        controls
+        playsinline
+        preload="none"
+        poster="{{ video.poster | relative_url }}"
+        aria-labelledby="{{ video.id }}-title"
+        aria-describedby="{{ video.id }}-caption"
+      >
+        <source src="{{ video.src | relative_url }}" type="{{ video.type }}">
+        Your browser does not support this video. <a href="{{ video.src | relative_url }}">Open the recording</a>.
+      </video>
+    {% endif %}
+  </div>
+  <div class="video-showcase-body">
+    <span class="video-showcase-kind">{{ video.kind }}</span>
+    <h3 id="{{ video.id }}-title">{{ video.title }}</h3>
+    <p id="{{ video.id }}-caption">{{ video.caption }}</p>
+    <div class="video-showcase-links">
+      <a href="{{ video.project | relative_url }}" aria-label="Project details: {{ video.title | escape }}">Project details <span aria-hidden="true">↗</span></a>
+      {% assign watch_url = video.watch | default: video.src %}
+      <a href="{{ watch_url | relative_url }}" aria-label="Open video: {{ video.title | escape }}">{% if video.embed %}Watch on YouTube{% else %}Open video{% endif %}</a>
+    </div>
+  </div>
+</article>

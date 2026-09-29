@@ -1,0 +1,107 @@
+- id: robots
+  title: Robots in action
+  description: Tactile sensing, bimanual teleoperation, assembly, and human–robot interaction on physical systems.
+  videos:
+    - id: tactile-skin
+      title: Tailorable tactile skins
+      kind: Physical demonstration
+      project: /projects/Tactile_Skin/
+      src: https://rpm-lab-umn.github.io/TactileSkin/static/videos/Fabric_Avoid_compressed.webm
+      type: video/webm
+      poster: /assets/img/Tactile/tactile.webp
+      caption: Fabric sensing skin in a contact-avoidance task, from our public TactileSkin project. The project page describes the sensor construction and evaluation.
+    - id: spark-remote
+      title: SPARK-Remote bimanual manipulation
+      kind: Teleoperation
+      project: /projects/Spark_Remote/
+      src: https://rpm-lab-umn.github.io/SPARK_Website/videos/MP4/FGC/bag.mp4
+      type: video/mp4
+      poster: /assets/img/SPARK/spark.webp
+      caption: An operator performs a bimanual bag task using the SPARK-Remote system. This recording shows human teleoperation.
+    - id: auginsert
+      title: AugInsert assembly study
+      kind: Physical study video
+      project: /projects/AugInsert/
+      src: https://rpm-lab-umn.github.io/auginsert/media/video/real_world_exp_animation.mp4
+      type: video/mp4
+      poster: /assets/img/publication_preview/auginsert.jpg
+      caption: Real-world augmentation study video from our AugInsert project. The paper also evaluates visual-force policies in simulation.
+    - id: talk-through-it
+      title: Talk Through It
+      kind: Paper video
+      project: /projects/Talk_Through_It/
+      src: https://talk-through-it.github.io/media/videos/intro.mp4
+      type: video/mp4
+      poster: /assets/img/publication_preview/talkit.png
+      caption: Our project introduction to robot manipulation learning through interactive feedback from an end user.
+    - id: thunder
+      title: Astra / GPT-6 on the Thunder UR5e
+      kind: Exploratory physical run
+      project: /projects/UR5_Zero_Shot/
+      src: /assets/video/projects/ur5-thunder-zero-shot-marker.mp4
+      type: video/mp4
+      poster: /assets/img/projects/ur5-thunder-marker.png
+      caption: An accelerated recording of one blue-marker pickup using wrist-camera observations. The original run took about 15 minutes; this is not a reliability benchmark.
+    - id: spotnlp
+      title: Natural-language interaction with Spot
+      kind: Physical demonstration
+      project: /projects/SpotNLP/
+      embed: https://www.youtube-nocookie.com/embed/90_ityN9vLs
+      watch: https://www.youtube.com/watch?v=90_ityN9vLs
+      caption: A recorded SpotNLP sequence combining natural-language commands, person following, and semantic navigation.
+- id: simulation
+  title: Simulation studies
+  description: Recorded experiments in humanoid control and multi-agent coordination. These clips show simulation results and development diagnostics.
+  videos:
+    - id: g1-walking
+      title: G1 walking policy
+      kind: Isaac Lab simulation
+      project: /projects/G1_Learning/
+      src: /assets/video/projects/g1-walking.mp4
+      type: video/mp4
+      poster: /assets/img/videos/g1-walking.jpg
+      caption: Walking rollout from the frozen simulation evaluation, seed 2042. Physical robot transfer has not been established.
+    - id: g1-pickup
+      title: G1 supported pickup
+      kind: Simulation · assisted
+      project: /projects/G1_Learning/
+      src: /assets/video/projects/g1-pickup.mp4
+      type: video/mp4
+      poster: /assets/img/videos/g1-pickup.jpg
+      caption: Supported-reach pickup development trace, seed 5146. Assistance is present; unassisted pickup remains unvalidated.
+    - id: g1-enclosure
+      title: G1 large-object enclosure
+      kind: Simulation · diagnostic
+      project: /projects/G1_Learning/
+      src: /assets/video/projects/g1-hug.mp4
+      type: video/mp4
+      poster: /assets/img/videos/g1-hug.jpg
+      caption: Near-miss enclosure replay, seed 9479. Sustained strict-enclosure success remains open.
+    - id: alem-coalitions
+      title: Alem coalition behavior
+      kind: Multi-agent simulation
+      project: /projects/Alem/
+      src: /assets/video/projects/alem-coalitions.mp4
+      type: video/mp4
+      poster: /assets/img/videos/alem-coalitions.jpg
+      caption: Coalition behavior in a deterministic multi-agent replay, seed 10008. The clip illustrates the coordination setting.
+    - id: alem-comparison
+      title: Comparing coordination strategies
+      kind: Multi-agent simulation
+      project: /projects/Alem/
+      src: /assets/video/projects/alem-comparison.mp4
+      type: video/mp4
+      poster: /assets/img/videos/alem-comparison.jpg
+      caption: Coordination methods shown side by side in the same simulated setting. The held-out study did not establish an efficiency advantage.
+- id: design
+  title: Sensor design
+  description: A closer look at the geometry behind robot-wide tactile coverage.
+  videos:
+    - id: robot-skins
+      title: UR5e tactile-skin walkthrough
+      kind: CAD visualization
+      project: /projects/Robot_Skins/
+      src: /assets/video/projects/ur5e-tactile-skins-cad.mp4
+      type: video/mp4
+      poster: /assets/img/projects/ur5e-skin-assembled.png
+      caption: A 34-second walkthrough of the UR5e skin geometry. Physical fit through motion, fabrication, and sensing performance remain to be tested.
