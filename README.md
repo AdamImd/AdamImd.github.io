@@ -21,6 +21,8 @@ The deployment workflow is `.github/workflows/deploy.yml`. It builds on pushes t
 
 The build pins Ubuntu 24.04. Both workflows set Git's temporary initial branch to `main` before checkout. Sass warnings for the bundled theme's legacy imports and global functions are explicitly silenced in `_config.yml`; migrate those styles together before Dart Sass 3. ActiveSupport uses the upcoming timezone behavior through `_plugins/00-active-support-timezone.rb`.
 
+The main stylesheet URL includes the build timestamp so new shared styles reach returning visitors even when the Sass cache filter emits an unchanged digest.
+
 ImageMagick generates responsive WebP files from still images. Animated GIFs remain in their original format; include them with `avoid_scaling=true` so the page does not refer to generated WebP files.
 
 For a local build with those prerequisites:
