@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/videos/";
           },
+        },{id: "nav-gifs",
+          title: "GIFs",
+          description: "Short loops of tactile sensing, manipulation, and robot learning.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/gifs/";
+          },
         },{id: "nav-repositories",
           title: "Repositories",
           description: "Public code and project repositories related to my research.",
