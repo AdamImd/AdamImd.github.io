@@ -1,0 +1,142 @@
+{
+  "max_gif_bytes": 16000000,
+  "max_webp_bytes": 1800000,
+  "items": [
+    {
+      "id": "tactile-skin",
+      "source": "/assets/video/projects/tactile-fabric-avoidance.mp4",
+      "portrait": true,
+      "start_fraction": 0.4,
+      "duration_seconds": 3,
+      "fps": 12
+    },
+    {
+      "id": "tactile-door-bracing",
+      "source": "/assets/video/projects/tactile-printed-door.mp4",
+      "portrait": true,
+      "start_fraction": 0.4,
+      "duration_seconds": 3,
+      "fps": 12
+    },
+    {
+      "id": "tactile-fabric-touch",
+      "source": "/assets/video/projects/tactile-fabric-human.mp4",
+      "portrait": true,
+      "start_fraction": 0.4,
+      "duration_seconds": 3,
+      "fps": 12
+    },
+    {
+      "id": "tactile-printed-gripper",
+      "source": "/assets/video/projects/tactile-printed-gripper.mp4",
+      "portrait": true,
+      "start_fraction": 0.4,
+      "duration_seconds": 3,
+      "fps": 12
+    },
+    {
+      "id": "tactile-fabric-door",
+      "source": "/assets/video/projects/tactile-fabric-door.mp4",
+      "portrait": true,
+      "start_fraction": 0.4,
+      "duration_seconds": 3,
+      "fps": 12
+    },
+    {
+      "id": "tactile-printed-table",
+      "source": "/assets/video/projects/tactile-printed-table.mp4",
+      "portrait": true,
+      "start_fraction": 0.4,
+      "duration_seconds": 3,
+      "fps": 12
+    },
+    {
+      "id": "spark-remote",
+      "source": "https://rpm-lab-umn.github.io/SPARK_Website/videos/MP4/FGC/bag.mp4",
+      "portrait": false,
+      "start_fraction": 0.4,
+      "duration_seconds": 3,
+      "fps": 12
+    },
+    {
+      "id": "auginsert",
+      "source": "https://rpm-lab-umn.github.io/auginsert/media/video/real_world_exp_animation.mp4",
+      "portrait": false,
+      "start_fraction": 0.4,
+      "duration_seconds": 3,
+      "fps": 12
+    },
+    {
+      "id": "talk-through-it",
+      "source": "https://talk-through-it.github.io/media/videos/intro.mp4",
+      "portrait": false,
+      "start_fraction": 0.4,
+      "duration_seconds": 3,
+      "fps": 12
+    },
+    {
+      "id": "thunder",
+      "source": "/assets/video/projects/ur5-thunder-zero-shot-marker.mp4",
+      "portrait": false,
+      "start_fraction": 0.4,
+      "duration_seconds": 3,
+      "fps": 12
+    },
+    {
+      "id": "spotnlp",
+      "source": "/assets/img/Spot/rotate.gif",
+      "portrait": false,
+      "start_fraction": 0.4,
+      "duration_seconds": 3,
+      "fps": 12
+    },
+    {
+      "id": "g1-walking",
+      "source": "/assets/video/projects/g1-walking.mp4",
+      "portrait": false,
+      "start_fraction": 0.4,
+      "duration_seconds": 3,
+      "fps": 12
+    },
+    {
+      "id": "g1-pickup",
+      "source": "/assets/video/projects/g1-pickup.mp4",
+      "portrait": false,
+      "start_fraction": 0.4,
+      "duration_seconds": 3,
+      "fps": 12
+    },
+    {
+      "id": "g1-enclosure",
+      "source": "/assets/video/projects/g1-hug.mp4",
+      "portrait": false,
+      "start_fraction": 0.4,
+      "duration_seconds": 3,
+      "fps": 12
+    },
+    {
+      "id": "alem-coalitions",
+      "source": "/assets/video/projects/alem-coalitions.mp4",
+      "portrait": false,
+      "start_fraction": 0.4,
+      "duration_seconds": 3,
+      "fps": 12
+    },
+    {
+      "id": "alem-comparison",
+      "source": "/assets/video/projects/alem-comparison.mp4",
+      "portrait": false,
+      "start_fraction": 0.4,
+      "duration_seconds": 3,
+      "fps": 12
+    },
+    {
+      "id": "robot-skins",
+      "source": "/assets/video/projects/ur5e-tactile-skins-cad.mp4",
+      "portrait": false,
+      "start_fraction": 0.4,
+      "duration_seconds": 3,
+      "fps": 12
+    }
+  ]
+}

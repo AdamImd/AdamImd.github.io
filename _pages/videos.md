@@ -9,6 +9,8 @@ nav_order: 3.5
 
 Selected demonstrations from my research and collaborations. Each recording links to a project page with methods, publications, and evaluation details.
 
+[Browse quick GIF previews]({% link _pages/gifs.md %}).
+
 <nav class="video-showcase-nav" aria-label="Video categories">
 {% for section in site.data.video_showcase %}
   <a href="#{{ section.id }}">{{ section.title }}</a>

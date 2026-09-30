@@ -1,0 +1,31 @@
+{% assign video = include.video %}
+{% assign gif = include.gif %}
+<article class="video-showcase-card gif-showcase-card" id="{{ video.id }}" aria-labelledby="{{ video.id }}-title">
+  <div class="video-showcase-player{% if video.portrait %} video-showcase-player--portrait{% endif %}">
+    <picture>
+      <source type="image/webp" data-srcset="{{ gif.webp | relative_url }}">
+      <img
+        src="{{ gif.poster | relative_url }}"
+        data-poster="{{ gif.poster | relative_url }}"
+        data-gif="{{ gif.gif | relative_url }}"
+        width="{{ gif.width }}"
+        height="{{ gif.height }}"
+        alt="{% if video.id == 'spotnlp' %}Spot rotation gesture demonstration{% else %}{{ video.title | escape }} — short animated preview{% endif %}"
+        loading="lazy"
+        decoding="async"
+      >
+    </picture>
+  </div>
+  <div class="video-showcase-body">
+    <span class="video-showcase-kind">{{ video.kind }}</span>
+    <h3 id="{{ video.id }}-title">{% if video.id == 'spotnlp' %}SpotNLP: rotation gesture{% else %}{{ video.title }}{% endif %}</h3>
+    <p>{% if video.id == 'spotnlp' %}A short loop from the project's existing rotation-gesture GIF. The full project includes language interaction and navigation recordings.{% else %}{{ video.caption }}{% endif %}</p>
+    <p class="gif-showcase-meta">{{ gif.width }} × {{ gif.height }} · {{ gif.duration_seconds }}-second excerpt</p>
+    <div class="video-showcase-links">
+      <button type="button" class="gif-showcase-button gif-card-toggle" aria-pressed="false" hidden>Play preview</button>
+      <a href="{{ gif.gif | relative_url }}" download>Download GIF</a>
+      <a href="{{ '/videos/' | relative_url }}#{{ video.id }}">Full recording</a>
+      <a href="{{ video.project | relative_url }}">Project details</a>
+    </div>
+  </div>
+</article>
