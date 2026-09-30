@@ -6,6 +6,7 @@ Source for [adamimd.github.io](https://adamimd.github.io/), a public academic po
 
 - `_pages/about.md` is the home page; `_pages/projects.md` renders cards from `_projects/`.
 - `_pages/videos.md` is the video showcase at `/videos/`. Add recordings to `_data/video_showcase.yml` with a project link, poster, and evidence caption; `_includes/showcase-video.liquid` renders each player. Native videos load on demand. Set `portrait: true` on a section and its videos for recordings that pair physical footage with sensor visualizations vertically; shared styling lives in `_sass/_video-showcase.scss`. Keep external media on its original project host and local recordings in `assets/video/projects/`.
+- `_pages/gifs.md` is the GIF showcase at `/gifs/`. It reuses the video descriptions and groups, with derived-image metadata in `_data/gif_showcase.json`. `_scripts/build_gif_showcase.py` and its source recipe create short GIFs, smaller animated WebP alternatives, and still previews. No video/iframe is embedded on this page. `assets/js/gif-showcase.js` loads animations in view, restores stills when paused/offscreen, and respects reduced motion. GIF downloads remain available without JavaScript. See `assets/img/gifs/README.md` for derivation settings and the rebuild command.
 - `_projects/` contains the project summaries and evidence boundaries. `importance` sets order within each category.
 - `_news/` contains dated home-page updates.
 - `_bibliography/papers.bib` drives the publications page.

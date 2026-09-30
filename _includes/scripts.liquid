@@ -1,4 +1,7 @@
 <!-- jQuery -->
+{% if page.gif_showcase %}
+  <script defer src="{{ '/assets/js/gif-showcase.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}
 <script
   src="{{ site.third_party_libraries.jquery.url.js }}"
   integrity="{{ site.third_party_libraries.jquery.integrity.js }}"
