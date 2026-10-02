@@ -35,7 +35,7 @@ def main():
                 "frame_index": 0,
                 "width": frame.width,
                 "height": frame.height,
-                "output": str(output.relative_to(ROOT)),
+                "output": output.relative_to(ROOT).as_posix(),
                 "output_bytes": output.stat().st_size,
                 "output_sha256": hashlib.sha256(output.read_bytes()).hexdigest(),
                 "pillow_version": pillow_version,

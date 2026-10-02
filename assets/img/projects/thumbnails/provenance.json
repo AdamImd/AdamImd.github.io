@@ -5,7 +5,7 @@
     "frame_index": 0,
     "width": 800,
     "height": 450,
-    "output": "assets\\img\\projects\\thumbnails\\Tactile_Skin.jpg",
+    "output": "assets/img/projects/thumbnails/Tactile_Skin.jpg",
     "output_bytes": 67936,
     "output_sha256": "3aff9a712a7bcd5b47db4c3614dd0fdad7d57b98b724e54d24fb5b71294b8193",
     "pillow_version": "12.3.0"
@@ -16,7 +16,7 @@
     "frame_index": 0,
     "width": 480,
     "height": 269,
-    "output": "assets\\img\\projects\\thumbnails\\Spark_Remote.jpg",
+    "output": "assets/img/projects/thumbnails/Spark_Remote.jpg",
     "output_bytes": 36530,
     "output_sha256": "44864b746a244131183701a875f1568d1eefd6922a511c296abe201144d7ade7",
     "pillow_version": "12.3.0"
@@ -27,7 +27,7 @@
     "frame_index": 0,
     "width": 800,
     "height": 449,
-    "output": "assets\\img\\projects\\thumbnails\\SpotNLP.jpg",
+    "output": "assets/img/projects/thumbnails/SpotNLP.jpg",
     "output_bytes": 61661,
     "output_sha256": "b19359b78372a6bacc96772a2f5e3cd225a1bd05eab08ad1618e333bf75bd5e2",
     "pillow_version": "12.3.0"
@@ -38,7 +38,7 @@
     "frame_index": 0,
     "width": 800,
     "height": 420,
-    "output": "assets\\img\\projects\\thumbnails\\Gen_AI.jpg",
+    "output": "assets/img/projects/thumbnails/Gen_AI.jpg",
     "output_bytes": 55159,
     "output_sha256": "fa1e7f694f4d59cafda50fabdf81a1794718eb5468968523eb7fbe0f39379aba",
     "pillow_version": "12.3.0"
