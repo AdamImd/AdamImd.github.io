@@ -6,6 +6,7 @@ img: assets/img/projects/planar-scene.png
 icon: fa-solid fa-hand
 importance: 4
 category: Research
+stage: Research in progress
 ---
 
 ## Learning to use body contact

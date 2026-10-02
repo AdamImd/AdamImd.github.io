@@ -2,68 +2,41 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Research in tactile sensing, robot manipulation, extended reality, and multi-agent systems.
+description: Tactile sensing, robot learning, and tools for working with robots.
 nav: true
 nav_order: 3
+project_view: overview
+project_filter: true
 display_categories: [Research, Systems]
-horizontal: false
 ---
 
-I build sensors and tools that help robots understand contact and use it during manipulation. These projects range from published systems to exploratory simulation and engineering prototypes. Each page identifies what has been tested and what remains open.
+{% include project-nav.liquid %}
 
-[Watch the video showcase]({% link _pages/videos.md %}) for selected physical demonstrations, simulation replays, and design walkthroughs.
+I build sensors and systems that help robots understand contact and use it during manipulation. Browse the research below, watch a demonstration, or explore the public code. Project pages describe the methods, results, and current stage of each effort.
 
-<!-- pages/projects.md -->
+<div class="project-filter" hidden>
+  <label for="project-search">Find a project</label>
+  <div class="project-filter-row">
+    <input id="project-search" type="search" placeholder="Try tactile, learning, or Spot" autocomplete="off" aria-describedby="project-results">
+    <button type="button" id="project-search-clear" hidden>Clear</button>
+    <span id="project-results" role="status" aria-live="polite">{{ site.projects.size }} projects</span>
+  </div>
+</div>
+<p id="project-empty" hidden>No matching projects. Try another phrase.</p>
+
 <div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
+{% for category in page.display_categories %}
+  {% assign categorized_projects = site.projects | where: "category", category | sort: "importance" %}
+  <section class="project-group" data-project-group aria-labelledby="{{ category | downcase }}-heading">
+    <div class="project-group-heading">
+      <h2 id="{{ category | downcase }}-heading">{% if category == 'Systems' %}Systems & interfaces{% else %}{{ category }}{% endif %}</h2>
+      <span>{% if category == 'Research' %}Sensors, contact, and learning{% else %}Teleoperation, spatial computing, and coordination{% endif %}</span>
     </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
+    <div class="project-grid">
+    {% for project in categorized_projects %}
       {% include projects.liquid %}
     {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
     </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
+  </section>
+{% endfor %}
 </div>

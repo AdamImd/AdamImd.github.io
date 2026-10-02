@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} · {{ site.title }}</title>
+    <meta name="robots" content="noindex">
+    <link rel="canonical" href="{{ page.destination | absolute_url }}">
+    <meta http-equiv="refresh" content="1; url={{ page.destination | relative_url }}">
+  </head>
+  <body>
+    <p>{{ page.title }} is now part of Projects. <a id="redirect-destination" href="{{ page.destination | relative_url }}">Continue to {{ page.title }}</a>.</p>
+    <script>
+      const target = document.getElementById("redirect-destination").getAttribute("href");
+      window.location.replace(target + window.location.search + window.location.hash);
+    </script>
+  </body>
+</html>

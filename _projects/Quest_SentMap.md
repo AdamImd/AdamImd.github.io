@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Quest 3 SentMap / World Mapper
+title: Quest Room Mapping
 description: A mixed-reality room mapper with measured geometry and progressive object reconstruction from Quest observations.
 img: assets/img/projects/quest-sentmap-objects.png
 icon: fa-solid fa-vr-cardboard
 importance: 4
 category: Systems
+stage: XR prototype
 ---
 
 ## Mapping as you move

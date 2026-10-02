@@ -1,3 +1,6 @@
+{% if page.project_filter %}
+  <script defer src="{{ '/assets/js/project-filter.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}
 <!-- jQuery -->
 {% if page.gif_showcase %}
   <script defer src="{{ '/assets/js/gif-showcase.js' | relative_url | bust_file_cache }}"></script>

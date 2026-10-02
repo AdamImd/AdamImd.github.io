@@ -1,39 +1,18 @@
-<div class="col">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable">
-      {% if project.img %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes = "250px"
-          alt="project thumbnail"
-          class="card-img-top"
-        %}
-      {% else %}
-        <div class="project-placeholder" aria-hidden="true">
-          <i class="{{ project.icon | default: 'fa-solid fa-flask' }}"></i>
-        </div>
-      {% endif %}
-      <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
-        <p class="card-text">{{ project.description }}</p>
-        <div class="row ml-1 mr-1 p-0">
-          {% if project.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
-              </div>
-              {% if project.github_stars %}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fa-solid fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
-                </span>
-              {% endif %}
-            </div>
-          {% endif %}
-        </div>
-      </div>
+<article class="project-tile" data-project-card>
+  <a class="project-tile-link" href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+    <div class="project-tile-image">
+    {% if project.img %}
+      {% include figure.liquid loading="lazy" path=project.img sizes="(min-width: 1100px) 330px, (min-width: 700px) 45vw, 95vw" alt=project.title %}
+    {% else %}
+      <span class="project-placeholder" aria-hidden="true"><i class="{{ project.icon | default: 'fa-solid fa-flask' }}"></i></span>
+    {% endif %}
+    </div>
+    <div class="project-tile-body">
+      {% if project.stage %}<span class="project-stage">{{ project.stage }}</span>{% endif %}
+      <h3>{{ project.title }}</h3>
+      <p>{{ project.description }}</p>
+      <span class="project-read-more">Explore project <span aria-hidden="true">↗</span></span>
     </div>
   </a>
-</div>
+  {% if project.github %}<a class="project-code-link" href="{{ project.github }}" aria-label="Code for {{ project.title | escape }}">Code on GitHub</a>{% endif %}
+</article>

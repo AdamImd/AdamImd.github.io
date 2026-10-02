@@ -1,0 +1,46 @@
+{
+  "Tactile_Skin": {
+    "source": "assets/img/Tactile/tactile.webp",
+    "source_sha256": "eec18aed0c05f36a833821e42c08840b3f52639873c3347a338f3c8ba2eebbbb",
+    "frame_index": 0,
+    "width": 800,
+    "height": 450,
+    "output": "assets/img/projects/thumbnails/Tactile_Skin.jpg",
+    "output_bytes": 67936,
+    "output_sha256": "3aff9a712a7bcd5b47db4c3614dd0fdad7d57b98b724e54d24fb5b71294b8193",
+    "pillow_version": "12.3.0"
+  },
+  "Spark_Remote": {
+    "source": "assets/img/SPARK/spark.webp",
+    "source_sha256": "9a14d08f232c51d4dc8a5bb4d43f939713a785fec8968c9164102e7e8638b3ed",
+    "frame_index": 0,
+    "width": 480,
+    "height": 269,
+    "output": "assets/img/projects/thumbnails/Spark_Remote.jpg",
+    "output_bytes": 36530,
+    "output_sha256": "44864b746a244131183701a875f1568d1eefd6922a511c296abe201144d7ade7",
+    "pillow_version": "12.3.0"
+  },
+  "SpotNLP": {
+    "source": "assets/img/Spot/demo.webp",
+    "source_sha256": "d444d601793d7893a2a3861dd3ceeebc93e33fe28f4639cda99a8b5fb1fd6256",
+    "frame_index": 0,
+    "width": 800,
+    "height": 449,
+    "output": "assets/img/projects/thumbnails/SpotNLP.jpg",
+    "output_bytes": 61661,
+    "output_sha256": "b19359b78372a6bacc96772a2f5e3cd225a1bd05eab08ad1618e333bf75bd5e2",
+    "pillow_version": "12.3.0"
+  },
+  "Gen_AI": {
+    "source": "assets/img/GenAI/WAN.webp",
+    "source_sha256": "171ee5b0e5243201abead7a2753ceb757e436cd4d6a606681b1c7dce4896a6fe",
+    "frame_index": 0,
+    "width": 800,
+    "height": 420,
+    "output": "assets/img/projects/thumbnails/Gen_AI.jpg",
+    "output_bytes": 55159,
+    "output_sha256": "fa1e7f694f4d59cafda50fabdf81a1794718eb5468968523eb7fbe0f39379aba",
+    "pillow_version": "12.3.0"
+  }
+}

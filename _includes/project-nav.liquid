@@ -1,0 +1,6 @@
+<nav class="project-nav" aria-label="Project views">
+  <a href="{{ '/projects/' | relative_url }}"{% if page.project_view == 'overview' %} aria-current="page"{% endif %}>Overview</a>
+  <a href="{% link _pages/videos.md %}"{% if page.project_view == 'videos' %} aria-current="page"{% endif %}>Videos</a>
+  <a href="{% link _pages/gifs.md %}"{% if page.project_view == 'gifs' %} aria-current="page"{% endif %}>GIFs</a>
+  <a href="{% link _pages/repositories.md %}"{% if page.project_view == 'code' %} aria-current="page"{% endif %}>Code</a>
+</nav>

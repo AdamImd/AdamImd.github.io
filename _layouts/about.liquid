@@ -42,10 +42,17 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
-      </h2>
-      {% include news.liquid limit=true about=true %}
+      <section class="home-section" aria-labelledby="home-projects-heading">
+        <div class="home-section-heading"><h2 id="home-projects-heading">Selected work</h2><a href="{{ '/projects/' | relative_url }}">All projects <span aria-hidden="true">→</span></a></div>
+        <div class="project-grid">
+        {% assign featured = site.projects | where: "category", "Research" | sort: "importance" %}
+        {% for project in featured limit:3 %}{% include projects.liquid %}{% endfor %}
+        </div>
+      </section>
+      <section class="home-section" aria-labelledby="recent-updates-heading">
+        <div class="home-section-heading"><h2 id="recent-updates-heading">Recent updates</h2><a href="{{ '/news/' | relative_url }}">Full archive <span aria-hidden="true">→</span></a></div>
+        {% include news.liquid limit=true about=true %}
+      </section>
     {% endif %}
 
     <!-- Latest posts -->

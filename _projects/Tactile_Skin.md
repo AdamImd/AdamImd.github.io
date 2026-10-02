@@ -2,9 +2,10 @@
 layout: page
 title: Tailorable Force-Sensing Skins
 description: Textile and additive-manufactured sensing layers for whole-arm contact; accepted at IROS 2026.
-img: assets/img/Tactile/tactile.webp
+img: assets/img/projects/thumbnails/Tactile_Skin.jpg
 importance: 1
 category: Research
+stage: IROS 2026
 ---
 
 ## The question

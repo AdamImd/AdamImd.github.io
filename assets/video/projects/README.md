@@ -4,7 +4,7 @@ General project-media sources are documented in `assets/img/projects/README.md` 
 
 ## Tailorable sensing skins — IROS lightning talk V6
 
-Adam supplied `Tailorable_IROS_Lightning_Talk_V6.pptx` and requested using its videos, including the sensor visualizations. Six embedded 1080 × 1920 H.264/AAC recordings are used on `/videos/` and `/projects/Tactile_Skin/`.
+Adam supplied `Tailorable_IROS_Lightning_Talk_V6.pptx` and requested using its videos, including the sensor visualizations. Six embedded 1080 × 1920 H.264/AAC recordings are used on `/projects/videos/` and `/projects/Tactile_Skin/`.
 
 Each source video already combines physical footage above and the taxel visualization below. Preserve both panels and their original timing. These are recorded demonstrations, not live sensor feeds on the website. The gripper recording shows grasping while the arm skin is installed; it does not depict a gripper touching the arm skin.
 

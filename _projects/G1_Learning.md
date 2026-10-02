@@ -6,6 +6,7 @@ img: assets/img/projects/g1-scene.png
 icon: fa-solid fa-person-walking
 importance: 6
 category: Research
+stage: Simulation study
 ---
 
 ## From locomotion to contact-rich tasks

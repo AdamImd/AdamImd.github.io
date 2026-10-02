@@ -2,9 +2,10 @@
 layout: page
 title: Visual Futures for Manipulation
 description: Exploring whether generated future video can guide robot actions, and where visual plans fall short.
-img: assets/img/GenAI/WAN.webp
+img: assets/img/projects/thumbnails/Gen_AI.jpg
 importance: 8
 category: Research
+stage: Exploratory research
 ---
 
 # Overview

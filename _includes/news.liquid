@@ -9,6 +9,7 @@
     >
       <table class="table table-sm table-borderless">
         {% assign news = site.news | reverse %}
+        {% if include.about %}{% assign news = news | where_exp: "item", "item.show_on_about != false" %}{% endif %}
         {% if include.limit and page.announcements.limit %}
           {% assign news_limit = page.announcements.limit %}
         {% else %}

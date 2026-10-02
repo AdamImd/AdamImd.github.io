@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Astra / GPT-6 Zero-Shot UR5 Manipulation
+title: Vision-Guided UR5 Manipulation
 description: An exploratory blue-marker pickup on the physical Thunder UR5e using wrist-camera observations.
 img: assets/img/projects/ur5-thunder-marker.png
 icon: fa-solid fa-robot
 importance: 4
 category: Systems
+stage: Robot demonstration
 ---
 
 ## Blue-marker pickup on Thunder

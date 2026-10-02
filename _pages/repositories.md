@@ -1,47 +1,23 @@
 ---
 layout: page
-permalink: /repositories/
-title: Repositories
-description: Public code and project repositories related to my research.
-nav: true
-nav_order: 4
+permalink: /projects/code/
+title: Code
+description: Public repositories for research and robot interfaces.
+nav: false
+nav_section: Projects
+project_view: code
 ---
 
-{% if site.data.repositories.github_users %}
+{% include project-nav.liquid %}
 
-## GitHub
+Source code, simulation environments, and project materials from my work and collaborations. Each repository documents its own setup and scope. More of my public work is on [GitHub](https://github.com/AdamImd).
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
+<div class="code-grid">
+{% for repo in site.data.public_code %}
+  <article class="code-card">
+    <h2><a href="https://github.com/{{ repo.repository }}">{{ repo.title }} <span aria-hidden="true">↗</span></a></h2>
+    <p>{{ repo.description }}</p>
+    <small>{{ repo.repository }}</small>
+  </article>
 {% endfor %}
-{% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
 </div>
-{% endif %}

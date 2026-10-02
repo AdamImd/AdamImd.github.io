@@ -1,12 +1,16 @@
 ---
 layout: page
 title: GIFs
-permalink: /gifs/
+permalink: /projects/gifs/
 description: Short loops of tactile sensing, manipulation, and robot learning.
-nav: true
-nav_order: 3.6
+nav: false
 gif_showcase: true
+nav_section: Projects
+project_view: gifs
 ---
+
+{% include project-nav.liquid %}
+
 
 Quick previews of my research and collaborations. The sensing-skin loops keep the physical footage and sensor readouts together. Each preview links to its project and full recording.
 

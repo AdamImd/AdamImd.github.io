@@ -1,0 +1,18 @@
+- title: Tailorable Force-Sensing Skins
+  repository: RPM-lab-UMN/TactileSkin
+  description: Public project materials for textile and additive-manufactured tactile skins.
+- title: SPARK-Remote
+  repository: RPM-lab-UMN/SPARK-Remote
+  description: Teleoperation software and CAD files for the SPARK interface and UR5e manipulators.
+- title: SpotNLP
+  repository: RPM-lab-UMN/SpotNLP
+  description: Language interaction and human-following software for Boston Dynamics Spot.
+- title: Talk Through It
+  repository: RPM-lab-UMN/talk-through-it
+  description: Code for the end-user-directed robot learning study.
+- title: ALEM research fork
+  repository: AdamImd/AlemDICE
+  description: A multi-agent benchmark fork for coordination and communication studies.
+- title: Dual-arm assembly simulation
+  repository: RPM-lab-UMN/dual-arm-peg-in-hole-mujoco-sim
+  description: The earlier MuJoCo simulation environment for the cap-the-bottle assembly task.
