@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "My teaching at the University of Minnesota.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "news-started-b-s-in-computer-engineering-at-the-university-of-minnesota-twin-cities",
           title: 'Started B.S. in Computer Engineering at the University of Minnesota, Twin Cities.',
           description: "",
