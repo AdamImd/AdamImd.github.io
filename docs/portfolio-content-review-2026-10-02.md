@@ -13,7 +13,7 @@ results retain their original experimental scope and dates.
 | Talk Through It | [Author preprint](https://arxiv.org/abs/2402.12509) confirms author list and the manipulation learning study. The existing RA-L citation is retained. |
 | Stroke robotics | [University overview](https://cse.umn.edu/mnri/news/mnri-partners-medtronic-remote-stroke-treatment-research) confirms the collaboration and Adam's role. The existing three DMD DOI records remain linked; no claim of clinical deployment was added. |
 | Other prototypes | Compared existing descriptions with the connected Research Atlas. Keep simulation, CAD, analytic studies, local material measurements, and recorded robot demonstrations clearly identified. This review launched no new experiments and establishes no new hardware validation. |
-| Teaching and experience | Retained Fall 2026 CSCI 4131 TA role and Summer 2026 Northrop Grumman fellowship from the existing verified site/CV records. No new employment or teaching dates were inferred. |
+| Teaching and experience | Retained Fall 2026 CSCI 4131 TA role and Summer 2026 Northrop Grumman fellowship from the existing verified site/CV records. No new employment or teaching dates were inferred. Live verification found `_pages/teaching.md` in the inherited build exclusions. Removed the exclusion so the page and its navigation link are published. |
 | Public code | All six listed repositories returned successful GitHub API reads and are public. The assembly simulation is explicitly identified as the earlier environment. Direct links replace third-party statistics images. |
 | Navigation | `/projects/` contains Overview, Videos, GIFs, and Code views. Old media/code URLs redirect. Research page URLs remain stable. |
 
