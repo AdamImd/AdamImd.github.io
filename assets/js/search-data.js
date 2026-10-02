@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about-me",
-    title: "About Me",
+    id: "nav-about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -18,35 +18,14 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Research in tactile sensing, robot manipulation, extended reality, and multi-agent systems.",
+          description: "Tactile sensing, robot learning, and tools for working with robots.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-videos",
-          title: "Videos",
-          description: "Tactile sensing, manipulation, and robot learning in motion.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/videos/";
-          },
-        },{id: "nav-gifs",
-          title: "GIFs",
-          description: "Short loops of tactile sensing, manipulation, and robot learning.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/gifs/";
-          },
-        },{id: "nav-repositories",
-          title: "Repositories",
-          description: "Public code and project repositories related to my research.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-curriculum-vitae",
           title: "Curriculum Vitae",
-          description: "Selected experience and publications, updated September 2026.",
+          description: "Selected experience and publications, updated October 2026.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -112,8 +91,11 @@ ninja.data = [{
           section: "News",},{id: "news-packaged-the-lite6-a2-full-surface-tactile-skin-design-including-revision-f-wireless-matrix-electronics-interfaces-and-audited-printable-geometry-physical-fit-and-sensing-tests-remain-open",
           title: 'Packaged the Lite6 A2 full-surface tactile-skin design, including Revision F wireless matrix electronics...',
           description: "",
+          section: "News",},{id: "news-magpie-tactile-skin-is-listed-as-a-contributed-spotlight-in-the-september-27-iros-2026-tactile-workshop-program-the-project-combines-magnetic-and-piezoresistive-sensing-in-a-modular-taxel",
+          title: 'MagPie Tactile Skin is listed as a contributed spotlight in the September 27...',
+          description: "",
           section: "News",},{id: "projects-alem-multi-agent-coordination",
-          title: 'Alem Multi-Agent Coordination',
+          title: 'ALEM Multi-Agent Coordination',
           description: "Experiments on communication, specialization, and leadership in a shared multi-agent world.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Alem/";
@@ -139,11 +121,11 @@ ninja.data = [{
               window.location.href = "/projects/Gen_AI/";
             },},{id: "projects-magpie-tactile-skin",
           title: 'MagPie Tactile Skin',
-          description: "A modular magnetic and piezoresistive skin, developed with Breck School students and accepted for an IROS 2026 workshop oral presentation.",
+          description: "A modular magnetic and piezoresistive skin developed with Breck School students; an IROS 2026 workshop spotlight.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/MagPie/";
-            },},{id: "projects-quest-3-sentmap-world-mapper",
-          title: 'Quest 3 SentMap / World Mapper',
+            },},{id: "projects-quest-room-mapping",
+          title: 'Quest Room Mapping',
           description: "A mixed-reality room mapper with measured geometry and progressive object reconstruction from Quest observations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Quest_SentMap/";
@@ -182,8 +164,8 @@ ninja.data = [{
           description: "End-user-directed robot manipulation learning through interactive feedback (RA-L 2024).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Talk_Through_It/";
-            },},{id: "projects-astra-gpt-6-zero-shot-ur5-manipulation",
-          title: 'Astra / GPT-6 Zero-Shot UR5 Manipulation',
+            },},{id: "projects-vision-guided-ur5-manipulation",
+          title: 'Vision-Guided UR5 Manipulation',
           description: "An exploratory blue-marker pickup on the physical Thunder UR5e using wrist-camera observations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/UR5_Zero_Shot/";
