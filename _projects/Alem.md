@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Alem Multi-Agent Coordination
+title: ALEM Multi-Agent Coordination
 description: Experiments on communication, specialization, and leadership in a shared multi-agent world.
 img: assets/img/projects/alem64.png
 icon: fa-solid fa-people-group
 importance: 5
 category: Systems
+stage: Simulation study
 ---
 
 ## Coordination at scale

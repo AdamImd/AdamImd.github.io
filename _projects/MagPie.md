@@ -1,11 +1,12 @@
 ---
 layout: page
 title: MagPie Tactile Skin
-description: A modular magnetic and piezoresistive skin, developed with Breck School students and accepted for an IROS 2026 workshop oral presentation.
+description: A modular magnetic and piezoresistive skin developed with Breck School students; an IROS 2026 workshop spotlight.
 img: assets/img/projects/magpie-taxel-prototype.jpg
 icon: fa-solid fa-wave-square
 importance: 2
 category: Research
+stage: IROS 2026 workshop
 ---
 
 ## Two sensing signals in one module
@@ -13,6 +14,8 @@ category: Research
 MagPie combines piezoresistive and Hall-effect sensing in a compliant triangular taxel. Its modular housing is designed to let multiple taxels form a larger tactile surface. The workshop paper reports the electronic architecture, force-response measurements, and an eight-taxel latency study.
 
 I developed this project with **Jackson Goodrich and Eytan Krebs**, high school students at Breck School, and **Karthik Desingh**. Jackson and Eytan contributed equally to the paper. It was accepted for an oral presentation at the [IROS 2026 Scalable Tactile Sensing for Dexterous Manipulation workshop](https://tactile-dexterity-iros.github.io/).
+
+The official workshop program lists MagPie as a contributed spotlight on September 27, 2026.
 
 [Read the accepted workshop submission](https://openreview.net/forum?id=dnU9RnbNk0).
 

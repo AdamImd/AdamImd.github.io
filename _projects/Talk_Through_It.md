@@ -5,6 +5,7 @@ description: End-user-directed robot manipulation learning through interactive f
 img: assets/img/publication_preview/talkit.png
 importance: 2
 category: Systems
+stage: RA-L 2024
 ---
 
 **Talk Through It** studies how an end user can direct a robot's manipulation learning through feedback. I co-authored the work with Carl Winge, Bahaa Aldeeb, Dongyeop Kang, and Karthik Desingh. It was published in IEEE Robotics and Automation Letters in 2024.

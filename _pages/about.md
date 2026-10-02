@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About Me
+title: About
 permalink: /
 subtitle: Computer Science Ph.D. student · University of Minnesota
 
@@ -19,7 +19,7 @@ social: True # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: false # show the full archive without a nested scroll bar
-  limit: # include every item in the `_news` folder
+  limit: 4 # recent public milestones; the complete archive is at /news/
 
 latest_posts:
   enabled: False
@@ -27,8 +27,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I’m Adam Imdieke, a computer science Ph.D. student at the University of Minnesota working in the Robotics: Perception and Manipulation (RPM) Lab. I study how robots can sense and use contact across their bodies, from tactile-skin hardware to contact-aware control and policy learning. I also collaborate with the Wearable Technology Lab on sensor materials and fabrication.
+I build tactile sensors and learning systems that help robots sense and use contact across their bodies.
 
-My projects span distributed force sensing, inverse kinematics, robot learning, and spatial interfaces for inspecting robot behavior. I am especially interested in the first step toward whole-body tactile intelligence: helping a robot **learn to use body contact**. [See my projects](/projects/) for published work and exploratory prototypes, with their current evidence and limitations.
+I’m a computer science Ph.D. student at the University of Minnesota, working with Karthik Desingh in the **Robotics: Perception and Manipulation (RPM) Lab**. My research connects tactile-skin hardware, contact-aware control, and policy learning. I also collaborate with the Wearable Technology Lab on sensor materials and fabrication.
 
-When I’m not in the lab, you’ll likely find me climbing, building things, or bikepacking around Minneapolis.
+I’m interested in how robots learn to use body contact, and how multimodal sensing and world models can support that learning. My projects also include teleoperation, spatial interfaces, and multi-agent coordination.
+
+<div class="home-actions">
+  <a href="{% link _pages/projects.md %}">Explore projects <span aria-hidden="true">↗</span></a>
+  <a href="{% link _pages/publications.md %}">Read publications</a>
+  <a href="mailto:imdie022@umn.edu">Get in touch</a>
+</div>
+
+Outside the lab, I enjoy climbing, building things, and bikepacking around Minneapolis.

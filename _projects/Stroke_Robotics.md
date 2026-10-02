@@ -6,6 +6,7 @@ img: assets/img/projects/stroke-guidewire-actuator.png
 icon: fa-solid fa-heart-pulse
 importance: 4
 category: Research
+stage: DMD 2026
 ---
 
 ## From remote control to navigation support

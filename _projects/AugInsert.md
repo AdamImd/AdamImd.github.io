@@ -5,6 +5,7 @@ description: Data augmentation for robust visual-force policies in contact-rich 
 img: assets/img/publication_preview/auginsert.jpg
 importance: 3
 category: Research
+stage: IROS 2025
 ---
 
 ## Robustness in object assembly

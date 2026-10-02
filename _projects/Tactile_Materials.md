@@ -6,6 +6,7 @@ img: assets/img/projects/auxetic-pattern-comparison.png
 icon: fa-solid fa-layer-group
 importance: 7
 category: Research
+stage: Material prototypes
 ---
 
 ## Making sensing surfaces fit

@@ -6,6 +6,7 @@ img: assets/img/projects/spot_assembled.png
 icon: fa-solid fa-robot
 importance: 5
 category: Research
+stage: CAD prototype
 ---
 
 ## Designing coverage beyond the gripper

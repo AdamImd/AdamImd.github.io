@@ -2,10 +2,11 @@
 layout: page
 title: SPARK-Remote
 description: An accessible remote bimanual teleoperation system for the RPM Lab's dual-arm platform (ICRA 2025 workshop).
-img: assets/img/SPARK/spark.webp
+img: assets/img/projects/thumbnails/Spark_Remote.jpg
 importance: 1
 category: Systems
 related_publications: true
+stage: ICRA 2025 workshop
 ---
 
 

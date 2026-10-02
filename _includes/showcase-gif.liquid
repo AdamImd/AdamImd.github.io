@@ -24,7 +24,7 @@
     <div class="video-showcase-links">
       <button type="button" class="gif-showcase-button gif-card-toggle" aria-pressed="false" hidden>Play preview</button>
       <a href="{{ gif.gif | relative_url }}" download>Download GIF</a>
-      <a href="{{ '/videos/' | relative_url }}#{{ video.id }}">Full recording</a>
+      <a href="{% link _pages/videos.md %}#{{ video.id }}">Full recording</a>
       <a href="{{ video.project | relative_url }}">Project details</a>
     </div>
   </div>

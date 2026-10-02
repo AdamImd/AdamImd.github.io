@@ -1,11 +1,15 @@
 ---
 layout: page
 title: Videos
-permalink: /videos/
+permalink: /projects/videos/
 description: Tactile sensing, manipulation, and robot learning in motion.
-nav: true
-nav_order: 3.5
+nav: false
+nav_section: Projects
+project_view: videos
 ---
+
+{% include project-nav.liquid %}
+
 
 Selected demonstrations from my research and collaborations. Each recording links to a project page with methods, publications, and evaluation details.
 

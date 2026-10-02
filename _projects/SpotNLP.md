@@ -2,9 +2,10 @@
 layout: page
 title: SpotNLP
 description: A natural-language and gesture interface for Boston Dynamics Spot, with human following and semantic navigation demos.
-img: assets/img/Spot/demo.webp
+img: assets/img/projects/thumbnails/SpotNLP.jpg
 importance: 4
 category: Systems
+stage: Robot demonstrations
 ---
 
 ## GitHub Repository
@@ -12,7 +13,7 @@ category: Systems
   {% include repository/repo.liquid repository='RPM-lab-UMN/SpotNLP' %}
 </div>
 
-# Overview
+## Overview
 This project involves developing a natural language interface for the Boston Dynamics Spot robot, enabling users to command the robot using everyday language. By integrating large language models (LLMs) and gesture detection with Spot's control systems, we aim to facilitate intuitive interactions and enhance the robot's usability in various environments.
 
 <!-- Insert figure assets/img/SpotNLP_Diagram.png -->
@@ -29,7 +30,7 @@ This project involves developing a natural language interface for the Boston Dyn
 ## Human Following / Gesture Recognition
 <div class="row justify-content-center" style="width: 80%; margin: 0 auto;">
     <div class="col-sm-6 mt-3 mt-md-0" >
-        {% include video.liquid path="https://drive.google.com/file/d/1gJQImMGEnGH4fOe8TpPvDU1NuAJ4rH7D/preview?embedded=true" class="img-fluid rounded z-depth-1" height="400" controls=true autoplay=true %}
+        {% include video.liquid path="https://drive.google.com/file/d/1gJQImMGEnGH4fOe8TpPvDU1NuAJ4rH7D/preview?embedded=true" class="img-fluid rounded z-depth-1" height="400" controls=true autoplay=false %}
     </div>
 </div>
 
