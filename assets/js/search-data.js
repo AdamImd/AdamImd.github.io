@@ -111,9 +111,9 @@ ninja.data = [{
           description: "Data augmentation for robust visual-force policies in contact-rich assembly (IROS 2025).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/AugInsert/";
-            },},{id: "projects-contact-aware-manipulation",
-          title: 'Contact-Aware Manipulation',
-          description: "Exploring inverse kinematics and whole-body strategies that respond to contact along a robot&#39;s body.",
+            },},{id: "projects-contact-ik",
+          title: 'Contact IK',
+          description: "Inverse kinematics that lets the whole arm respond to touch.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Contact_Manipulation/";
             },},{id: "projects-g1-locomotion-and-whole-body-learning",
