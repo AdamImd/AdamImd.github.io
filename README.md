@@ -43,8 +43,8 @@ exports and their provenance, rather than the private simulator code.
 
 `_projects/Spot_Whole_Body_RL.md` publishes the video-first gallery at
 `/projects/spot-whole-body-rl/`. It shows selected box-tipping successes, a learned
-crouch excerpt, and an unsuccessful box attempt. The clips are saved simulation
-rollouts, with minimal captions and optional context about the separate studies.
+crouch excerpt, and an unsuccessful box attempt. The clips are native 1920×1080 studio replays of simulator states captured from
+frozen policies, with minimal captions and optional study context.
 `_data/spotrl_showcase.yml`, `_includes/spotrl-video.liquid`, and `_sass/_spotrl.scss`
 own the presentation. See [the media record](docs/spot-whole-body-media.md) for
 source ownership, evidence limits, exact crop/trim recipes, and rebuilding.

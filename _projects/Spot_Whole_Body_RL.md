@@ -12,7 +12,7 @@ stage: Simulation research
 
 <div class="spotrl-page">
 
-<div class="spotrl-intro"><span class="spotrl-badge">Selected policy rollouts</span><span>Isaac Lab simulation</span><nav aria-label="Rollout chapters"><a href="#spot-box">Box tipping</a><a href="#spot-crouch">Body control</a><a href="#spot-outtake">Outtake <span aria-hidden="true">↘</span></a></nav></div>
+<div class="spotrl-intro"><span class="spotrl-badge">Selected policy rollouts</span><span>Isaac Lab · Native 1080p</span><nav aria-label="Rollout chapters"><a href="#spot-box">Box tipping</a><a href="#spot-crouch">Body control</a><a href="#spot-outtake">Outtake <span aria-hidden="true">↘</span></a></nav></div>
 
 <section id="spot-box" class="spotrl-chapter" aria-labelledby="spot-box-title">
 <div class="spotrl-heading"><span class="spotrl-number" aria-hidden="true">01</span><div><p class="spotrl-eyebrow">Manipulation</p><h2 id="spot-box-title">Tip the box.</h2></div></div>
@@ -29,6 +29,6 @@ stage: Simulation research
 {% include spotrl-video.liquid media=site.data.spotrl_showcase.outtake %}
 </section>
 
-<details class="spotrl-context"><summary>About these rollouts</summary><p>Selected examples from separate reinforcement-learning studies in simulation. Box-tipping footage comes from a partial policy checkpoint. The crouch policy learns leg-joint control with the arm stowed; its full assessment did not meet the study's criterion in every tested condition. Selected behaviors do not estimate overall success or demonstrate physical-robot performance.</p><p><a href="{{ 'assets/video/projects/spot-whole-body/provenance.json' | relative_url }}">Media sources &amp; edit record</a> · Related: <a href="{% link _projects/Contact_Manipulation.md %}">Contact IK</a> · <a href="{% link _projects/SpotNLP.md %}">SpotNLP</a></p></details>
+<details class="spotrl-context"><summary>About these rollouts</summary><p>Native HD studio replays of recorded simulator states from separate reinforcement-learning studies. The saved policies are frozen during state capture; the studio replays their motion kinematically. Box-tipping footage comes from a partial policy checkpoint. The crouch policy learns leg-joint control with the arm stowed; its full assessment did not meet the study's criterion in every tested condition. Selected behaviors do not estimate overall success or demonstrate physical-robot performance.</p><p>Simulation and rendering: <a href="https://github.com/isaac-sim/IsaacLab">NVIDIA Isaac Lab</a>. Spot model and configuration: <a href="https://github.com/rai-opensource/relic">ReLIC</a>.</p><p><a href="{{ 'assets/video/projects/spot-whole-body/provenance.json' | relative_url }}">Media sources &amp; edit record</a> · Related: <a href="{% link _projects/Contact_Manipulation.md %}">Contact IK</a> · <a href="{% link _projects/SpotNLP.md %}">SpotNLP</a></p></details>
 
 </div>
