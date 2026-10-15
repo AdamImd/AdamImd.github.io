@@ -1,0 +1,344 @@
+// Contact IK project story. Scoped to preserve the rest of the portfolio.
+.contactik-page {
+  --contactik-cyan: #16796f;
+  --contactik-amber: #9c4a0c;
+  --contactik-panel: #edf4f2;
+  --contactik-border: #d8e3e0;
+  --contactik-muted: #536772;
+
+  .contactik-intro {
+    padding: 0.6rem 0 2.5rem;
+  }
+  .contactik-eyebrow {
+    color: var(--contactik-cyan);
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.11em;
+    line-height: 1.6;
+    text-transform: uppercase;
+    margin-bottom: 0.9rem;
+  }
+  .contactik-eyebrow span {
+    padding: 0 0.45rem;
+    opacity: 0.5;
+  }
+  .contactik-intro h2 {
+    font-size: clamp(2.2rem, 5vw, 3.8rem);
+    font-weight: 700;
+    letter-spacing: -0.045em;
+    line-height: 1.08;
+    margin: 0.3rem 0 1.3rem;
+    max-width: 850px;
+  }
+  .contactik-lead {
+    font-size: 1.14rem;
+    line-height: 1.75;
+    max-width: 780px;
+  }
+  .contactik-jump {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    margin-top: 1.6rem;
+  }
+  .contactik-jump a {
+    padding: 0.65rem 1rem;
+    border: 1px solid var(--contactik-border);
+    border-radius: 999px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .contactik-jump a:first-child {
+    background: var(--global-theme-color);
+    color: var(--global-bg-color);
+    border-color: var(--global-theme-color);
+  }
+  .contactik-section {
+    padding: 2.5rem 0;
+    scroll-margin-top: 100px;
+  }
+  .contactik-section + .contactik-section {
+    border-top: 1px solid var(--contactik-border);
+  }
+  .contactik-section h2 {
+    font-size: clamp(1.65rem, 3.4vw, 2.35rem);
+    font-weight: 650;
+    letter-spacing: -0.03em;
+    margin-bottom: 1.6rem;
+  }
+  .contactik-section-heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6rem 1rem;
+    margin-bottom: 1.3rem;
+  }
+  .contactik-section-heading h2 {
+    margin-bottom: 0.2rem;
+  }
+  .contactik-evidence-tag {
+    border: 1px solid var(--contactik-border);
+    border-radius: 999px;
+    padding: 0.4rem 0.7rem;
+    color: var(--contactik-muted);
+    font-size: 0.75rem;
+  }
+  .contactik-video {
+    margin: 0;
+    min-width: 0;
+  }
+  .contactik-video-frame {
+    background: #0c1722;
+    border: 1px solid #263d4a;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 18px 44px rgba(15, 36, 44, 0.11);
+  }
+  .contactik-video video {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+  }
+  .contactik-video figcaption {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: var(--contactik-muted);
+    text-align: left;
+  }
+  .contactik-video figcaption > p {
+    margin-bottom: 0.7rem;
+  }
+  .contactik-video-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem 1rem;
+    font-size: 0.78rem;
+  }
+  .contactik-video-links a {
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .contactik-transcript {
+    margin-top: 0.65rem;
+    font-size: 0.8rem;
+  }
+  details > summary {
+    cursor: pointer;
+    color: var(--global-text-color);
+    font-weight: 600;
+    padding: 0.4rem 0;
+  }
+  details p {
+    margin-top: 0.75rem;
+  }
+  .contactik-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem 1.3rem;
+    padding: 1.2rem 0 0;
+    font-size: 0.78rem;
+    color: var(--contactik-muted);
+  }
+  .contactik-legend > span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .contactik-dot {
+    display: inline-block;
+    width: 0.55rem;
+    height: 0.55rem;
+    border-radius: 50%;
+  }
+  .contactik-dot-goal {
+    background: #138d82;
+  }
+  .contactik-dot-contact {
+    background: #d58031;
+  }
+  .contactik-steps {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  .contactik-steps article {
+    padding: 1.35rem;
+    border-radius: 14px;
+    background: var(--contactik-panel);
+    border: 1px solid var(--contactik-border);
+  }
+  .contactik-step-number {
+    color: var(--contactik-cyan);
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  .contactik-steps h3 {
+    font-size: 1.1rem;
+    font-weight: 650;
+    letter-spacing: -0.015em;
+    margin: 1.1rem 0 0.7rem;
+  }
+  .contactik-steps p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin: 0;
+  }
+  .contactik-equation {
+    margin: 1.4rem 0;
+    padding: 1.5rem;
+    border: 1px solid var(--contactik-border);
+    border-radius: 14px;
+  }
+  .contactik-equation-label {
+    color: var(--contactik-muted);
+    font-size: 0.76rem;
+  }
+  .contactik-equation > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.6rem 1rem;
+    font-size: clamp(1.1rem, 2.5vw, 1.45rem);
+    margin: 0.7rem 0;
+    font-weight: 650;
+    letter-spacing: -0.02em;
+  }
+  .contactik-equation b {
+    font-weight: 400;
+    color: var(--contactik-muted);
+  }
+  .contactik-term-goal {
+    color: var(--contactik-cyan);
+  }
+  .contactik-term-contact {
+    color: var(--contactik-amber);
+  }
+  .contactik-equation p {
+    color: var(--contactik-muted);
+    font-size: 0.8rem;
+    margin: 0.8rem 0 0;
+  }
+  .contactik-method {
+    padding: 0.6rem 0;
+    font-size: 0.9rem;
+    color: var(--contactik-muted);
+  }
+  .contactik-demo-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2.5rem;
+  }
+  .contactik-demo h3 {
+    font-size: 1.1rem;
+    font-weight: 650;
+    margin-bottom: 1rem;
+  }
+  .contactik-demo .contactik-video-frame {
+    border-radius: 12px;
+  }
+  .contactik-render-note {
+    margin: 1.6rem 0 0;
+    padding: 1rem 1.2rem;
+    border-left: 3px solid var(--global-theme-color);
+    background: var(--contactik-panel);
+    border-radius: 0 10px 10px 0;
+    font-size: 0.85rem;
+    line-height: 1.7;
+  }
+  .contactik-findings-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0 2rem;
+  }
+  .contactik-findings-grid > div {
+    border-top: 2px solid var(--contactik-border);
+    padding-top: 1rem;
+  }
+  .contactik-findings-grid strong {
+    display: block;
+    color: var(--contactik-cyan);
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 650;
+    letter-spacing: -0.03em;
+  }
+  .contactik-findings-grid span {
+    display: block;
+    font-size: 0.8rem;
+    line-height: 1.6;
+    margin-top: 0.6rem;
+    color: var(--contactik-muted);
+  }
+  .contactik-findings h3 {
+    font-size: 1.25rem;
+    font-weight: 650;
+    margin-top: 2rem;
+  }
+  .contactik-credits {
+    font-size: 0.75rem;
+    line-height: 1.7;
+    color: var(--contactik-muted);
+    margin-top: 1.7rem;
+  }
+}
+
+html[data-theme="dark"] .contactik-page {
+  --contactik-cyan: #93dfd3;
+  --contactik-amber: #f4bb7e;
+  --contactik-panel: #1b2a32;
+  --contactik-border: #35474e;
+  --contactik-muted: #b3c4cc;
+}
+
+@media (max-width: 680px) {
+  .contactik-page {
+    .contactik-intro {
+      padding-bottom: 1.5rem;
+    }
+    .contactik-lead {
+      font-size: 1rem;
+    }
+    .contactik-section {
+      padding: 1.8rem 0;
+    }
+    .contactik-steps,
+    .contactik-demo-grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .contactik-steps article {
+      padding: 1.1rem 1.25rem;
+    }
+    .contactik-steps h3 {
+      margin-top: 0.6rem;
+    }
+    .contactik-findings-grid {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 1.2rem;
+    }
+    .contactik-findings-grid > div {
+      display: flex;
+      gap: 1.2rem;
+      align-items: center;
+    }
+    .contactik-findings-grid strong {
+      min-width: 105px;
+      font-size: 1.7rem;
+    }
+    .contactik-findings-grid span {
+      margin: 0;
+    }
+    .contactik-demo-grid {
+      gap: 2rem;
+    }
+    .contactik-video-frame {
+      border-radius: 10px;
+    }
+  }
+}

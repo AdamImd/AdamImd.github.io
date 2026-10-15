@@ -24,6 +24,21 @@ The main menu is About, Publications, Projects, CV, and Teaching. Videos, GIFs, 
 
 Content was reviewed on October 2, 2026; see `docs/portfolio-content-review-2026-10-02.md` for sources and the scope of that review.
 
+## Contact IK video story
+
+`_projects/Contact_Manipulation.md` explains Contact IK with three annotated
+1920×1080 Isaac Lab clips. `_data/contactik_showcase.yml` contains their captions
+and visual descriptions; `_includes/contactik-video.liquid` provides native
+players, English description tracks, and MP4 downloads. The videos load on
+demand and do not autoplay. `_sass/_contactik.scss` scopes the page's presentation.
+
+The original numerical study and the joint-bounded visualization variant are
+identified separately. The new clips replay offline optimizer iterates from
+recorded exploratory Franka states. They do not establish closed-loop force
+control or hardware performance. The private research repository owns the trace
+export and Isaac Lab rendering tools; this repository contains approved media
+exports and their provenance, rather than the private simulator code.
+
 ## Build and deployment
 
 The deployment workflow is `.github/workflows/deploy.yml`. It builds on pushes to `main` and on pull requests targeting `main`; a push to `main` publishes the site. The workflow pins Ruby 3.3.5, installs ImageMagick, then runs `bundle exec jekyll build` with `JEKYLL_ENV=production`. `.github/workflows/broken-links-site.yml` checks generated local links on pull requests and after deployment.

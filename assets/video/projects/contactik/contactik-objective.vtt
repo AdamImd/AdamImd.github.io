@@ -1,0 +1,10 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.000
+Combine a hand-pose objective, contact cost, and joint-limit terms.
+
+00:00:04.000 --> 00:00:11.200
+Differentiate through forward kinematics and update the joint configuration.
+
+00:00:11.200 --> 00:00:16.000
+The readout shows the optimizer iteration and remaining hand-position error.

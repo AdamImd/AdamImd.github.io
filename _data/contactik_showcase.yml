@@ -1,0 +1,17 @@
+hero:
+  id: contactik-comparison
+  title: Same goal. Two objectives.
+  file: contactik-comparison
+  caption: Pose-only IK and Contact IK start from the same recorded state, with the same hand goal and joint bounds. Cyan marks the goal; amber marks the fixed contact input.
+  transcript: Both arms start in the same configuration. The cyan marker is the desired hand pose. The amber point is a recorded contact location, and its halo shows the contact penalty region. The left solve optimizes the pose objective and joint bounds. The right solve adds the contact objective. As the optimizer progresses, the postures diverge. The readouts retain the remaining hand error and contact cost.
+demos:
+  - id: contactik-orbit
+    title: Contact geometry, from every angle
+    file: contactik-orbit
+    caption: An orbit view makes the contact input and the changing arm posture easier to see. The amber halo illustrates the formulation's 8 cm penalty radius around a fixed observed point.
+    transcript: The camera moves around a Franka Panda arm while Contact IK updates its joint configuration. The cyan marker remains at the hand goal. The amber contact input remains fixed in world coordinates. Its halo represents an objective region, rather than measured pressure or a physical obstacle boundary.
+  - id: contactik-objective
+    title: Inside the solve
+    file: contactik-objective
+    caption: Follow the optimizer iteration and remaining hand error. These are retimed solver iterates from a joint-bounded visualization variant of the original objective.
+    transcript: Contact IK combines a hand-pose objective, a contact penalty, and joint-limit terms. Differentiation through the robot's kinematics gives a joint-space update. The displayed iteration advances from zero to one thousand. The remaining hand error stays visible so the trade-off can be inspected.

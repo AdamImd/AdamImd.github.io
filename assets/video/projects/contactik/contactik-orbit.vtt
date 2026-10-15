@@ -1,0 +1,10 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.000
+Cyan marks the hand goal. Amber marks a recorded contact input.
+
+00:00:04.000 --> 00:00:11.200
+The arm changes posture while the observed contact point stays fixed in world coordinates.
+
+00:00:11.200 --> 00:00:16.000
+The halo illustrates an 8 cm penalty region. This is an offline optimizer replay.
