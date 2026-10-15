@@ -151,6 +151,11 @@ ninja.data = [{
           description: "A natural-language and gesture interface for Boston Dynamics Spot, with human following and semantic navigation demos.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SpotNLP/";
+            },},{id: "projects-spot-whole-body-reinforcement-learning",
+          title: 'Spot Whole-Body Reinforcement Learning',
+          description: "Learned box tipping, crouching, and body reorientation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/spot-whole-body-rl/";
             },},{id: "projects-remote-stroke-intervention-robotics",
           title: 'Remote Stroke Intervention Robotics',
           description: "Telerobotic guidewires, vascular path planning, and learning data from a University of Minnesota–Medtronic collaboration.",
