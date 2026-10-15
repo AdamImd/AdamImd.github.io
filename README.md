@@ -39,6 +39,16 @@ control or hardware performance. The private research repository owns the trace
 export and Isaac Lab rendering tools; this repository contains approved media
 exports and their provenance, rather than the private simulator code.
 
+## Spot whole-body policy gallery
+
+`_projects/Spot_Whole_Body_RL.md` publishes the video-first gallery at
+`/projects/spot-whole-body-rl/`. It shows selected box-tipping successes, a learned
+crouch excerpt, and an unsuccessful box attempt. The clips are saved simulation
+rollouts, with minimal captions and optional context about the separate studies.
+`_data/spotrl_showcase.yml`, `_includes/spotrl-video.liquid`, and `_sass/_spotrl.scss`
+own the presentation. See [the media record](docs/spot-whole-body-media.md) for
+source ownership, evidence limits, exact crop/trim recipes, and rebuilding.
+
 ## Build and deployment
 
 The deployment workflow is `.github/workflows/deploy.yml`. It builds on pushes to `main` and on pull requests targeting `main`; a push to `main` publishes the site. The workflow pins Ruby 3.3.5, installs ImageMagick, then runs `bundle exec jekyll build` with `JEKYLL_ENV=production`. `.github/workflows/broken-links-site.yml` checks generated local links on pull requests and after deployment.

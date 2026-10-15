@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "scope": "Selected Isaac Lab simulation rollouts, edited for a public portfolio. Individual clips do not establish a success rate or physical-robot validation.",
+  "sources": [
+    {
+      "id": "box",
+      "file": "box-tipping-collage.mp4",
+      "sha256": "2b0856ca6e9a8e04e92a422566423605f3a04f3fed33a1d1594625e133703b63",
+      "owner": "research-spot-whole-body-tactile",
+      "run": "experiments/box-visual-20261001/runs/collage-01",
+      "source_commit": "d6e2437f04d66bddc5b435292977cc9b2387c65e",
+      "checkpoint_sha256": "a9cc0a500a0f7e692873f3ef7ebbe3769dc6ed968b1afec666d9211c4ea745d0",
+      "context": "Partial iteration-7600 policy, seed 3042, four preselected environments. Initial env0 and env2 tip successfully; env1 fails a support check; env3 times out without a stable tip. This visual sample is not a qualification evaluation."
+    },
+    {
+      "id": "crouch",
+      "file": "crouch-rollout-readable-03.mp4",
+      "sha256": "db914dedd129c76d410e41454ee9a8f118338ff72c29c8705a8afe8a3aa9480d",
+      "owner": "research-spot-crouch-rpy-20261005",
+      "run": "experiments/crouch-rpy-20261005/runs/final-seed42-terminal-01",
+      "source_commit": "4073885940e3b2a3f5afd7624ebe86627a76951d",
+      "checkpoint_sha256": "68297e4675f69e2dc57c622d3dcb96658706fddd4e510dd2473215f8c185724f",
+      "context": "Final frozen seed42 PPO policy. The final filmed env0 batch descends toward a 24 cm target. The recorded 17 cm successful episodes are not filmed. Both independent assessments failed the criterion of at least 80 percent whole-episode success in every populated motion/depth cell."
+    }
+  ],
+  "derivation": {
+    "script": "_scripts/build_spotrl_media.py",
+    "video": "libx264 CRF 18, slow, yuv420p, faststart, CPU threads 2",
+    "ffmpeg_version": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers"
+  },
+  "clips": [
+    {
+      "id": "box-tipping",
+      "source": "box",
+      "start": 0,
+      "duration": 7.2,
+      "speed": 1,
+      "crop": [
+        704,
+        320,
+        0,
+        158
+      ],
+      "poster_time": 1.8,
+      "selection": "Foreground env0, first three successful tipping episodes and their resets. Crop removes the surrounding collage and telemetry bars; no interpolation or motion synthesis.",
+      "file": "box-tipping.mp4",
+      "poster": "box-tipping.jpg",
+      "width": 704,
+      "height": 320,
+      "output_duration": 7.2,
+      "video_sha256": "4cd4ca3439dccdc00bc628224fe8a3346d6f43a291e0ae03b3bb8bd2e90b187f",
+      "poster_sha256": "f74219f77060bc2cb86ecc3e96f30f00b35a937cf4c85448e8d6d3949dcb953b"
+    },
+    {
+      "id": "body-crouch",
+      "source": "crouch",
+      "start": 240.2,
+      "duration": 26,
+      "speed": 1,
+      "crop": [
+        960,
+        540,
+        80,
+        130
+      ],
+      "poster_time": 22,
+      "selection": "Final filmed batch, descent and initial low hold. Foreground robot retained; source header and bottom legend cropped. Target and actual coordinate axes remain. This is an excerpt, not a complete episode.",
+      "file": "body-crouch.mp4",
+      "poster": "body-crouch.jpg",
+      "width": 960,
+      "height": 540,
+      "output_duration": 26.0,
+      "video_sha256": "bc48e6fb38d8107779be89167559629fdfb07176a2af76c88733b6b2bbacbc95",
+      "poster_sha256": "ec511b2743f44474e01fd63e457f6211b1e5acbdd1ac96365b1bb8257b554f99"
+    },
+    {
+      "id": "box-outtake",
+      "source": "box",
+      "start": 0,
+      "duration": 15,
+      "speed": 1,
+      "crop": [
+        768,
+        320,
+        768,
+        590
+      ],
+      "poster_time": 10,
+      "selection": "Foreground env3, entire unsuccessful initial episode through the source's 15-second endpoint. No stable tip before timeout. Surrounding collage and telemetry bars cropped.",
+      "file": "box-outtake.mp4",
+      "poster": "box-outtake.jpg",
+      "width": 768,
+      "height": 320,
+      "output_duration": 15.0,
+      "video_sha256": "1880f924dddb717974152715886bc34d505502486b7402f8563198e6f6385081",
+      "poster_sha256": "0224fdbca8b3fd6a72c124c439ea5d55e650411f89702f899ceb4dd6d3482ddf"
+    }
+  ],
+  "card": {
+    "file": "spot-card.jpg",
+    "from": "box-tipping",
+    "sha256": "f74219f77060bc2cb86ecc3e96f30f00b35a937cf4c85448e8d6d3949dcb953b"
+  }
+}

@@ -1,0 +1,30 @@
+box:
+  id: spot-box-tipping
+  title: Learned box tipping
+  file: box-tipping
+  width: 704
+  height: 320
+  duration: 7 seconds
+  note: Selected successes · 1× speed
+  caption: A learned policy tips the box. Three successful attempts, with episode resets retained.
+  transcript: Spot reaches toward a yellow box with its arm and tips it onto its side. The scene resets between three successful tipping attempts. This is a cropped view of one environment from a saved simulation recording.
+crouch:
+  id: spot-body-crouch
+  title: Learned crouch with the arm stowed
+  file: body-crouch
+  width: 960
+  height: 540
+  duration: 26 seconds
+  note: Policy excerpt · 1× speed
+  caption: Lowering toward a 24 cm body-height target, with the arm stowed.
+  transcript: Spot bends its legs and lowers its body while its arm remains folded. Colored coordinate axes show the target and actual body frames. The excerpt follows a descent from standing toward a 24-centimeter height target and the beginning of the low hold.
+outtake:
+  id: spot-box-outtake
+  title: Box-tipping attempt that times out
+  file: box-outtake
+  width: 768
+  height: 320
+  duration: 15 seconds
+  note: Unsuccessful episode · 1× speed
+  caption: The box wins this round. No stable tip before the timeout.
+  transcript: Spot repeatedly reaches and adjusts its arm around the box. The box remains upright through the end of the saved episode. This attempt is unsuccessful and is included as an outtake.
