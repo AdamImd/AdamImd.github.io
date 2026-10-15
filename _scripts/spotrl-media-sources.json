@@ -1,0 +1,57 @@
+{
+  "scope": "Selected frozen-policy simulation behaviors, replayed kinematically in a native 1920x1080 Isaac Lab studio. No motion interpolation, new qualification, tactile benefit, or physical validation.",
+  "renderer_source_commit": "96ed832a763df53ad75d8ee2fa732493976431a6",
+  "native_metadata_sha256": "977ee8cf38526feeb1e27bdcd98dad7577d2f8326bc99210eb090e70bd934e3e",
+  "sources": [
+    {
+      "id": "box",
+      "owner": "research-spot-whole-body-tactile",
+      "source_commit": "d6e2437f04d66bddc5b435292977cc9b2387c65e",
+      "checkpoint_sha256": "a9cc0a500a0f7e692873f3ef7ebbe3769dc6ed968b1afec666d9211c4ea745d0",
+      "visualization_exporter_commit": "08eea86a7978363337866c2dedb95753afadda37",
+      "visualization_seed": 3042,
+      "num_envs": 4,
+      "stage": 5,
+      "trace_metadata_sha256": "e19282c8762713debc6f22944f90bbf157beb5b6ed8e5b5ed7f0a7511c120343",
+      "context": "Partial iteration 7600 policy; preselected env0 successful tips and env3 timeout. Presentation examples do not estimate an overall success rate."
+    },
+    {
+      "id": "crouch",
+      "owner": "research-spot-crouch-rpy-20261005",
+      "source_commit": "4073885940e3b2a3f5afd7624ebe86627a76951d",
+      "checkpoint_sha256": "68297e4675f69e2dc57c622d3dcb96658706fddd4e510dd2473215f8c185724f",
+      "visualization_exporter_commit": "08eea86a7978363337866c2dedb95753afadda37",
+      "policy_seed": 42,
+      "visualization_seed": 88146,
+      "num_envs": 32,
+      "stage": 4,
+      "command_id": 846,
+      "body_height_target_m": 0.24,
+      "trace_metadata_sha256": "44deb210f4dcb72e7656e8d1c5ca93df5a1d0ea99b7231c4fc346f3083613d8f",
+      "context": "Frozen final policy; selected env0 episode succeeds with four-foot support. Both historical independent assessments failed the every-cell criterion. The unfilmed 17 cm outcomes are not claimed."
+    }
+  ],
+  "clips": [
+    {
+      "id": "box-tipping",
+      "video_sha256": "dc897b6d0e54df2d6ad7202207626e4c86b85c59e6c4c052044f51ca43dcf42e",
+      "poster_source": "box-tipping-frame-00090.jpg",
+      "poster_sha256": "d83bd61e0fe46900a7961a49f7c5db00ca87a02ed48bb4b4bda8fb481f774c38",
+      "selection": "First three successful env0 tipping episodes and resets, selected from a frozen-policy visualization rollout."
+    },
+    {
+      "id": "body-crouch",
+      "video_sha256": "e8008936de8e0f3e8a39d7725cf8fb7f051bb012177c1ce3ad9870127c141a15",
+      "poster_source": "body-crouch-frame-00649.jpg",
+      "poster_sha256": "bcb9c515d99952e0a907d062dc6efa5534313131ddb35e0a1c2435190ee83842",
+      "selection": "First 26 seconds of selected env0 command 846, toward a 24 cm body-height target; excerpt from an individually successful simulation episode lasting 60 seconds."
+    },
+    {
+      "id": "box-outtake",
+      "video_sha256": "4d973b2cd0eb61124fd9801f26878b63724bbe76f443706f1d8f8cb809aad817",
+      "poster_source": "box-outtake-frame-00187.jpg",
+      "poster_sha256": "a94509436691a7b131a7b80323092cd7498c7077c722b7b6b601129b6dd5736f",
+      "selection": "Entire 15 second unsuccessful env3 initial episode, with its timeout/reset retained."
+    }
+  ]
+}
