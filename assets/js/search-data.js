@@ -151,9 +151,9 @@ ninja.data = [{
           description: "A natural-language and gesture interface for Boston Dynamics Spot, with human following and semantic navigation demos.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SpotNLP/";
-            },},{id: "projects-spot-whole-body-reinforcement-learning",
-          title: 'Spot Whole-Body Reinforcement Learning',
-          description: "Learned box tipping, crouching, and body reorientation.",
+            },},{id: "projects-spatial-touch-for-support-transfer-in-whole-body-package-handling",
+          title: 'Spatial Touch for Support Transfer in Whole-Body Package Handling',
+          description: "A Spot quadruped uses its arm and back to load, carry, and release a bulky carton.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/spot-whole-body-rl/";
             },},{id: "projects-remote-stroke-intervention-robotics",
