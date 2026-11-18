@@ -1,3 +1,14 @@
+delivery:
+  id: continuous-warehouse-film
+  title: Spot rights and delivers a carton in one continuous simulation
+  file: warehouse-delivery-continuous
+  width: 1920
+  height: 1080
+  chapters: true
+  duration: 1 min 13 s
+  note: Righting at 1× speed · Remainder at 3.5×
+  caption: Spot tips the carton onto its end, walks around it and sits to load it. After crossing the warehouse, Spot returns the carton to the floor and walks away.
+  transcript: The camera opens on the warehouse. A carton lies broad-face down in front of Spot. Spot tips it upright using its forefoot and arm, walks around the carton, and lowers onto its rear shins. The gripper draws the carton against the deck. Spot rises with it braced on its back, takes the north route around the red fire lane, and lowers the carton into receiving bay B. The arm releases it. Spot stands and walks clear while the carton remains upright.
 box:
   id: spot-box-tipping
   title: Learned box tipping

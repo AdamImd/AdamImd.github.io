@@ -152,3 +152,51 @@ html[data-theme="dark"] .spotrl-page {
   --spotrl-accent: #83d6ca;
   --spotrl-soft: #243c3a;
 }
+
+.spotrl-page {
+  .spotrl-lead {
+    max-width: 65ch;
+    margin-bottom: 1rem;
+  }
+  .spotrl-paper-link {
+    display: inline-block;
+    padding: 0.45rem 0.9rem;
+    border: 1px solid var(--spotrl-accent);
+    border-radius: 0.4rem;
+    color: var(--spotrl-accent);
+    font-weight: 600;
+  }
+  .spotrl-result {
+    margin-top: 1rem;
+  }
+  .spotrl-teaser {
+    margin: 1.2rem 0;
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid var(--spotrl-line);
+      border-radius: 0.4rem;
+    }
+  }
+  .spotrl-results {
+    width: 100%;
+    max-width: 42rem;
+    margin: 1rem 0;
+    border-collapse: collapse;
+    caption {
+      caption-side: top;
+      padding: 0.25rem 0;
+      color: var(--global-text-color);
+      font-weight: 600;
+    }
+    th, td {
+      padding: 0.55rem 0.75rem;
+      border-bottom: 1px solid var(--spotrl-line);
+    }
+    tbody th { font-weight: 400; }
+    th:last-child, td:last-child { text-align: right; white-space: nowrap; }
+    .spotrl-full-field { background-color: var(--spotrl-soft); }
+    .spotrl-full-field th, .spotrl-full-field td { font-weight: 650; }
+  }
+}
