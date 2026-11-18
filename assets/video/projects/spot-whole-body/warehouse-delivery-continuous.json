@@ -1,0 +1,63 @@
+{
+  "episode": "continuous-full02",
+  "kind": "single development simulation",
+  "recorded_interval_s": [
+    0.0,
+    221.96000000033172
+  ],
+  "native_samples": 11099,
+  "native_interval_s": 0.02,
+  "source_trace_sha256": "b2efe8e6a81293a986e92ee232258d3eb4e931bd955e0aea69fddaf3bc234040",
+  "carton_mass_kg": 0.93,
+  "route": "north",
+  "task_stage_intervals_s": {
+    "reorient": [
+      0.0,
+      13.00000000000101
+    ],
+    "approach": [
+      13.00000000000101,
+      39.22000000000197
+    ],
+    "sit": [
+      39.22000000000197,
+      66.02000000002754
+    ],
+    "load": [
+      66.02000000002754,
+      95.17999999995958
+    ],
+    "carry": [
+      95.17999999995958,
+      175.08000000010787
+    ],
+    "place": [
+      175.08000000010787,
+      198.9200000002217
+    ],
+    "depart": [
+      198.9200000002217,
+      221.96000000033172
+    ]
+  },
+  "loaded_robot_travel_m": 11.382709373925923,
+  "carton_footprint_in_bay": true,
+  "min_sampled_clearance_m": 0.6232165271631869,
+  "end_floor_deck_arm_other_support_mean_last_second_N": [
+    9.123299999999995,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tactile_channels": {
+    "deck": 54,
+    "gripper": 6
+  },
+  "film": {
+    "frames": 1819,
+    "fps": 25,
+    "cuts": 0,
+    "righting_speed": 1.0,
+    "subsequent_speed": 3.5
+  }
+}

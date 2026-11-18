@@ -1,4 +1,4 @@
-# Spot whole-body policy gallery
+# Spatial touch and Spot whole-body control
 
 The public page is `/projects/spot-whole-body-rl/`, authored in
 `_projects/Spot_Whole_Body_RL.md`. Captions and visual descriptions live in
@@ -6,9 +6,34 @@ The public page is `/projects/spot-whole-body-rl/`, authored in
 players, English description tracks, posters, and MP4 downloads. Styling is
 scoped in `_sass/_spotrl.scss`. Videos load on demand and do not autoplay.
 
-## Native HD presentation
+## Continuous warehouse delivery
 
-All three current clips are rendered by an Isaac Lab camera at **1920×1080,
+The working manuscript is `assets/pdf/spatial-touch.pdf`. The task sequence and
+synchronized deck/gripper force maps are in
+`assets/img/projects/spot-whole-body/task-and-tactile-teaser.png`. The lead film
+and poster use the basename `warehouse-delivery-continuous`. All media in that
+sequence come from the continuous-full02 simulation. The source audit reports
+11,099 native samples, 221.96 simulated seconds, and one free 0.93 kg carton.
+The film presents 1,819 displayed frames at 25 fps, with native-time righting
+and 3.5× playback for the subsequent motion. Its seven chapter boundaries
+come from the skill receipts and the measured simulation time of each displayed
+frame. Its captions use the source phases and carton tilt measurements.
+
+From the repository root, build the two English WebVTT tracks with the exact
+film clock and independent audit supplied by the simulation team.
+
+```sh
+python3 _scripts/build_spatial_touch_tracks.py film-clock.json continuous-audit.json
+```
+
+The script verifies the source trace SHA-256 before writing the caption and
+chapter tracks. The matched sensor comparison in the manuscript used separate
+32-scenario seated-start evaluations. The single warehouse episode demonstrates
+the continuous sequence on one development configuration.
+
+## Earlier policy gallery
+
+The three earlier clips are rendered by an Isaac Lab camera at **1920×1080,
 25 fps**. These are studio replays of simulator root, joint, and object states
 captured while running frozen policies. Every second 50 Hz state is displayed
 at 25 fps and real-time speed, with no motion interpolation. Camera orbit, floor

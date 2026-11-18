@@ -39,15 +39,14 @@ control or hardware performance. The private research repository owns the trace
 export and Isaac Lab rendering tools; this repository contains approved media
 exports and their provenance, rather than the private simulator code.
 
-## Spot whole-body policy gallery
+## Spatial touch and Spot whole-body control
 
-`_projects/Spot_Whole_Body_RL.md` publishes the video-first gallery at
-`/projects/spot-whole-body-rl/`. It shows selected box-tipping successes, a learned
-crouch excerpt, and an unsuccessful box attempt. The clips are native 1920×1080 studio replays of simulator states captured from
-frozen policies, with minimal captions and optional study context.
-`_data/spotrl_showcase.yml`, `_includes/spotrl-video.liquid`, and `_sass/_spotrl.scss`
-own the presentation. See [the media record](docs/spot-whole-body-media.md) for
-source ownership, evidence limits, exact crop/trim recipes, and rebuilding.
+The project page at `/projects/spot-whole-body-rl/` presents the working manuscript,
+the continuous simulated warehouse delivery, the synchronized tactile teaser, and
+the matched sensor comparison. Earlier box-tipping and crouching policies remain
+in the gallery. The page source is `_projects/Spot_Whole_Body_RL.md`. See the
+[media record](docs/spot-whole-body-media.md) for the film clock, caption build,
+and source of each result.
 
 ## Build and deployment
 

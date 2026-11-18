@@ -17,13 +17,16 @@
         srclang="en"
         label="English descriptions"
       >
+      {% if media.chapters %}
+        <track kind="chapters" src="{{ 'assets/video/projects/spot-whole-body/' | append: media.file | append: '-chapters.vtt' | relative_url }}" srclang="en" label="Delivery stages">
+      {% endif %}
       Your browser does not support video playback. Use the MP4 download below.
     </video>
   </div>
   <figcaption>
     <p>{{ media.caption }}</p>
     <div class="spotrl-video-meta">
-      <span>{{ media.duration }} · Silent · {{ media.note }}</span
+      <span>{% if media.duration %}{{ media.duration }} · {% endif %}Silent · {{ media.note }}</span
       ><a href="{{ 'assets/video/projects/spot-whole-body/' | append: media.file | append: '.mp4' | relative_url }}" download
         >Download MP4 <span aria-hidden="true">↗</span></a
       >
