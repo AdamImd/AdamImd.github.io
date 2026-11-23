@@ -1,10 +1,9 @@
 # Spatial touch and Spot whole-body control
 
-The public page is `/projects/spot-whole-body-rl/`, authored in
-`_projects/Spot_Whole_Body_RL.md`. Captions and visual descriptions live in
-`_data/spotrl_showcase.yml`; `_includes/spotrl-video.liquid` renders the native
-players, English description tracks, posters, and MP4 downloads. Styling is
-scoped in `_sass/_spotrl.scss`. Videos load on demand and do not autoplay.
+The public page at `/projects/spot-whole-body-rl/` is authored in
+`_projects/Spot_Whole_Body_RL.html`. It shows the continuous warehouse delivery
+MP4 in a native video player with playback controls. The associated media assets
+and their provenance are recorded below.
 
 ## Continuous warehouse delivery
 
