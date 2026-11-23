@@ -41,10 +41,9 @@ exports and their provenance, rather than the private simulator code.
 
 ## Spatial touch and Spot whole-body control
 
-The project page at `/projects/spot-whole-body-rl/` presents the working manuscript,
-the continuous simulated warehouse delivery, the synchronized tactile teaser, and
-the matched sensor comparison. Earlier box-tipping and crouching policies remain
-in the gallery. The page source is `_projects/Spot_Whole_Body_RL.md`. See the
+The project page at `/projects/spot-whole-body-rl/` contains the continuous
+simulated warehouse delivery video. The page source is
+`_projects/Spot_Whole_Body_RL.html`. See the
 [media record](docs/spot-whole-body-media.md) for the film clock, caption build,
 and source of each result.
 
