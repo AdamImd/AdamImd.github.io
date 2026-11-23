@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: default
 title: Spatial Touch for Support Transfer in Whole-Body Package Handling
 description: A Spot quadruped uses its arm and back to load, carry, and release a bulky carton.
 permalink: /projects/spot-whole-body-rl/
@@ -9,28 +9,11 @@ importance: 4
 category: Research
 stage: Simulation research
 ---
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title | escape }}</title>
-    <style>
-      body {
-        margin: 0;
-        background: #000;
-      }
-
-      video {
-        display: block;
-        width: 100%;
-        height: 100vh;
-        height: 100dvh;
-      }
-    </style>
-  </head>
-  <body>
-    <video controls playsinline preload="metadata" aria-label="Warehouse delivery demonstration"
-      src="{{ '/assets/video/projects/spot-whole-body/warehouse-delivery-continuous.mp4' | relative_url }}"></video>
-  </body>
-</html>
+<video
+  class="d-block w-100"
+  controls
+  playsinline
+  preload="metadata"
+  aria-label="Warehouse delivery demonstration"
+  src="{{ '/assets/video/projects/spot-whole-body/warehouse-delivery-continuous.mp4' | relative_url }}"
+></video>
